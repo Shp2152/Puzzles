@@ -1,0 +1,955 @@
+score,word_count,cell_count,has_verbish,has_nounish,phrase,word1,instance_id1,start1,end1,path1,word2,instance_id2,start2,end2,path2
+7,2,6,True,False,is find,is,0,D1,E2,D1 -> E2,find,1,E1,H1,E1 -> F1 -> G1 -> H1
+7,2,6,True,False,is find,is,0,D1,E2,D1 -> E2,find,2,E1,G2,E1 -> F1 -> G1 -> G2
+3,2,4,True,False,is in,is,0,D1,E2,D1 -> E2,in,3,F1,G1,F1 -> G1
+3,2,4,True,False,is of,is,0,D1,E2,D1 -> E2,of,11,F2,E1,F2 -> E1
+3,2,4,True,False,is on,is,0,D1,E2,D1 -> E2,on,12,F2,G1,F2 -> G1
+3,2,3,True,False,is a,is,0,D1,E2,D1 -> E2,a,39,F3,F3,F3
+15,2,7,True,False,find the,find,1,E1,H1,E1 -> F1 -> G1 -> H1,the,5,I1,I2,I1 -> J1 -> I2
+15,2,7,True,False,find the,find,1,E1,H1,E1 -> F1 -> G1 -> H1,the,6,I1,J2,I1 -> J1 -> J2
+15,2,5,True,False,find a,find,1,E1,H1,E1 -> F1 -> G1 -> H1,a,13,H2,H2,H2
+11,2,6,True,False,find at,find,1,E1,H1,E1 -> F1 -> G1 -> H1,at,17,H2,I1,H2 -> I1
+15,2,5,True,False,find a,find,2,E1,G2,E1 -> F1 -> G1 -> G2,a,13,H2,H2,H2
+15,2,5,True,False,find a,find,2,E1,G2,E1 -> F1 -> G1 -> G2,a,39,F3,F3,F3
+11,2,6,True,False,find at,find,2,E1,G2,E1 -> F1 -> G1 -> G2,at,17,H2,I1,H2 -> I1
+5,2,3,False,False,in a,in,3,F1,G1,F1 -> G1,a,13,H2,H2,H2
+3,2,4,False,False,in of,in,3,F1,G1,F1 -> G1,of,11,F2,E1,F2 -> E1
+3,2,4,False,False,in at,in,3,F1,G1,F1 -> G1,at,17,H2,I1,H2 -> I1
+3,2,4,True,False,is of,is,4,F1,E2,F1 -> E2,of,11,F2,E1,F2 -> E1
+3,2,4,True,False,is on,is,4,F1,E2,F1 -> E2,on,12,F2,G1,F2 -> G1
+3,2,3,True,False,is a,is,4,F1,E2,F1 -> E2,a,39,F3,F3,F3
+7,2,6,True,False,the get,the,5,I1,I2,I1 -> J1 -> I2,get,42,J3,K2,J3 -> J2 -> K2
+7,2,5,True,False,the go,the,5,I1,I2,I1 -> J1 -> I2,go,43,J3,K3,J3 -> K3
+3,2,6,False,False,the and,the,5,I1,I2,I1 -> J1 -> I2,and,15,H2,H1,H2 -> G1 -> H1
+3,2,6,False,False,the and,the,5,I1,I2,I1 -> J1 -> I2,and,16,H2,G2,H2 -> G1 -> G2
+3,2,5,False,False,the an,the,5,I1,I2,I1 -> J1 -> I2,an,14,H2,G1,H2 -> G1
+3,2,4,False,False,the a,the,5,I1,I2,I1 -> J1 -> I2,a,13,H2,H2,H2
+16,2,8,True,True,the start,the,6,I1,J2,I1 -> J1 -> J2,start,7,K1,N1,K1 -> K2 -> L1 -> M1 -> N1
+11,2,6,False,True,the two,the,6,I1,J2,I1 -> J1 -> J2,two,21,K2,K3,K2 -> L3 -> K3
+11,2,6,False,True,the one,the,6,I1,J2,I1 -> J1 -> J2,one,45,K3,K4,K3 -> L4 -> K4
+11,2,6,False,True,the one,the,6,I1,J2,I1 -> J1 -> J2,one,46,K3,M5,K3 -> L4 -> M5
+7,2,5,True,False,the go,the,6,I1,J2,I1 -> J1 -> J2,go,43,J3,K3,J3 -> K3
+3,2,5,False,False,the to,the,6,I1,J2,I1 -> J1 -> J2,to,20,K2,K3,K2 -> K3
+3,2,5,False,False,the on,the,6,I1,J2,I1 -> J1 -> J2,on,44,K3,L4,K3 -> L4
+22,2,9,True,True,start nine,start,7,K1,N1,K1 -> K2 -> L1 -> M1 -> N1,nine,23,M2,K4,M2 -> M3 -> L4 -> K4
+22,2,9,True,True,start nine,start,7,K1,N1,K1 -> K2 -> L1 -> M1 -> N1,nine,24,M2,M5,M2 -> M3 -> L4 -> M5
+21,2,7,True,True,start an,start,7,K1,N1,K1 -> K2 -> L1 -> M1 -> N1,an,27,N2,M2,N2 -> M2
+21,2,6,True,True,start a,start,7,K1,N1,K1 -> K2 -> L1 -> M1 -> N1,a,25,N2,N2,N2
+11,2,5,False,True,a nine,a,8,L1,L1,L1,nine,23,M2,K4,M2 -> M3 -> L4 -> K4
+11,2,5,False,True,a nine,a,8,L1,L1,L1,nine,24,M2,M5,M2 -> M3 -> L4 -> M5
+11,2,4,False,True,a two,a,8,L1,L1,L1,two,21,K2,K3,K2 -> L3 -> K3
+7,2,3,True,False,a go,a,8,L1,L1,L1,go,22,L2,K3,L2 -> K3
+3,2,4,False,False,a the,a,8,L1,L1,L1,the,18,K2,I2,K2 -> J1 -> I2
+3,2,4,False,False,a the,a,8,L1,L1,L1,the,19,K2,J2,K2 -> J1 -> J2
+3,2,3,False,False,a to,a,8,L1,L1,L1,to,20,K2,K3,K2 -> K3
+10,2,5,False,True,at one,at,9,L1,K2,L1 -> K2,one,45,K3,K4,K3 -> L4 -> K4
+10,2,5,False,True,at one,at,9,L1,K2,L1 -> K2,one,46,K3,M5,K3 -> L4 -> M5
+7,2,5,True,False,at get,at,9,L1,K2,L1 -> K2,get,40,J3,I1,J3 -> I2 -> I1
+7,2,5,True,False,at get,at,9,L1,K2,L1 -> K2,get,41,J3,I1,J3 -> J2 -> I1
+7,2,4,True,False,at go,at,9,L1,K2,L1 -> K2,go,22,L2,K3,L2 -> K3
+7,2,4,True,False,at go,at,9,L1,K2,L1 -> K2,go,43,J3,K3,J3 -> K3
+3,2,4,False,False,at on,at,9,L1,K2,L1 -> K2,on,44,K3,L4,K3 -> L4
+7,2,4,True,False,an go,an,10,L1,M2,L1 -> M2,go,22,L2,K3,L2 -> K3
+3,2,4,False,False,an at,an,10,L1,M2,L1 -> M2,at,26,N2,N1,N2 -> N1
+3,2,4,False,False,an in,an,10,L1,M2,L1 -> M2,in,48,M3,L4,M3 -> L4
+3,2,3,False,False,an a,an,10,L1,M2,L1 -> M2,a,25,N2,N2,N2
+3,2,4,True,False,of is,of,11,F2,E1,F2 -> E1,is,0,D1,E2,D1 -> E2
+3,2,4,False,False,of in,of,11,F2,E1,F2 -> E1,in,3,F1,G1,F1 -> G1
+3,2,4,True,False,of is,of,11,F2,E1,F2 -> E1,is,4,F1,E2,F1 -> E2
+5,2,3,False,False,on a,on,12,F2,G1,F2 -> G1,a,13,H2,H2,H2
+3,2,4,True,False,on is,on,12,F2,G1,F2 -> G1,is,4,F1,E2,F1 -> E2
+3,2,4,False,False,on at,on,12,F2,G1,F2 -> G1,at,17,H2,I1,H2 -> I1
+3,2,4,False,False,a the,a,13,H2,H2,H2,the,5,I1,I2,I1 -> J1 -> I2
+3,2,4,False,False,a the,a,13,H2,H2,H2,the,6,I1,J2,I1 -> J1 -> J2
+3,2,4,True,False,an is,an,14,H2,G1,H2 -> G1,is,4,F1,E2,F1 -> E2
+3,2,4,False,False,an of,an,14,H2,G1,H2 -> G1,of,11,F2,E1,F2 -> E1
+3,2,6,False,False,and the,and,15,H2,H1,H2 -> G1 -> H1,the,5,I1,I2,I1 -> J1 -> I2
+3,2,6,False,False,and the,and,15,H2,H1,H2 -> G1 -> H1,the,6,I1,J2,I1 -> J1 -> J2
+3,2,5,True,False,and is,and,16,H2,G2,H2 -> G1 -> G2,is,4,F1,E2,F1 -> E2
+3,2,5,False,False,and of,and,16,H2,G2,H2 -> G1 -> G2,of,11,F2,E1,F2 -> E1
+3,2,4,False,False,and a,and,16,H2,G2,H2 -> G1 -> G2,a,39,F3,F3,F3
+7,2,6,True,False,the get,the,18,K2,I2,K2 -> J1 -> I2,get,41,J3,I1,J3 -> J2 -> I1
+7,2,5,True,False,the go,the,18,K2,I2,K2 -> J1 -> I2,go,43,J3,K3,J3 -> K3
+3,2,6,False,False,the and,the,18,K2,I2,K2 -> J1 -> I2,and,15,H2,H1,H2 -> G1 -> H1
+3,2,6,False,False,the and,the,18,K2,I2,K2 -> J1 -> I2,and,16,H2,G2,H2 -> G1 -> G2
+3,2,5,False,False,the an,the,18,K2,I2,K2 -> J1 -> I2,an,14,H2,G1,H2 -> G1
+3,2,5,False,False,the at,the,18,K2,I2,K2 -> J1 -> I2,at,17,H2,I1,H2 -> I1
+3,2,4,False,False,the a,the,18,K2,I2,K2 -> J1 -> I2,a,13,H2,H2,H2
+11,2,6,False,True,the one,the,19,K2,J2,K2 -> J1 -> J2,one,45,K3,K4,K3 -> L4 -> K4
+11,2,6,False,True,the one,the,19,K2,J2,K2 -> J1 -> J2,one,46,K3,M5,K3 -> L4 -> M5
+7,2,6,True,False,the get,the,19,K2,J2,K2 -> J1 -> J2,get,40,J3,I1,J3 -> I2 -> I1
+7,2,5,True,False,the go,the,19,K2,J2,K2 -> J1 -> J2,go,43,J3,K3,J3 -> K3
+3,2,5,False,False,the on,the,19,K2,J2,K2 -> J1 -> J2,on,44,K3,L4,K3 -> L4
+10,2,5,False,True,to end,to,20,K2,K3,K2 -> K3,end,59,K4,K5,K4 -> L4 -> K5
+10,2,5,False,True,to end,to,20,K2,K3,K2 -> K3,end,60,K4,K5,K4 -> L5 -> K5
+7,2,5,True,False,to get,to,20,K2,K3,K2 -> K3,get,40,J3,I1,J3 -> I2 -> I1
+7,2,5,True,False,to get,to,20,K2,K3,K2 -> K3,get,41,J3,I1,J3 -> J2 -> I1
+5,2,3,False,False,to a,to,20,K2,K3,K2 -> K3,a,58,J4,J4,J4
+13,2,6,False,True,two end,two,21,K2,K3,K2 -> L3 -> K3,end,59,K4,K5,K4 -> L4 -> K5
+13,2,6,False,True,two end,two,21,K2,K3,K2 -> L3 -> K3,end,60,K4,K5,K4 -> L5 -> K5
+12,2,6,True,True,two get,two,21,K2,K3,K2 -> L3 -> K3,get,40,J3,I1,J3 -> I2 -> I1
+12,2,6,True,True,two get,two,21,K2,K3,K2 -> L3 -> K3,get,41,J3,I1,J3 -> J2 -> I1
+8,2,4,False,True,two a,two,21,K2,K3,K2 -> L3 -> K3,a,58,J4,J4,J4
+16,2,5,True,True,go end,go,22,L2,K3,L2 -> K3,end,59,K4,K5,K4 -> L4 -> K5
+16,2,5,True,True,go end,go,22,L2,K3,L2 -> K3,end,60,K4,K5,K4 -> L5 -> K5
+15,2,5,True,False,go get,go,22,L2,K3,L2 -> K3,get,40,J3,I1,J3 -> I2 -> I1
+15,2,5,True,False,go get,go,22,L2,K3,L2 -> K3,get,41,J3,I1,J3 -> J2 -> I1
+15,2,5,True,False,go get,go,22,L2,K3,L2 -> K3,get,42,J3,K2,J3 -> J2 -> K2
+15,2,5,True,False,go the,go,22,L2,K3,L2 -> K3,the,18,K2,I2,K2 -> J1 -> I2
+15,2,5,True,False,go the,go,22,L2,K3,L2 -> K3,the,19,K2,J2,K2 -> J1 -> J2
+15,2,3,True,False,go a,go,22,L2,K3,L2 -> K3,a,58,J4,J4,J4
+12,2,7,True,True,nine get,nine,23,M2,K4,M2 -> M3 -> L4 -> K4,get,40,J3,I1,J3 -> I2 -> I1
+12,2,7,True,True,nine get,nine,23,M2,K4,M2 -> M3 -> L4 -> K4,get,41,J3,I1,J3 -> J2 -> I1
+12,2,7,True,True,nine get,nine,23,M2,K4,M2 -> M3 -> L4 -> K4,get,42,J3,K2,J3 -> J2 -> K2
+12,2,6,True,True,nine go,nine,23,M2,K4,M2 -> M3 -> L4 -> K4,go,43,J3,K3,J3 -> K3
+8,2,6,False,True,nine in,nine,23,M2,K4,M2 -> M3 -> L4 -> K4,in,73,J5,J6,J5 -> J6
+8,2,5,False,True,nine a,nine,23,M2,K4,M2 -> M3 -> L4 -> K4,a,58,J4,J4,J4
+11,2,5,False,True,a nine,a,25,N2,N2,N2,nine,23,M2,K4,M2 -> M3 -> L4 -> K4
+11,2,5,False,True,a nine,a,25,N2,N2,N2,nine,24,M2,M5,M2 -> M3 -> L4 -> M5
+3,2,3,False,False,a in,a,25,N2,N2,N2,in,47,M3,M2,M3 -> M2
+3,2,3,False,False,a in,a,25,N2,N2,N2,in,48,M3,L4,M3 -> L4
+10,2,6,False,True,at nine,at,26,N2,N1,N2 -> N1,nine,23,M2,K4,M2 -> M3 -> L4 -> K4
+10,2,6,False,True,at nine,at,26,N2,N1,N2 -> N1,nine,24,M2,M5,M2 -> M3 -> L4 -> M5
+7,2,4,True,False,an go,an,27,N2,M2,N2 -> M2,go,22,L2,K3,L2 -> K3
+3,2,4,False,False,an at,an,27,N2,M2,N2 -> M2,at,9,L1,K2,L1 -> K2
+3,2,4,False,False,an in,an,27,N2,M2,N2 -> M2,in,48,M3,L4,M3 -> L4
+3,2,3,False,False,an a,an,27,N2,M2,N2 -> M2,a,8,L1,L1,L1
+13,2,8,False,True,three end,three,28,C3,B3,C3 -> B2 -> A1 -> A2 -> B3,end,53,C4,D4,C4 -> C5 -> D4
+13,2,8,False,True,three end,three,28,C3,B3,C3 -> B2 -> A1 -> A2 -> B3,end,54,C4,D4,C4 -> D5 -> D4
+12,2,8,True,True,three get,three,28,C3,B3,C3 -> B2 -> A1 -> A2 -> B3,get,50,B4,B5,B4 -> A4 -> B5
+12,2,8,True,True,three get,three,28,C3,B3,C3 -> B2 -> A1 -> A2 -> B3,get,52,B4,B5,B4 -> C4 -> B5
+10,2,7,True,False,then get,then,30,C3,A3,C3 -> B2 -> A2 -> A3,get,50,B4,B5,B4 -> A4 -> B5
+10,2,7,True,False,then get,then,30,C3,A3,C3 -> B2 -> A2 -> A3,get,52,B4,B5,B4 -> C4 -> B5
+17,2,8,False,True,three ten,three,32,C3,A4,C3 -> B2 -> C2 -> B3 -> A4,ten,62,B5,C5,B5 -> C4 -> C5
+17,2,8,False,True,three ten,three,32,C3,A4,C3 -> B2 -> C2 -> B3 -> A4,ten,63,B5,D5,B5 -> C4 -> D5
+12,2,8,True,True,three get,three,32,C3,A4,C3 -> B2 -> C2 -> B3 -> A4,get,52,B4,B5,B4 -> C4 -> B5
+8,2,7,False,True,three to,three,32,C3,A4,C3 -> B2 -> C2 -> B3 -> A4,to,64,B5,A6,B5 -> A6
+17,2,8,False,True,three ten,three,33,C3,C4,C3 -> B2 -> C2 -> B3 -> C4,ten,61,B5,A3,B5 -> A4 -> A3
+12,2,8,True,True,three get,three,33,C3,C4,C3 -> B2 -> C2 -> B3 -> C4,get,50,B4,B5,B4 -> A4 -> B5
+8,2,7,False,True,three to,three,33,C3,C4,C3 -> B2 -> C2 -> B3 -> C4,to,64,B5,A6,B5 -> A6
+11,2,6,False,True,the end,the,34,C3,B3,C3 -> B2 -> B3,end,53,C4,D4,C4 -> C5 -> D4
+11,2,6,False,True,the end,the,34,C3,B3,C3 -> B2 -> B3,end,54,C4,D4,C4 -> D5 -> D4
+7,2,6,True,False,the get,the,34,C3,B3,C3 -> B2 -> B3,get,50,B4,B5,B4 -> A4 -> B5
+7,2,6,True,False,the get,the,34,C3,B3,C3 -> B2 -> B3,get,52,B4,B5,B4 -> C4 -> B5
+10,2,7,True,False,then get,then,35,C3,A3,C3 -> B2 -> B3 -> A3,get,50,B4,B5,B4 -> A4 -> B5
+10,2,7,True,False,then get,then,35,C3,A3,C3 -> B2 -> B3 -> A3,get,52,B4,B5,B4 -> C4 -> B5
+12,2,6,True,True,ten get,ten,36,C3,A3,C3 -> B3 -> A3,get,50,B4,B5,B4 -> A4 -> B5
+12,2,6,True,True,ten get,ten,36,C3,A3,C3 -> B3 -> A3,get,52,B4,B5,B4 -> C4 -> B5
+17,2,11,False,True,ten hundreds,ten,37,C3,C5,C3 -> C4 -> C5,hundreds,79,B6,B1,B6 -> C6 -> D5 -> D4 -> D3 -> D2 -> C1 -> B1
+17,2,10,True,True,ten hundred,ten,37,C3,C5,C3 -> C4 -> C5,hundred,78,B6,C1,B6 -> C6 -> D5 -> D4 -> D3 -> D2 -> C1
+17,2,6,False,True,ten ten,ten,37,C3,C5,C3 -> C4 -> C5,ten,61,B5,A3,B5 -> A4 -> A3
+12,2,6,True,True,ten get,ten,37,C3,C5,C3 -> C4 -> C5,get,50,B4,B5,B4 -> A4 -> B5
+12,2,5,False,True,ten up,ten,37,C3,C5,C3 -> C4 -> C5,up,80,C6,D7,C6 -> D7
+8,2,5,False,True,ten to,ten,37,C3,C5,C3 -> C4 -> C5,to,64,B5,A6,B5 -> A6
+8,2,5,False,True,ten in,ten,37,C3,C5,C3 -> C4 -> C5,in,88,D6,D5,D6 -> D5
+8,2,5,False,True,ten in,ten,37,C3,C5,C3 -> C4 -> C5,in,89,D6,E6,D6 -> E6
+8,2,5,False,True,ten in,ten,37,C3,C5,C3 -> C4 -> C5,in,90,D6,C7,D6 -> C7
+17,2,11,False,True,ten integers,ten,38,C3,D5,C3 -> C4 -> D5,integers,83,D6,B1,D6 -> C5 -> B5 -> A4 -> B4 -> B3 -> C2 -> B1
+17,2,10,False,True,ten integer,ten,38,C3,D5,C3 -> C4 -> D5,integer,82,D6,C2,D6 -> C5 -> B5 -> A4 -> B4 -> B3 -> C2
+12,2,5,False,True,ten up,ten,38,C3,D5,C3 -> C4 -> D5,up,80,C6,D7,C6 -> D7
+8,2,5,False,True,ten in,ten,38,C3,D5,C3 -> C4 -> D5,in,81,D6,C5,D6 -> C5
+8,2,5,False,True,ten in,ten,38,C3,D5,C3 -> C4 -> D5,in,89,D6,E6,D6 -> E6
+8,2,5,False,True,ten in,ten,38,C3,D5,C3 -> C4 -> D5,in,90,D6,C7,D6 -> C7
+8,2,4,False,True,ten a,ten,38,C3,D5,C3 -> C4 -> D5,a,55,E4,E4,E4
+3,2,4,False,False,a and,a,39,F3,F3,F3,and,57,E4,D4,E4 -> D5 -> D4
+3,2,3,False,False,a of,a,39,F3,F3,F3,of,11,F2,E1,F2 -> E1
+3,2,3,False,False,a on,a,39,F3,F3,F3,on,12,F2,G1,F2 -> G1
+3,2,3,False,False,a an,a,39,F3,F3,F3,an,56,E4,D5,E4 -> D5
+3,2,2,False,False,a a,a,39,F3,F3,F3,a,55,E4,E4,E4
+15,2,5,True,False,get an,get,40,J3,I1,J3 -> I2 -> I1,an,14,H2,G1,H2 -> G1
+15,2,4,True,False,get a,get,40,J3,I1,J3 -> I2 -> I1,a,13,H2,H2,H2
+11,2,6,True,False,get and,get,40,J3,I1,J3 -> I2 -> I1,and,15,H2,H1,H2 -> G1 -> H1
+11,2,6,True,False,get and,get,40,J3,I1,J3 -> I2 -> I1,and,16,H2,G2,H2 -> G1 -> G2
+15,2,5,True,False,get an,get,41,J3,I1,J3 -> J2 -> I1,an,14,H2,G1,H2 -> G1
+15,2,4,True,False,get a,get,41,J3,I1,J3 -> J2 -> I1,a,13,H2,H2,H2
+11,2,6,True,False,get and,get,41,J3,I1,J3 -> J2 -> I1,and,15,H2,H1,H2 -> G1 -> H1
+11,2,6,True,False,get and,get,41,J3,I1,J3 -> J2 -> I1,and,16,H2,G2,H2 -> G1 -> G2
+16,2,6,True,True,get one,get,42,J3,K2,J3 -> J2 -> K2,one,45,K3,K4,K3 -> L4 -> K4
+16,2,6,True,True,get one,get,42,J3,K2,J3 -> J2 -> K2,one,46,K3,M5,K3 -> L4 -> M5
+15,2,5,True,False,get go,get,42,J3,K2,J3 -> J2 -> K2,go,22,L2,K3,L2 -> K3
+15,2,5,True,False,get an,get,42,J3,K2,J3 -> J2 -> K2,an,10,L1,M2,L1 -> M2
+15,2,4,True,False,get a,get,42,J3,K2,J3 -> J2 -> K2,a,8,L1,L1,L1
+11,2,5,True,False,get on,get,42,J3,K2,J3 -> J2 -> K2,on,44,K3,L4,K3 -> L4
+16,2,5,True,True,go end,go,43,J3,K3,J3 -> K3,end,59,K4,K5,K4 -> L4 -> K5
+16,2,5,True,True,go end,go,43,J3,K3,J3 -> K3,end,60,K4,K5,K4 -> L5 -> K5
+15,2,5,True,False,go the,go,43,J3,K3,J3 -> K3,the,18,K2,I2,K2 -> J1 -> I2
+15,2,5,True,False,go the,go,43,J3,K3,J3 -> K3,the,19,K2,J2,K2 -> J1 -> J2
+15,2,3,True,False,go a,go,43,J3,K3,J3 -> K3,a,58,J4,J4,J4
+10,2,5,False,True,on end,on,44,K3,L4,K3 -> L4,end,60,K4,K5,K4 -> L5 -> K5
+10,2,5,False,True,on end,on,44,K3,L4,K3 -> L4,end,75,M5,K5,M5 -> L5 -> K5
+3,2,4,False,False,on in,on,44,K3,L4,K3 -> L4,in,47,M3,M2,M3 -> M2
+12,2,6,True,True,one get,one,45,K3,K4,K3 -> L4 -> K4,get,40,J3,I1,J3 -> I2 -> I1
+12,2,6,True,True,one get,one,45,K3,K4,K3 -> L4 -> K4,get,41,J3,I1,J3 -> J2 -> I1
+12,2,6,True,True,one get,one,45,K3,K4,K3 -> L4 -> K4,get,42,J3,K2,J3 -> J2 -> K2
+8,2,5,False,True,one in,one,45,K3,K4,K3 -> L4 -> K4,in,73,J5,J6,J5 -> J6
+8,2,4,False,True,one a,one,45,K3,K4,K3 -> L4 -> K4,a,58,J4,J4,J4
+7,2,4,True,False,in go,in,47,M3,M2,M3 -> M2,go,22,L2,K3,L2 -> K3
+5,2,3,False,False,in a,in,47,M3,M2,M3 -> M2,a,8,L1,L1,L1
+5,2,3,False,False,in a,in,47,M3,M2,M3 -> M2,a,25,N2,N2,N2
+3,2,4,False,False,in at,in,47,M3,M2,M3 -> M2,at,9,L1,K2,L1 -> K2
+3,2,4,False,False,in at,in,47,M3,M2,M3 -> M2,at,26,N2,N1,N2 -> N1
+10,2,5,False,True,in end,in,48,M3,L4,M3 -> L4,end,60,K4,K5,K4 -> L5 -> K5
+10,2,5,False,True,in end,in,48,M3,L4,M3 -> L4,end,75,M5,K5,M5 -> L5 -> K5
+16,2,6,True,True,get end,get,49,B4,C3,B4 -> B3 -> C3,end,53,C4,D4,C4 -> C5 -> D4
+16,2,6,True,True,get end,get,49,B4,C3,B4 -> B3 -> C3,end,54,C4,D4,C4 -> D5 -> D4
+19,2,5,True,False,get up,get,50,B4,B5,B4 -> A4 -> B5,up,80,C6,D7,C6 -> D7
+16,2,11,True,True,get nineteen,get,50,B4,B5,B4 -> A4 -> B5,nineteen,66,C5,A3,C5 -> D6 -> D5 -> C4 -> C3 -> B3 -> A2 -> A3
+16,2,11,True,True,get hundreds,get,50,B4,B5,B4 -> A4 -> B5,hundreds,77,B6,B1,B6 -> C6 -> C5 -> D4 -> D3 -> D2 -> C1 -> B1
+16,2,11,True,True,get hundreds,get,50,B4,B5,B4 -> A4 -> B5,hundreds,79,B6,B1,B6 -> C6 -> D5 -> D4 -> D3 -> D2 -> C1 -> B1
+16,2,10,True,True,get hundred,get,50,B4,B5,B4 -> A4 -> B5,hundred,76,B6,C1,B6 -> C6 -> C5 -> D4 -> D3 -> D2 -> C1
+16,2,10,True,True,get hundred,get,50,B4,B5,B4 -> A4 -> B5,hundred,78,B6,C1,B6 -> C6 -> D5 -> D4 -> D3 -> D2 -> C1
+16,2,7,True,True,get nine,get,50,B4,B5,B4 -> A4 -> B5,nine,65,C5,C4,C5 -> D6 -> D5 -> C4
+16,2,6,True,True,get end,get,50,B4,B5,B4 -> A4 -> B5,end,53,C4,D4,C4 -> C5 -> D4
+16,2,6,True,True,get end,get,50,B4,B5,B4 -> A4 -> B5,end,54,C4,D4,C4 -> D5 -> D4
+19,2,5,True,False,get up,get,52,B4,B5,B4 -> C4 -> B5,up,80,C6,D7,C6 -> D7
+16,2,11,True,True,get hundreds,get,52,B4,B5,B4 -> C4 -> B5,hundreds,77,B6,B1,B6 -> C6 -> C5 -> D4 -> D3 -> D2 -> C1 -> B1
+16,2,11,True,True,get hundreds,get,52,B4,B5,B4 -> C4 -> B5,hundreds,79,B6,B1,B6 -> C6 -> D5 -> D4 -> D3 -> D2 -> C1 -> B1
+16,2,10,True,True,get hundred,get,52,B4,B5,B4 -> C4 -> B5,hundred,76,B6,C1,B6 -> C6 -> C5 -> D4 -> D3 -> D2 -> C1
+16,2,10,True,True,get hundred,get,52,B4,B5,B4 -> C4 -> B5,hundred,78,B6,C1,B6 -> C6 -> D5 -> D4 -> D3 -> D2 -> C1
+13,2,8,False,True,end three,end,53,C4,D4,C4 -> C5 -> D4,three,28,C3,B3,C3 -> B2 -> A1 -> A2 -> B3
+13,2,8,False,True,end three,end,53,C4,D4,C4 -> C5 -> D4,three,31,C3,A2,C3 -> B2 -> C2 -> B3 -> A2
+13,2,8,False,True,end three,end,53,C4,D4,C4 -> C5 -> D4,three,32,C3,A4,C3 -> B2 -> C2 -> B3 -> A4
+13,2,6,False,True,end ten,end,53,C4,D4,C4 -> C5 -> D4,ten,36,C3,A3,C3 -> B3 -> A3
+8,2,7,False,True,end then,end,53,C4,D4,C4 -> C5 -> D4,then,30,C3,A3,C3 -> B2 -> A2 -> A3
+8,2,7,False,True,end then,end,53,C4,D4,C4 -> C5 -> D4,then,35,C3,A3,C3 -> B2 -> B3 -> A3
+8,2,6,False,True,end the,end,53,C4,D4,C4 -> C5 -> D4,the,29,C3,A2,C3 -> B2 -> A2
+8,2,6,False,True,end the,end,53,C4,D4,C4 -> C5 -> D4,the,34,C3,B3,C3 -> B2 -> B3
+8,2,5,False,True,end an,end,53,C4,D4,C4 -> C5 -> D4,an,56,E4,D5,E4 -> D5
+8,2,4,False,True,end a,end,53,C4,D4,C4 -> C5 -> D4,a,55,E4,E4,E4
+13,2,8,False,True,end three,end,54,C4,D4,C4 -> D5 -> D4,three,28,C3,B3,C3 -> B2 -> A1 -> A2 -> B3
+13,2,8,False,True,end three,end,54,C4,D4,C4 -> D5 -> D4,three,31,C3,A2,C3 -> B2 -> C2 -> B3 -> A2
+13,2,8,False,True,end three,end,54,C4,D4,C4 -> D5 -> D4,three,32,C3,A4,C3 -> B2 -> C2 -> B3 -> A4
+13,2,6,False,True,end ten,end,54,C4,D4,C4 -> D5 -> D4,ten,36,C3,A3,C3 -> B3 -> A3
+8,2,7,False,True,end then,end,54,C4,D4,C4 -> D5 -> D4,then,30,C3,A3,C3 -> B2 -> A2 -> A3
+8,2,7,False,True,end then,end,54,C4,D4,C4 -> D5 -> D4,then,35,C3,A3,C3 -> B2 -> B3 -> A3
+8,2,6,False,True,end the,end,54,C4,D4,C4 -> D5 -> D4,the,29,C3,A2,C3 -> B2 -> A2
+8,2,6,False,True,end the,end,54,C4,D4,C4 -> D5 -> D4,the,34,C3,B3,C3 -> B2 -> B3
+8,2,4,False,True,end a,end,54,C4,D4,C4 -> D5 -> D4,a,55,E4,E4,E4
+11,2,9,False,True,a nineteen,a,55,E4,E4,E4,nineteen,70,D5,A3,D5 -> D6 -> C5 -> C4 -> C3 -> B3 -> A2 -> A3
+11,2,9,False,True,a nineteen,a,55,E4,E4,E4,nineteen,71,D5,A3,D5 -> D6 -> C5 -> C4 -> C3 -> B3 -> A4 -> A3
+11,2,9,False,True,a nineteen,a,55,E4,E4,E4,nineteen,72,D5,A3,D5 -> D6 -> C5 -> C4 -> B5 -> A4 -> B3 -> A3
+11,2,5,False,True,a nine,a,55,E4,E4,E4,nine,69,D5,C4,D5 -> D6 -> C5 -> C4
+3,2,2,False,False,a a,a,55,E4,E4,E4,a,39,F3,F3,F3
+11,2,10,False,True,an integers,an,56,E4,D5,E4 -> D5,integers,83,D6,B1,D6 -> C5 -> B5 -> A4 -> B4 -> B3 -> C2 -> B1
+11,2,10,False,True,an integers,an,56,E4,D5,E4 -> D5,integers,85,D6,E2,D6 -> C5 -> B5 -> A4 -> B4 -> C4 -> D3 -> E2
+11,2,10,False,True,an integers,an,56,E4,D5,E4 -> D5,integers,87,D6,B1,D6 -> C5 -> B5 -> C4 -> B4 -> B3 -> C2 -> B1
+11,2,10,False,True,an nineteen,an,56,E4,D5,E4 -> D5,nineteen,92,E6,A3,E6 -> D6 -> C5 -> C4 -> C3 -> B3 -> A2 -> A3
+11,2,10,False,True,an nineteen,an,56,E4,D5,E4 -> D5,nineteen,93,E6,A3,E6 -> D6 -> C5 -> C4 -> C3 -> B3 -> A4 -> A3
+11,2,10,False,True,an nineteen,an,56,E4,D5,E4 -> D5,nineteen,94,E6,A3,E6 -> D6 -> C5 -> C4 -> B5 -> A4 -> B3 -> A3
+11,2,9,False,True,an integer,an,56,E4,D5,E4 -> D5,integer,82,D6,C2,D6 -> C5 -> B5 -> A4 -> B4 -> B3 -> C2
+11,2,9,False,True,an integer,an,56,E4,D5,E4 -> D5,integer,84,D6,D3,D6 -> C5 -> B5 -> A4 -> B4 -> C4 -> D3
+11,2,9,False,True,an integer,an,56,E4,D5,E4 -> D5,integer,86,D6,C2,D6 -> C5 -> B5 -> C4 -> B4 -> B3 -> C2
+11,2,6,False,True,an nine,an,56,E4,D5,E4 -> D5,nine,91,E6,C4,E6 -> D6 -> C5 -> C4
+11,2,5,False,True,an end,an,56,E4,D5,E4 -> D5,end,53,C4,D4,C4 -> C5 -> D4
+7,2,4,False,False,an up,an,56,E4,D5,E4 -> D5,up,80,C6,D7,C6 -> D7
+3,2,4,False,False,an in,an,56,E4,D5,E4 -> D5,in,81,D6,C5,D6 -> C5
+3,2,4,False,False,an in,an,56,E4,D5,E4 -> D5,in,89,D6,E6,D6 -> E6
+3,2,4,False,False,an in,an,56,E4,D5,E4 -> D5,in,90,D6,C7,D6 -> C7
+8,2,8,False,True,and three,and,57,E4,D4,E4 -> D5 -> D4,three,28,C3,B3,C3 -> B2 -> A1 -> A2 -> B3
+8,2,8,False,True,and three,and,57,E4,D4,E4 -> D5 -> D4,three,31,C3,A2,C3 -> B2 -> C2 -> B3 -> A2
+8,2,8,False,True,and three,and,57,E4,D4,E4 -> D5 -> D4,three,32,C3,A4,C3 -> B2 -> C2 -> B3 -> A4
+8,2,8,False,True,and three,and,57,E4,D4,E4 -> D5 -> D4,three,33,C3,C4,C3 -> B2 -> C2 -> B3 -> C4
+8,2,6,False,True,and ten,and,57,E4,D4,E4 -> D5 -> D4,ten,36,C3,A3,C3 -> B3 -> A3
+8,2,6,False,True,and ten,and,57,E4,D4,E4 -> D5 -> D4,ten,37,C3,C5,C3 -> C4 -> C5
+3,2,7,False,False,and then,and,57,E4,D4,E4 -> D5 -> D4,then,30,C3,A3,C3 -> B2 -> A2 -> A3
+3,2,7,False,False,and then,and,57,E4,D4,E4 -> D5 -> D4,then,35,C3,A3,C3 -> B2 -> B3 -> A3
+3,2,6,False,False,and the,and,57,E4,D4,E4 -> D5 -> D4,the,29,C3,A2,C3 -> B2 -> A2
+3,2,6,False,False,and the,and,57,E4,D4,E4 -> D5 -> D4,the,34,C3,B3,C3 -> B2 -> B3
+11,2,4,False,True,a one,a,58,J4,J4,J4,one,45,K3,K4,K3 -> L4 -> K4
+11,2,4,False,True,a one,a,58,J4,J4,J4,one,46,K3,M5,K3 -> L4 -> M5
+11,2,4,False,True,a end,a,58,J4,J4,J4,end,59,K4,K5,K4 -> L4 -> K5
+11,2,4,False,True,a end,a,58,J4,J4,J4,end,60,K4,K5,K4 -> L5 -> K5
+7,2,4,True,False,a get,a,58,J4,J4,J4,get,40,J3,I1,J3 -> I2 -> I1
+7,2,4,True,False,a get,a,58,J4,J4,J4,get,41,J3,I1,J3 -> J2 -> I1
+7,2,4,True,False,a get,a,58,J4,J4,J4,get,42,J3,K2,J3 -> J2 -> K2
+7,2,3,True,False,a go,a,58,J4,J4,J4,go,43,J3,K3,J3 -> K3
+3,2,3,False,False,a on,a,58,J4,J4,J4,on,44,K3,L4,K3 -> L4
+3,2,3,False,False,a in,a,58,J4,J4,J4,in,73,J5,J6,J5 -> J6
+8,2,5,False,True,end in,end,59,K4,K5,K4 -> L4 -> K5,in,73,J5,J6,J5 -> J6
+8,2,5,False,True,end an,end,59,K4,K5,K4 -> L4 -> K5,an,105,K6,L5,K6 -> L5
+8,2,5,False,True,end an,end,59,K4,K5,K4 -> L4 -> K5,an,107,K6,J6,K6 -> J6
+8,2,5,False,True,end at,end,59,K4,K5,K4 -> L4 -> K5,at,109,K6,L7,K6 -> L7
+8,2,4,False,True,end a,end,59,K4,K5,K4 -> L4 -> K5,a,58,J4,J4,J4
+8,2,4,False,True,end a,end,59,K4,K5,K4 -> L4 -> K5,a,104,K6,K6,K6
+8,2,5,False,True,end in,end,60,K4,K5,K4 -> L5 -> K5,in,73,J5,J6,J5 -> J6
+8,2,5,False,True,end an,end,60,K4,K5,K4 -> L5 -> K5,an,107,K6,J6,K6 -> J6
+8,2,5,False,True,end at,end,60,K4,K5,K4 -> L5 -> K5,at,109,K6,L7,K6 -> L7
+8,2,4,False,True,end a,end,60,K4,K5,K4 -> L5 -> K5,a,58,J4,J4,J4
+8,2,4,False,True,end a,end,60,K4,K5,K4 -> L5 -> K5,a,104,K6,K6,K6
+12,2,6,True,True,ten get,ten,61,B5,A3,B5 -> A4 -> A3,get,49,B4,C3,B4 -> B3 -> C3
+12,2,6,True,True,ten get,ten,61,B5,A3,B5 -> A4 -> A3,get,51,B4,C3,B4 -> C4 -> C3
+17,2,11,False,True,ten hundreds,ten,62,B5,C5,B5 -> C4 -> C5,hundreds,79,B6,B1,B6 -> C6 -> D5 -> D4 -> D3 -> D2 -> C1 -> B1
+17,2,10,True,True,ten hundred,ten,62,B5,C5,B5 -> C4 -> C5,hundred,78,B6,C1,B6 -> C6 -> D5 -> D4 -> D3 -> D2 -> C1
+12,2,6,True,True,ten get,ten,62,B5,C5,B5 -> C4 -> C5,get,49,B4,C3,B4 -> B3 -> C3
+12,2,5,False,True,ten up,ten,62,B5,C5,B5 -> C4 -> C5,up,80,C6,D7,C6 -> D7
+8,2,5,False,True,ten in,ten,62,B5,C5,B5 -> C4 -> C5,in,88,D6,D5,D6 -> D5
+8,2,5,False,True,ten in,ten,62,B5,C5,B5 -> C4 -> C5,in,89,D6,E6,D6 -> E6
+8,2,5,False,True,ten in,ten,62,B5,C5,B5 -> C4 -> C5,in,90,D6,C7,D6 -> C7
+12,2,5,False,True,ten up,ten,63,B5,D5,B5 -> C4 -> D5,up,80,C6,D7,C6 -> D7
+8,2,5,False,True,ten in,ten,63,B5,D5,B5 -> C4 -> D5,in,81,D6,C5,D6 -> C5
+8,2,5,False,True,ten in,ten,63,B5,D5,B5 -> C4 -> D5,in,89,D6,E6,D6 -> E6
+8,2,5,False,True,ten in,ten,63,B5,D5,B5 -> C4 -> D5,in,90,D6,C7,D6 -> C7
+8,2,4,False,True,ten a,ten,63,B5,D5,B5 -> C4 -> D5,a,55,E4,E4,E4
+8,2,10,False,True,to hundreds,to,64,B5,A6,B5 -> A6,hundreds,77,B6,B1,B6 -> C6 -> C5 -> D4 -> D3 -> D2 -> C1 -> B1
+8,2,10,False,True,to hundreds,to,64,B5,A6,B5 -> A6,hundreds,79,B6,B1,B6 -> C6 -> D5 -> D4 -> D3 -> D2 -> C1 -> B1
+8,2,9,True,True,to hundred,to,64,B5,A6,B5 -> A6,hundred,76,B6,C1,B6 -> C6 -> C5 -> D4 -> D3 -> D2 -> C1
+8,2,9,True,True,to hundred,to,64,B5,A6,B5 -> A6,hundred,78,B6,C1,B6 -> C6 -> D5 -> D4 -> D3 -> D2 -> C1
+5,2,3,False,False,to a,to,64,B5,A6,B5 -> A6,a,110,A7,A7,A7
+17,2,9,False,True,nine three,nine,65,C5,C4,C5 -> D6 -> D5 -> C4,three,28,C3,B3,C3 -> B2 -> A1 -> A2 -> B3
+17,2,9,False,True,nine three,nine,65,C5,C4,C5 -> D6 -> D5 -> C4,three,31,C3,A2,C3 -> B2 -> C2 -> B3 -> A2
+17,2,9,False,True,nine three,nine,65,C5,C4,C5 -> D6 -> D5 -> C4,three,32,C3,A4,C3 -> B2 -> C2 -> B3 -> A4
+17,2,7,False,True,nine ten,nine,65,C5,C4,C5 -> D6 -> D5 -> C4,ten,36,C3,A3,C3 -> B3 -> A3
+17,2,7,False,True,nine ten,nine,65,C5,C4,C5 -> D6 -> D5 -> C4,ten,61,B5,A3,B5 -> A4 -> A3
+12,2,7,True,True,nine get,nine,65,C5,C4,C5 -> D6 -> D5 -> C4,get,49,B4,C3,B4 -> B3 -> C3
+12,2,7,True,True,nine get,nine,65,C5,C4,C5 -> D6 -> D5 -> C4,get,50,B4,B5,B4 -> A4 -> B5
+8,2,8,False,True,nine then,nine,65,C5,C4,C5 -> D6 -> D5 -> C4,then,30,C3,A3,C3 -> B2 -> A2 -> A3
+8,2,8,False,True,nine then,nine,65,C5,C4,C5 -> D6 -> D5 -> C4,then,35,C3,A3,C3 -> B2 -> B3 -> A3
+8,2,7,False,True,nine the,nine,65,C5,C4,C5 -> D6 -> D5 -> C4,the,29,C3,A2,C3 -> B2 -> A2
+8,2,7,False,True,nine the,nine,65,C5,C4,C5 -> D6 -> D5 -> C4,the,34,C3,B3,C3 -> B2 -> B3
+8,2,6,False,True,nine to,nine,65,C5,C4,C5 -> D6 -> D5 -> C4,to,64,B5,A6,B5 -> A6
+12,2,11,True,True,nineteen get,nineteen,66,C5,A3,C5 -> D6 -> D5 -> C4 -> C3 -> B3 -> A2 -> A3,get,50,B4,B5,B4 -> A4 -> B5
+17,2,9,False,True,nine three,nine,69,D5,C4,D5 -> D6 -> C5 -> C4,three,28,C3,B3,C3 -> B2 -> A1 -> A2 -> B3
+17,2,9,False,True,nine three,nine,69,D5,C4,D5 -> D6 -> C5 -> C4,three,31,C3,A2,C3 -> B2 -> C2 -> B3 -> A2
+17,2,9,False,True,nine three,nine,69,D5,C4,D5 -> D6 -> C5 -> C4,three,32,C3,A4,C3 -> B2 -> C2 -> B3 -> A4
+17,2,7,False,True,nine ten,nine,69,D5,C4,D5 -> D6 -> C5 -> C4,ten,36,C3,A3,C3 -> B3 -> A3
+17,2,7,False,True,nine ten,nine,69,D5,C4,D5 -> D6 -> C5 -> C4,ten,61,B5,A3,B5 -> A4 -> A3
+12,2,7,True,True,nine get,nine,69,D5,C4,D5 -> D6 -> C5 -> C4,get,49,B4,C3,B4 -> B3 -> C3
+12,2,7,True,True,nine get,nine,69,D5,C4,D5 -> D6 -> C5 -> C4,get,50,B4,B5,B4 -> A4 -> B5
+8,2,8,False,True,nine then,nine,69,D5,C4,D5 -> D6 -> C5 -> C4,then,30,C3,A3,C3 -> B2 -> A2 -> A3
+8,2,8,False,True,nine then,nine,69,D5,C4,D5 -> D6 -> C5 -> C4,then,35,C3,A3,C3 -> B2 -> B3 -> A3
+8,2,7,False,True,nine the,nine,69,D5,C4,D5 -> D6 -> C5 -> C4,the,29,C3,A2,C3 -> B2 -> A2
+8,2,7,False,True,nine the,nine,69,D5,C4,D5 -> D6 -> C5 -> C4,the,34,C3,B3,C3 -> B2 -> B3
+8,2,6,False,True,nine to,nine,69,D5,C4,D5 -> D6 -> C5 -> C4,to,64,B5,A6,B5 -> A6
+12,2,11,True,True,nineteen get,nineteen,70,D5,A3,D5 -> D6 -> C5 -> C4 -> C3 -> B3 -> A2 -> A3,get,50,B4,B5,B4 -> A4 -> B5
+5,2,4,False,False,in an,in,73,J5,J6,J5 -> J6,an,105,K6,L5,K6 -> L5
+5,2,3,False,False,in a,in,73,J5,J6,J5 -> J6,a,101,I6,I6,I6
+5,2,3,False,False,in a,in,73,J5,J6,J5 -> J6,a,104,K6,K6,K6
+3,2,5,False,False,in and,in,73,J5,J6,J5 -> J6,and,106,K6,K5,K6 -> L5 -> K5
+3,2,4,False,False,in at,in,73,J5,J6,J5 -> J6,at,109,K6,L7,K6 -> L7
+8,2,5,False,True,end in,end,74,M5,K5,M5 -> L4 -> K5,in,73,J5,J6,J5 -> J6
+8,2,5,False,True,end an,end,74,M5,K5,M5 -> L4 -> K5,an,105,K6,L5,K6 -> L5
+8,2,5,False,True,end an,end,74,M5,K5,M5 -> L4 -> K5,an,107,K6,J6,K6 -> J6
+8,2,5,False,True,end at,end,74,M5,K5,M5 -> L4 -> K5,at,109,K6,L7,K6 -> L7
+8,2,4,False,True,end a,end,74,M5,K5,M5 -> L4 -> K5,a,58,J4,J4,J4
+8,2,4,False,True,end a,end,74,M5,K5,M5 -> L4 -> K5,a,104,K6,K6,K6
+8,2,5,False,True,end in,end,75,M5,K5,M5 -> L5 -> K5,in,73,J5,J6,J5 -> J6
+8,2,5,False,True,end an,end,75,M5,K5,M5 -> L5 -> K5,an,107,K6,J6,K6 -> J6
+8,2,5,False,True,end at,end,75,M5,K5,M5 -> L5 -> K5,at,109,K6,L7,K6 -> L7
+8,2,4,False,True,end a,end,75,M5,K5,M5 -> L5 -> K5,a,58,J4,J4,J4
+8,2,4,False,True,end a,end,75,M5,K5,M5 -> L5 -> K5,a,104,K6,K6,K6
+8,2,9,True,True,hundred is,hundred,76,B6,C1,B6 -> C6 -> C5 -> D4 -> D3 -> D2 -> C1,is,0,D1,E2,D1 -> E2
+8,2,9,True,True,hundred is,hundred,78,B6,C1,B6 -> C6 -> D5 -> D4 -> D3 -> D2 -> C1,is,0,D1,E2,D1 -> E2
+12,2,10,False,True,up integers,up,80,C6,D7,C6 -> D7,integers,83,D6,B1,D6 -> C5 -> B5 -> A4 -> B4 -> B3 -> C2 -> B1
+12,2,10,False,True,up integers,up,80,C6,D7,C6 -> D7,integers,85,D6,E2,D6 -> C5 -> B5 -> A4 -> B4 -> C4 -> D3 -> E2
+12,2,10,False,True,up integers,up,80,C6,D7,C6 -> D7,integers,87,D6,B1,D6 -> C5 -> B5 -> C4 -> B4 -> B3 -> C2 -> B1
+12,2,10,False,True,up nineteen,up,80,C6,D7,C6 -> D7,nineteen,92,E6,A3,E6 -> D6 -> C5 -> C4 -> C3 -> B3 -> A2 -> A3
+12,2,10,False,True,up nineteen,up,80,C6,D7,C6 -> D7,nineteen,93,E6,A3,E6 -> D6 -> C5 -> C4 -> C3 -> B3 -> A4 -> A3
+12,2,10,False,True,up nineteen,up,80,C6,D7,C6 -> D7,nineteen,94,E6,A3,E6 -> D6 -> C5 -> C4 -> B5 -> A4 -> B3 -> A3
+12,2,10,False,True,up nineteen,up,80,C6,D7,C6 -> D7,nineteen,96,E6,A3,E6 -> D6 -> D5 -> C4 -> C3 -> B3 -> A2 -> A3
+12,2,10,False,True,up nineteen,up,80,C6,D7,C6 -> D7,nineteen,97,E6,A3,E6 -> D6 -> D5 -> C4 -> C3 -> B3 -> A4 -> A3
+12,2,10,False,True,up nineteen,up,80,C6,D7,C6 -> D7,nineteen,98,E6,A3,E6 -> D6 -> D5 -> C4 -> B5 -> A4 -> B3 -> A3
+12,2,10,False,True,up nineteen,up,80,C6,D7,C6 -> D7,nineteen,112,C7,A3,C7 -> D6 -> C5 -> C4 -> C3 -> B3 -> A2 -> A3
+12,2,10,False,True,up nineteen,up,80,C6,D7,C6 -> D7,nineteen,113,C7,A3,C7 -> D6 -> C5 -> C4 -> C3 -> B3 -> A4 -> A3
+12,2,10,False,True,up nineteen,up,80,C6,D7,C6 -> D7,nineteen,114,C7,A3,C7 -> D6 -> C5 -> C4 -> B5 -> A4 -> B3 -> A3
+12,2,10,False,True,up nineteen,up,80,C6,D7,C6 -> D7,nineteen,116,C7,A3,C7 -> D6 -> D5 -> C4 -> C3 -> B3 -> A2 -> A3
+12,2,10,False,True,up nineteen,up,80,C6,D7,C6 -> D7,nineteen,117,C7,A3,C7 -> D6 -> D5 -> C4 -> C3 -> B3 -> A4 -> A3
+12,2,10,False,True,up nineteen,up,80,C6,D7,C6 -> D7,nineteen,118,C7,A3,C7 -> D6 -> D5 -> C4 -> B5 -> A4 -> B3 -> A3
+12,2,9,False,True,up integer,up,80,C6,D7,C6 -> D7,integer,82,D6,C2,D6 -> C5 -> B5 -> A4 -> B4 -> B3 -> C2
+12,2,9,False,True,up integer,up,80,C6,D7,C6 -> D7,integer,84,D6,D3,D6 -> C5 -> B5 -> A4 -> B4 -> C4 -> D3
+12,2,9,False,True,up integer,up,80,C6,D7,C6 -> D7,integer,86,D6,C2,D6 -> C5 -> B5 -> C4 -> B4 -> B3 -> C2
+12,2,6,False,True,up nine,up,80,C6,D7,C6 -> D7,nine,91,E6,C4,E6 -> D6 -> C5 -> C4
+12,2,6,False,True,up nine,up,80,C6,D7,C6 -> D7,nine,95,E6,C4,E6 -> D6 -> D5 -> C4
+12,2,6,False,True,up nine,up,80,C6,D7,C6 -> D7,nine,111,C7,C4,C7 -> D6 -> C5 -> C4
+12,2,6,False,True,up nine,up,80,C6,D7,C6 -> D7,nine,115,C7,C4,C7 -> D6 -> D5 -> C4
+11,2,6,True,False,up find,up,80,C6,D7,C6 -> D7,find,119,E7,D4,E7 -> D6 -> C5 -> D4
+11,2,6,True,False,up find,up,80,C6,D7,C6 -> D7,find,120,E7,D4,E7 -> D6 -> D5 -> D4
+7,2,4,False,False,up in,up,80,C6,D7,C6 -> D7,in,81,D6,C5,D6 -> C5
+7,2,4,False,False,up in,up,80,C6,D7,C6 -> D7,in,88,D6,D5,D6 -> D5
+7,2,4,False,False,up in,up,80,C6,D7,C6 -> D7,in,89,D6,E6,D6 -> E6
+7,2,4,False,False,up in,up,80,C6,D7,C6 -> D7,in,90,D6,C7,D6 -> C7
+7,2,3,False,False,up a,up,80,C6,D7,C6 -> D7,a,127,E8,E8,E8
+10,2,5,False,True,in end,in,81,D6,C5,D6 -> C5,end,54,C4,D4,C4 -> D5 -> D4
+10,2,5,False,True,in ten,in,81,D6,C5,D6 -> C5,ten,61,B5,A3,B5 -> A4 -> A3
+10,2,5,False,True,in ten,in,81,D6,C5,D6 -> C5,ten,63,B5,D5,B5 -> C4 -> D5
+8,2,10,False,True,in hundreds,in,81,D6,C5,D6 -> C5,hundreds,79,B6,B1,B6 -> C6 -> D5 -> D4 -> D3 -> D2 -> C1 -> B1
+8,2,9,True,True,in hundred,in,81,D6,C5,D6 -> C5,hundred,78,B6,C1,B6 -> C6 -> D5 -> D4 -> D3 -> D2 -> C1
+7,2,5,True,False,in get,in,81,D6,C5,D6 -> C5,get,49,B4,C3,B4 -> B3 -> C3
+7,2,5,True,False,in get,in,81,D6,C5,D6 -> C5,get,50,B4,B5,B4 -> A4 -> B5
+7,2,5,True,False,in get,in,81,D6,C5,D6 -> C5,get,51,B4,C3,B4 -> C4 -> C3
+7,2,5,True,False,in get,in,81,D6,C5,D6 -> C5,get,52,B4,B5,B4 -> C4 -> B5
+7,2,4,False,False,in up,in,81,D6,C5,D6 -> C5,up,80,C6,D7,C6 -> D7
+3,2,4,False,False,in to,in,81,D6,C5,D6 -> C5,to,64,B5,A6,B5 -> A6
+13,2,10,False,True,integer ten,integer,82,D6,C2,D6 -> C5 -> B5 -> A4 -> B4 -> B3 -> C2,ten,38,C3,D5,C3 -> C4 -> D5
+8,2,11,False,True,integer then,integer,82,D6,C2,D6 -> C5 -> B5 -> A4 -> B4 -> B3 -> C2,then,30,C3,A3,C3 -> B2 -> A2 -> A3
+8,2,10,False,True,integer the,integer,82,D6,C2,D6 -> C5 -> B5 -> A4 -> B4 -> B3 -> C2,the,29,C3,A2,C3 -> B2 -> A2
+8,2,9,True,True,integer is,integer,82,D6,C2,D6 -> C5 -> B5 -> A4 -> B4 -> B3 -> C2,is,0,D1,E2,D1 -> E2
+13,2,12,False,True,integer three,integer,84,D6,D3,D6 -> C5 -> B5 -> A4 -> B4 -> C4 -> D3,three,28,C3,B3,C3 -> B2 -> A1 -> A2 -> B3
+13,2,12,False,True,integer three,integer,84,D6,D3,D6 -> C5 -> B5 -> A4 -> B4 -> C4 -> D3,three,31,C3,A2,C3 -> B2 -> C2 -> B3 -> A2
+13,2,10,False,True,integer ten,integer,84,D6,D3,D6 -> C5 -> B5 -> A4 -> B4 -> C4 -> D3,ten,36,C3,A3,C3 -> B3 -> A3
+8,2,11,False,True,integer then,integer,84,D6,D3,D6 -> C5 -> B5 -> A4 -> B4 -> C4 -> D3,then,30,C3,A3,C3 -> B2 -> A2 -> A3
+8,2,11,False,True,integer then,integer,84,D6,D3,D6 -> C5 -> B5 -> A4 -> B4 -> C4 -> D3,then,35,C3,A3,C3 -> B2 -> B3 -> A3
+8,2,10,False,True,integer the,integer,84,D6,D3,D6 -> C5 -> B5 -> A4 -> B4 -> C4 -> D3,the,29,C3,A2,C3 -> B2 -> A2
+8,2,10,False,True,integer the,integer,84,D6,D3,D6 -> C5 -> B5 -> A4 -> B4 -> C4 -> D3,the,34,C3,B3,C3 -> B2 -> B3
+8,2,10,False,True,integer and,integer,84,D6,D3,D6 -> C5 -> B5 -> A4 -> B4 -> C4 -> D3,and,57,E4,D4,E4 -> D5 -> D4
+8,2,9,False,True,integer an,integer,84,D6,D3,D6 -> C5 -> B5 -> A4 -> B4 -> C4 -> D3,an,56,E4,D5,E4 -> D5
+8,2,8,False,True,integer a,integer,84,D6,D3,D6 -> C5 -> B5 -> A4 -> B4 -> C4 -> D3,a,55,E4,E4,E4
+12,2,12,True,True,integers find,integers,85,D6,E2,D6 -> C5 -> B5 -> A4 -> B4 -> C4 -> D3 -> E2,find,1,E1,H1,E1 -> F1 -> G1 -> H1
+12,2,12,True,True,integers find,integers,85,D6,E2,D6 -> C5 -> B5 -> A4 -> B4 -> C4 -> D3 -> E2,find,2,E1,G2,E1 -> F1 -> G1 -> G2
+8,2,10,False,True,integers in,integers,85,D6,E2,D6 -> C5 -> B5 -> A4 -> B4 -> C4 -> D3 -> E2,in,3,F1,G1,F1 -> G1
+8,2,10,False,True,integers of,integers,85,D6,E2,D6 -> C5 -> B5 -> A4 -> B4 -> C4 -> D3 -> E2,of,11,F2,E1,F2 -> E1
+8,2,10,False,True,integers on,integers,85,D6,E2,D6 -> C5 -> B5 -> A4 -> B4 -> C4 -> D3 -> E2,on,12,F2,G1,F2 -> G1
+8,2,9,False,True,integers a,integers,85,D6,E2,D6 -> C5 -> B5 -> A4 -> B4 -> C4 -> D3 -> E2,a,39,F3,F3,F3
+8,2,11,False,True,integer then,integer,86,D6,C2,D6 -> C5 -> B5 -> C4 -> B4 -> B3 -> C2,then,30,C3,A3,C3 -> B2 -> A2 -> A3
+8,2,10,False,True,integer the,integer,86,D6,C2,D6 -> C5 -> B5 -> C4 -> B4 -> B3 -> C2,the,29,C3,A2,C3 -> B2 -> A2
+8,2,9,True,True,integer is,integer,86,D6,C2,D6 -> C5 -> B5 -> C4 -> B4 -> B3 -> C2,is,0,D1,E2,D1 -> E2
+10,2,5,False,True,in end,in,88,D6,D5,D6 -> D5,end,53,C4,D4,C4 -> C5 -> D4
+7,2,4,False,False,in up,in,88,D6,D5,D6 -> D5,up,80,C6,D7,C6 -> D7
+5,2,3,False,False,in a,in,88,D6,D5,D6 -> D5,a,55,E4,E4,E4
+8,2,10,False,True,in hundreds,in,90,D6,C7,D6 -> C7,hundreds,77,B6,B1,B6 -> C6 -> C5 -> D4 -> D3 -> D2 -> C1 -> B1
+8,2,10,False,True,in hundreds,in,90,D6,C7,D6 -> C7,hundreds,79,B6,B1,B6 -> C6 -> D5 -> D4 -> D3 -> D2 -> C1 -> B1
+8,2,9,True,True,in hundred,in,90,D6,C7,D6 -> C7,hundred,76,B6,C1,B6 -> C6 -> C5 -> D4 -> D3 -> D2 -> C1
+8,2,9,True,True,in hundred,in,90,D6,C7,D6 -> C7,hundred,78,B6,C1,B6 -> C6 -> D5 -> D4 -> D3 -> D2 -> C1
+7,2,4,False,False,in up,in,90,D6,C7,D6 -> C7,up,80,C6,D7,C6 -> D7
+17,2,9,False,True,nine three,nine,91,E6,C4,E6 -> D6 -> C5 -> C4,three,28,C3,B3,C3 -> B2 -> A1 -> A2 -> B3
+17,2,9,False,True,nine three,nine,91,E6,C4,E6 -> D6 -> C5 -> C4,three,31,C3,A2,C3 -> B2 -> C2 -> B3 -> A2
+17,2,9,False,True,nine three,nine,91,E6,C4,E6 -> D6 -> C5 -> C4,three,32,C3,A4,C3 -> B2 -> C2 -> B3 -> A4
+17,2,7,False,True,nine ten,nine,91,E6,C4,E6 -> D6 -> C5 -> C4,ten,36,C3,A3,C3 -> B3 -> A3
+17,2,7,False,True,nine ten,nine,91,E6,C4,E6 -> D6 -> C5 -> C4,ten,61,B5,A3,B5 -> A4 -> A3
+12,2,7,True,True,nine get,nine,91,E6,C4,E6 -> D6 -> C5 -> C4,get,49,B4,C3,B4 -> B3 -> C3
+12,2,7,True,True,nine get,nine,91,E6,C4,E6 -> D6 -> C5 -> C4,get,50,B4,B5,B4 -> A4 -> B5
+8,2,8,False,True,nine then,nine,91,E6,C4,E6 -> D6 -> C5 -> C4,then,30,C3,A3,C3 -> B2 -> A2 -> A3
+8,2,8,False,True,nine then,nine,91,E6,C4,E6 -> D6 -> C5 -> C4,then,35,C3,A3,C3 -> B2 -> B3 -> A3
+8,2,7,False,True,nine the,nine,91,E6,C4,E6 -> D6 -> C5 -> C4,the,29,C3,A2,C3 -> B2 -> A2
+8,2,7,False,True,nine the,nine,91,E6,C4,E6 -> D6 -> C5 -> C4,the,34,C3,B3,C3 -> B2 -> B3
+8,2,6,False,True,nine to,nine,91,E6,C4,E6 -> D6 -> C5 -> C4,to,64,B5,A6,B5 -> A6
+12,2,11,True,True,nineteen get,nineteen,92,E6,A3,E6 -> D6 -> C5 -> C4 -> C3 -> B3 -> A2 -> A3,get,50,B4,B5,B4 -> A4 -> B5
+17,2,9,False,True,nine three,nine,95,E6,C4,E6 -> D6 -> D5 -> C4,three,28,C3,B3,C3 -> B2 -> A1 -> A2 -> B3
+17,2,9,False,True,nine three,nine,95,E6,C4,E6 -> D6 -> D5 -> C4,three,31,C3,A2,C3 -> B2 -> C2 -> B3 -> A2
+17,2,9,False,True,nine three,nine,95,E6,C4,E6 -> D6 -> D5 -> C4,three,32,C3,A4,C3 -> B2 -> C2 -> B3 -> A4
+17,2,7,False,True,nine ten,nine,95,E6,C4,E6 -> D6 -> D5 -> C4,ten,36,C3,A3,C3 -> B3 -> A3
+17,2,7,False,True,nine ten,nine,95,E6,C4,E6 -> D6 -> D5 -> C4,ten,61,B5,A3,B5 -> A4 -> A3
+12,2,7,True,True,nine get,nine,95,E6,C4,E6 -> D6 -> D5 -> C4,get,49,B4,C3,B4 -> B3 -> C3
+12,2,7,True,True,nine get,nine,95,E6,C4,E6 -> D6 -> D5 -> C4,get,50,B4,B5,B4 -> A4 -> B5
+8,2,8,False,True,nine then,nine,95,E6,C4,E6 -> D6 -> D5 -> C4,then,30,C3,A3,C3 -> B2 -> A2 -> A3
+8,2,8,False,True,nine then,nine,95,E6,C4,E6 -> D6 -> D5 -> C4,then,35,C3,A3,C3 -> B2 -> B3 -> A3
+8,2,7,False,True,nine the,nine,95,E6,C4,E6 -> D6 -> D5 -> C4,the,29,C3,A2,C3 -> B2 -> A2
+8,2,7,False,True,nine the,nine,95,E6,C4,E6 -> D6 -> D5 -> C4,the,34,C3,B3,C3 -> B2 -> B3
+8,2,6,False,True,nine to,nine,95,E6,C4,E6 -> D6 -> D5 -> C4,to,64,B5,A6,B5 -> A6
+12,2,11,True,True,nineteen get,nineteen,96,E6,A3,E6 -> D6 -> D5 -> C4 -> C3 -> B3 -> A2 -> A3,get,50,B4,B5,B4 -> A4 -> B5
+11,2,11,False,True,the decimals,the,99,G6,I7,G6 -> H6 -> I7,decimals,122,H7,A11,H7 -> G8 -> F9 -> E10 -> D10 -> C10 -> B10 -> A11
+11,2,10,False,True,the decimal,the,99,G6,I7,G6 -> H6 -> I7,decimal,121,H7,B10,H7 -> G8 -> F9 -> E10 -> D10 -> C10 -> B10
+11,2,10,False,True,the decimal,the,99,G6,I7,G6 -> H6 -> I7,decimal,123,H7,D11,H7 -> G8 -> F9 -> E10 -> D10 -> C10 -> D11
+3,2,6,False,False,the and,the,99,G6,I7,G6 -> H6 -> I7,and,103,I6,K5,I6 -> J6 -> K5
+3,2,5,False,False,the an,the,99,G6,I7,G6 -> H6 -> I7,an,102,I6,J6,I6 -> J6
+3,2,4,False,False,the a,the,99,G6,I7,G6 -> H6 -> I7,a,101,I6,I6,I6
+3,2,7,False,False,then and,then,100,G6,J6,G6 -> H6 -> I7 -> J6,and,106,K6,K5,K6 -> L5 -> K5
+3,2,6,False,False,then an,then,100,G6,J6,G6 -> H6 -> I7 -> J6,an,105,K6,L5,K6 -> L5
+3,2,6,False,False,then at,then,100,G6,J6,G6 -> H6 -> I7 -> J6,at,109,K6,L7,K6 -> L7
+3,2,5,False,False,then a,then,100,G6,J6,G6 -> H6 -> I7 -> J6,a,101,I6,I6,I6
+3,2,5,False,False,then a,then,100,G6,J6,G6 -> H6 -> I7 -> J6,a,104,K6,K6,K6
+11,2,9,False,True,a decimals,a,101,I6,I6,I6,decimals,122,H7,A11,H7 -> G8 -> F9 -> E10 -> D10 -> C10 -> B10 -> A11
+11,2,8,False,True,a decimal,a,101,I6,I6,I6,decimal,121,H7,B10,H7 -> G8 -> F9 -> E10 -> D10 -> C10 -> B10
+11,2,8,False,True,a decimal,a,101,I6,I6,I6,decimal,123,H7,D11,H7 -> G8 -> F9 -> E10 -> D10 -> C10 -> D11
+11,2,4,False,True,a end,a,101,I6,I6,I6,end,124,I7,K5,I7 -> J6 -> K5
+3,2,3,False,False,a in,a,101,I6,I6,I6,in,73,J5,J6,J5 -> J6
+3,2,5,False,False,an and,an,102,I6,J6,I6 -> J6,and,106,K6,K5,K6 -> L5 -> K5
+3,2,4,False,False,an an,an,102,I6,J6,I6 -> J6,an,105,K6,L5,K6 -> L5
+3,2,4,False,False,an at,an,102,I6,J6,I6 -> J6,at,109,K6,L7,K6 -> L7
+3,2,3,False,False,an a,an,102,I6,J6,I6 -> J6,a,104,K6,K6,K6
+3,2,5,False,False,and an,and,103,I6,K5,I6 -> J6 -> K5,an,105,K6,L5,K6 -> L5
+3,2,5,False,False,and at,and,103,I6,K5,I6 -> J6 -> K5,at,109,K6,L7,K6 -> L7
+3,2,4,False,False,and a,and,103,I6,K5,I6 -> J6 -> K5,a,58,J4,J4,J4
+3,2,4,False,False,and a,and,103,I6,K5,I6 -> J6 -> K5,a,104,K6,K6,K6
+3,2,4,False,False,a the,a,104,K6,K6,K6,the,125,L7,K8,L7 -> L8 -> K8
+3,2,3,False,False,a in,a,104,K6,K6,K6,in,73,J5,J6,J5 -> J6
+11,2,5,False,True,an end,an,105,K6,L5,K6 -> L5,end,59,K4,K5,K4 -> L4 -> K5
+11,2,5,False,True,an end,an,105,K6,L5,K6 -> L5,end,74,M5,K5,M5 -> L4 -> K5
+3,2,5,False,False,and in,and,106,K6,K5,K6 -> L5 -> K5,in,73,J5,J6,J5 -> J6
+3,2,4,False,False,and a,and,106,K6,K5,K6 -> L5 -> K5,a,58,J4,J4,J4
+3,2,3,False,False,an a,an,107,K6,J6,K6 -> J6,a,101,I6,I6,I6
+3,2,4,False,False,and a,and,108,K6,K5,K6 -> J6 -> K5,a,58,J4,J4,J4
+5,2,5,False,False,at the,at,109,K6,L7,K6 -> L7,the,126,M7,K8,M7 -> L8 -> K8
+11,2,9,False,True,a hundreds,a,110,A7,A7,A7,hundreds,77,B6,B1,B6 -> C6 -> C5 -> D4 -> D3 -> D2 -> C1 -> B1
+11,2,9,False,True,a hundreds,a,110,A7,A7,A7,hundreds,79,B6,B1,B6 -> C6 -> D5 -> D4 -> D3 -> D2 -> C1 -> B1
+11,2,8,True,True,a hundred,a,110,A7,A7,A7,hundred,76,B6,C1,B6 -> C6 -> C5 -> D4 -> D3 -> D2 -> C1
+11,2,8,True,True,a hundred,a,110,A7,A7,A7,hundred,78,B6,C1,B6 -> C6 -> D5 -> D4 -> D3 -> D2 -> C1
+17,2,9,False,True,nine three,nine,111,C7,C4,C7 -> D6 -> C5 -> C4,three,28,C3,B3,C3 -> B2 -> A1 -> A2 -> B3
+17,2,9,False,True,nine three,nine,111,C7,C4,C7 -> D6 -> C5 -> C4,three,31,C3,A2,C3 -> B2 -> C2 -> B3 -> A2
+17,2,9,False,True,nine three,nine,111,C7,C4,C7 -> D6 -> C5 -> C4,three,32,C3,A4,C3 -> B2 -> C2 -> B3 -> A4
+17,2,7,False,True,nine ten,nine,111,C7,C4,C7 -> D6 -> C5 -> C4,ten,36,C3,A3,C3 -> B3 -> A3
+17,2,7,False,True,nine ten,nine,111,C7,C4,C7 -> D6 -> C5 -> C4,ten,61,B5,A3,B5 -> A4 -> A3
+12,2,7,True,True,nine get,nine,111,C7,C4,C7 -> D6 -> C5 -> C4,get,49,B4,C3,B4 -> B3 -> C3
+12,2,7,True,True,nine get,nine,111,C7,C4,C7 -> D6 -> C5 -> C4,get,50,B4,B5,B4 -> A4 -> B5
+8,2,8,False,True,nine then,nine,111,C7,C4,C7 -> D6 -> C5 -> C4,then,30,C3,A3,C3 -> B2 -> A2 -> A3
+8,2,8,False,True,nine then,nine,111,C7,C4,C7 -> D6 -> C5 -> C4,then,35,C3,A3,C3 -> B2 -> B3 -> A3
+8,2,7,False,True,nine the,nine,111,C7,C4,C7 -> D6 -> C5 -> C4,the,29,C3,A2,C3 -> B2 -> A2
+8,2,7,False,True,nine the,nine,111,C7,C4,C7 -> D6 -> C5 -> C4,the,34,C3,B3,C3 -> B2 -> B3
+8,2,6,False,True,nine to,nine,111,C7,C4,C7 -> D6 -> C5 -> C4,to,64,B5,A6,B5 -> A6
+12,2,11,True,True,nineteen get,nineteen,112,C7,A3,C7 -> D6 -> C5 -> C4 -> C3 -> B3 -> A2 -> A3,get,50,B4,B5,B4 -> A4 -> B5
+17,2,9,False,True,nine three,nine,115,C7,C4,C7 -> D6 -> D5 -> C4,three,28,C3,B3,C3 -> B2 -> A1 -> A2 -> B3
+17,2,9,False,True,nine three,nine,115,C7,C4,C7 -> D6 -> D5 -> C4,three,31,C3,A2,C3 -> B2 -> C2 -> B3 -> A2
+17,2,9,False,True,nine three,nine,115,C7,C4,C7 -> D6 -> D5 -> C4,three,32,C3,A4,C3 -> B2 -> C2 -> B3 -> A4
+17,2,7,False,True,nine ten,nine,115,C7,C4,C7 -> D6 -> D5 -> C4,ten,36,C3,A3,C3 -> B3 -> A3
+17,2,7,False,True,nine ten,nine,115,C7,C4,C7 -> D6 -> D5 -> C4,ten,61,B5,A3,B5 -> A4 -> A3
+12,2,7,True,True,nine get,nine,115,C7,C4,C7 -> D6 -> D5 -> C4,get,49,B4,C3,B4 -> B3 -> C3
+12,2,7,True,True,nine get,nine,115,C7,C4,C7 -> D6 -> D5 -> C4,get,50,B4,B5,B4 -> A4 -> B5
+8,2,8,False,True,nine then,nine,115,C7,C4,C7 -> D6 -> D5 -> C4,then,30,C3,A3,C3 -> B2 -> A2 -> A3
+8,2,8,False,True,nine then,nine,115,C7,C4,C7 -> D6 -> D5 -> C4,then,35,C3,A3,C3 -> B2 -> B3 -> A3
+8,2,7,False,True,nine the,nine,115,C7,C4,C7 -> D6 -> D5 -> C4,the,29,C3,A2,C3 -> B2 -> A2
+8,2,7,False,True,nine the,nine,115,C7,C4,C7 -> D6 -> D5 -> C4,the,34,C3,B3,C3 -> B2 -> B3
+8,2,6,False,True,nine to,nine,115,C7,C4,C7 -> D6 -> D5 -> C4,to,64,B5,A6,B5 -> A6
+12,2,11,True,True,nineteen get,nineteen,116,C7,A3,C7 -> D6 -> D5 -> C4 -> C3 -> B3 -> A2 -> A3,get,50,B4,B5,B4 -> A4 -> B5
+16,2,9,True,True,find three,find,119,E7,D4,E7 -> D6 -> C5 -> D4,three,28,C3,B3,C3 -> B2 -> A1 -> A2 -> B3
+16,2,9,True,True,find three,find,119,E7,D4,E7 -> D6 -> C5 -> D4,three,31,C3,A2,C3 -> B2 -> C2 -> B3 -> A2
+16,2,9,True,True,find three,find,119,E7,D4,E7 -> D6 -> C5 -> D4,three,32,C3,A4,C3 -> B2 -> C2 -> B3 -> A4
+16,2,9,True,True,find three,find,119,E7,D4,E7 -> D6 -> C5 -> D4,three,33,C3,C4,C3 -> B2 -> C2 -> B3 -> C4
+16,2,7,True,True,find ten,find,119,E7,D4,E7 -> D6 -> C5 -> D4,ten,36,C3,A3,C3 -> B3 -> A3
+16,2,7,True,True,find ten,find,119,E7,D4,E7 -> D6 -> C5 -> D4,ten,38,C3,D5,C3 -> C4 -> D5
+15,2,7,True,False,find the,find,119,E7,D4,E7 -> D6 -> C5 -> D4,the,29,C3,A2,C3 -> B2 -> A2
+15,2,7,True,False,find the,find,119,E7,D4,E7 -> D6 -> C5 -> D4,the,34,C3,B3,C3 -> B2 -> B3
+15,2,6,True,False,find an,find,119,E7,D4,E7 -> D6 -> C5 -> D4,an,56,E4,D5,E4 -> D5
+15,2,5,True,False,find a,find,119,E7,D4,E7 -> D6 -> C5 -> D4,a,55,E4,E4,E4
+11,2,8,True,False,find then,find,119,E7,D4,E7 -> D6 -> C5 -> D4,then,30,C3,A3,C3 -> B2 -> A2 -> A3
+11,2,8,True,False,find then,find,119,E7,D4,E7 -> D6 -> C5 -> D4,then,35,C3,A3,C3 -> B2 -> B3 -> A3
+16,2,9,True,True,find three,find,120,E7,D4,E7 -> D6 -> D5 -> D4,three,28,C3,B3,C3 -> B2 -> A1 -> A2 -> B3
+16,2,9,True,True,find three,find,120,E7,D4,E7 -> D6 -> D5 -> D4,three,31,C3,A2,C3 -> B2 -> C2 -> B3 -> A2
+16,2,9,True,True,find three,find,120,E7,D4,E7 -> D6 -> D5 -> D4,three,32,C3,A4,C3 -> B2 -> C2 -> B3 -> A4
+16,2,9,True,True,find three,find,120,E7,D4,E7 -> D6 -> D5 -> D4,three,33,C3,C4,C3 -> B2 -> C2 -> B3 -> C4
+16,2,7,True,True,find ten,find,120,E7,D4,E7 -> D6 -> D5 -> D4,ten,36,C3,A3,C3 -> B3 -> A3
+16,2,7,True,True,find ten,find,120,E7,D4,E7 -> D6 -> D5 -> D4,ten,37,C3,C5,C3 -> C4 -> C5
+15,2,7,True,False,find the,find,120,E7,D4,E7 -> D6 -> D5 -> D4,the,29,C3,A2,C3 -> B2 -> A2
+15,2,7,True,False,find the,find,120,E7,D4,E7 -> D6 -> D5 -> D4,the,34,C3,B3,C3 -> B2 -> B3
+15,2,5,True,False,find a,find,120,E7,D4,E7 -> D6 -> D5 -> D4,a,55,E4,E4,E4
+11,2,8,True,False,find then,find,120,E7,D4,E7 -> D6 -> D5 -> D4,then,30,C3,A3,C3 -> B2 -> A2 -> A3
+11,2,8,True,False,find then,find,120,E7,D4,E7 -> D6 -> D5 -> D4,then,35,C3,A3,C3 -> B2 -> B3 -> A3
+8,2,9,False,True,decimal it,decimal,121,H7,B10,H7 -> G8 -> F9 -> E10 -> D10 -> C10 -> B10,it,128,B9,C9,B9 -> C9
+8,2,9,False,True,decimal it,decimal,121,H7,B10,H7 -> G8 -> F9 -> E10 -> D10 -> C10 -> B10,it,129,B9,A10,B9 -> A10
+8,2,9,False,True,decimal at,decimal,121,H7,B10,H7 -> G8 -> F9 -> E10 -> D10 -> C10 -> B10,at,153,B11,A10,B11 -> A10
+8,2,9,False,True,decimal an,decimal,121,H7,B10,H7 -> G8 -> F9 -> E10 -> D10 -> C10 -> B10,an,154,B11,A12,B11 -> A12
+8,2,9,False,True,decimal at,decimal,121,H7,B10,H7 -> G8 -> F9 -> E10 -> D10 -> C10 -> B10,at,155,B11,C12,B11 -> C12
+8,2,9,True,True,decimal is,decimal,121,H7,B10,H7 -> G8 -> F9 -> E10 -> D10 -> C10 -> B10,is,156,C11,B12,C11 -> B12
+8,2,9,False,True,decimal it,decimal,121,H7,B10,H7 -> G8 -> F9 -> E10 -> D10 -> C10 -> B10,it,157,C11,C12,C11 -> C12
+8,2,8,False,True,decimal a,decimal,121,H7,B10,H7 -> G8 -> F9 -> E10 -> D10 -> C10 -> B10,a,152,B11,B11,B11
+8,2,10,False,True,decimals at,decimals,122,H7,A11,H7 -> G8 -> F9 -> E10 -> D10 -> C10 -> B10 -> A11,at,153,B11,A10,B11 -> A10
+8,2,10,False,True,decimals an,decimals,122,H7,A11,H7 -> G8 -> F9 -> E10 -> D10 -> C10 -> B10 -> A11,an,154,B11,A12,B11 -> A12
+8,2,10,False,True,decimals at,decimals,122,H7,A11,H7 -> G8 -> F9 -> E10 -> D10 -> C10 -> B10 -> A11,at,155,B11,C12,B11 -> C12
+8,2,9,False,True,decimals a,decimals,122,H7,A11,H7 -> G8 -> F9 -> E10 -> D10 -> C10 -> B10 -> A11,a,152,B11,B11,B11
+13,2,10,False,True,decimal ten,decimal,123,H7,D11,H7 -> G8 -> F9 -> E10 -> D10 -> C10 -> D11,ten,173,C12,A12,C12 -> B13 -> A12
+13,2,10,False,True,decimal ten,decimal,123,H7,D11,H7 -> G8 -> F9 -> E10 -> D10 -> C10 -> D11,ten,174,C12,C14,C12 -> B13 -> C14
+8,2,9,True,True,decimal is,decimal,123,H7,D11,H7 -> G8 -> F9 -> E10 -> D10 -> C10 -> D11,is,156,C11,B12,C11 -> B12
+8,2,9,False,True,decimal it,decimal,123,H7,D11,H7 -> G8 -> F9 -> E10 -> D10 -> C10 -> D11,it,157,C11,C12,C11 -> C12
+8,2,9,False,True,decimal to,decimal,123,H7,D11,H7 -> G8 -> F9 -> E10 -> D10 -> C10 -> D11,to,172,C12,D12,C12 -> D12
+8,2,9,False,True,decimal on,decimal,123,H7,D11,H7 -> G8 -> F9 -> E10 -> D10 -> C10 -> D11,on,175,D12,E11,D12 -> E11
+8,2,9,False,True,decimal or,decimal,123,H7,D11,H7 -> G8 -> F9 -> E10 -> D10 -> C10 -> D11,or,176,D12,E13,D12 -> E13
+8,2,9,False,True,decimal an,decimal,123,H7,D11,H7 -> G8 -> F9 -> E10 -> D10 -> C10 -> D11,an,178,E12,E11,E12 -> E11
+8,2,8,False,True,decimal a,decimal,123,H7,D11,H7 -> G8 -> F9 -> E10 -> D10 -> C10 -> D11,a,177,E12,E12,E12
+8,2,5,False,True,end an,end,124,I7,K5,I7 -> J6 -> K5,an,105,K6,L5,K6 -> L5
+8,2,5,False,True,end at,end,124,I7,K5,I7 -> J6 -> K5,at,109,K6,L7,K6 -> L7
+8,2,4,False,True,end a,end,124,I7,K5,I7 -> J6 -> K5,a,58,J4,J4,J4
+8,2,4,False,True,end a,end,124,I7,K5,I7 -> J6 -> K5,a,104,K6,K6,K6
+7,2,6,True,False,the get,the,125,L7,K8,L7 -> L8 -> K8,get,134,L9,J10,L9 -> K10 -> J10
+7,2,6,True,False,the get,the,125,L7,K8,L7 -> L8 -> K8,get,135,L9,M9,L9 -> M10 -> M9
+7,2,6,True,False,the get,the,125,L7,K8,L7 -> L8 -> K8,get,136,L9,N10,L9 -> M10 -> N10
+3,2,5,False,False,the it,the,125,L7,K8,L7 -> L8 -> K8,it,132,J9,J10,J9 -> J10
+7,2,6,True,False,the get,the,126,M7,K8,M7 -> L8 -> K8,get,134,L9,J10,L9 -> K10 -> J10
+7,2,6,True,False,the get,the,126,M7,K8,M7 -> L8 -> K8,get,135,L9,M9,L9 -> M10 -> M9
+7,2,6,True,False,the get,the,126,M7,K8,M7 -> L8 -> K8,get,136,L9,N10,L9 -> M10 -> N10
+3,2,5,False,False,the it,the,126,M7,K8,M7 -> L8 -> K8,it,132,J9,J10,J9 -> J10
+7,2,5,True,False,a find,a,127,E8,E8,E8,find,119,E7,D4,E7 -> D6 -> C5 -> D4
+7,2,5,True,False,a find,a,127,E8,E8,E8,find,120,E7,D4,E7 -> D6 -> D5 -> D4
+3,2,3,False,False,it a,it,128,B9,C9,B9 -> C9,a,139,C10,C10,C10
+3,2,4,False,False,it an,it,129,B9,A10,B9 -> A10,an,154,B11,A12,B11 -> A12
+3,2,4,False,False,it at,it,129,B9,A10,B9 -> A10,at,155,B11,C12,B11 -> C12
+3,2,3,False,False,it a,it,129,B9,A10,B9 -> A10,a,152,B11,B11,B11
+8,2,8,False,True,it ninety,it,130,H9,H10,H9 -> H10,ninety,164,I11,F13,I11 -> I12 -> H12 -> G13 -> F14 -> F13
+8,2,8,False,True,it ninety,it,130,H9,H10,H9 -> H10,ninety,165,I11,G14,I11 -> I12 -> H12 -> G13 -> F14 -> G14
+8,2,6,False,True,it nine,it,130,H9,H10,H9 -> H10,nine,163,I11,G13,I11 -> I12 -> H12 -> G13
+8,2,6,False,True,it nine,it,130,H9,H10,H9 -> H10,nine,166,I11,H13,I11 -> I12 -> H12 -> H13
+7,2,4,True,False,it go,it,130,H9,H10,H9 -> H10,go,131,I9,I10,I9 -> I10
+3,2,4,False,False,it on,it,130,H9,H10,H9 -> H10,on,143,I10,I11,I10 -> I11
+3,2,4,False,False,it it,it,130,H9,H10,H9 -> H10,it,160,G11,H11,G11 -> H11
+3,2,4,False,False,it in,it,130,H9,H10,H9 -> H10,in,161,G11,H12,G11 -> H12
+3,2,4,False,False,it to,it,130,H9,H10,H9 -> H10,to,162,H11,I10,H11 -> I10
+16,2,9,True,True,go integer,go,131,I9,I10,I9 -> I10,integer,169,J11,M12,J11 -> I11 -> J10 -> K10 -> L10 -> M11 -> M12
+16,2,8,True,True,go ninety,go,131,I9,I10,I9 -> I10,ninety,164,I11,F13,I11 -> I12 -> H12 -> G13 -> F14 -> F13
+16,2,8,True,True,go ninety,go,131,I9,I10,I9 -> I10,ninety,165,I11,G14,I11 -> I12 -> H12 -> G13 -> F14 -> G14
+16,2,6,True,True,go nine,go,131,I9,I10,I9 -> I10,nine,163,I11,G13,I11 -> I12 -> H12 -> G13
+16,2,6,True,True,go nine,go,131,I9,I10,I9 -> I10,nine,166,I11,H13,I11 -> I12 -> H12 -> H13
+11,2,4,True,False,go it,go,131,I9,I10,I9 -> I10,it,130,H9,H10,H9 -> H10
+11,2,4,True,False,go it,go,131,I9,I10,I9 -> I10,it,132,J9,J10,J9 -> J10
+11,2,4,True,False,go it,go,131,I9,I10,I9 -> I10,it,167,J11,J10,J11 -> J10
+11,2,4,True,False,go in,go,131,I9,I10,I9 -> I10,in,168,J11,I11,J11 -> I11
+8,2,8,False,True,it ninety,it,132,J9,J10,J9 -> J10,ninety,164,I11,F13,I11 -> I12 -> H12 -> G13 -> F14 -> F13
+8,2,8,False,True,it ninety,it,132,J9,J10,J9 -> J10,ninety,165,I11,G14,I11 -> I12 -> H12 -> G13 -> F14 -> G14
+8,2,6,False,True,it nine,it,132,J9,J10,J9 -> J10,nine,163,I11,G13,I11 -> I12 -> H12 -> G13
+8,2,6,False,True,it nine,it,132,J9,J10,J9 -> J10,nine,166,I11,H13,I11 -> I12 -> H12 -> H13
+7,2,4,True,False,it go,it,132,J9,J10,J9 -> J10,go,131,I9,I10,I9 -> I10
+3,2,4,False,False,it on,it,132,J9,J10,J9 -> J10,on,143,I10,I11,I10 -> I11
+3,2,4,False,False,it in,it,132,J9,J10,J9 -> J10,in,168,J11,I11,J11 -> I11
+3,2,3,False,False,it a,it,132,J9,J10,J9 -> J10,a,170,K11,K11,K11
+15,2,5,True,False,get an,get,133,L9,L7,L9 -> K8 -> L7,an,105,K6,L5,K6 -> L5
+15,2,5,True,False,get an,get,133,L9,L7,L9 -> K8 -> L7,an,107,K6,J6,K6 -> J6
+15,2,4,True,False,get a,get,133,L9,L7,L9 -> K8 -> L7,a,104,K6,K6,K6
+11,2,6,True,False,get and,get,133,L9,L7,L9 -> K8 -> L7,and,106,K6,K5,K6 -> L5 -> K5
+11,2,6,True,False,get and,get,133,L9,L7,L9 -> K8 -> L7,and,108,K6,K5,K6 -> J6 -> K5
+16,2,9,True,True,get ninety,get,134,L9,J10,L9 -> K10 -> J10,ninety,164,I11,F13,I11 -> I12 -> H12 -> G13 -> F14 -> F13
+16,2,9,True,True,get ninety,get,134,L9,J10,L9 -> K10 -> J10,ninety,165,I11,G14,I11 -> I12 -> H12 -> G13 -> F14 -> G14
+16,2,7,True,True,get nine,get,134,L9,J10,L9 -> K10 -> J10,nine,163,I11,G13,I11 -> I12 -> H12 -> G13
+16,2,7,True,True,get nine,get,134,L9,J10,L9 -> K10 -> J10,nine,166,I11,H13,I11 -> I12 -> H12 -> H13
+15,2,5,True,False,get go,get,134,L9,J10,L9 -> K10 -> J10,go,131,I9,I10,I9 -> I10
+15,2,4,True,False,get a,get,134,L9,J10,L9 -> K10 -> J10,a,170,K11,K11,K11
+11,2,5,True,False,get on,get,134,L9,J10,L9 -> K10 -> J10,on,143,I10,I11,I10 -> I11
+11,2,5,True,False,get in,get,134,L9,J10,L9 -> K10 -> J10,in,168,J11,I11,J11 -> I11
+16,2,6,True,True,get ten,get,135,L9,M9,L9 -> M10 -> M9,ten,151,N10,N11,N10 -> M11 -> N11
+15,2,6,True,False,get get,get,135,L9,M9,L9 -> M10 -> M9,get,145,L10,J10,L10 -> K10 -> J10
+15,2,6,True,False,get get,get,135,L9,M9,L9 -> M10 -> M9,get,148,L10,N10,L10 -> M11 -> N10
+15,2,6,True,False,get get,get,135,L9,M9,L9 -> M10 -> M9,get,149,L10,N12,L10 -> M11 -> N12
+15,2,6,True,False,get the,get,136,L9,N10,L9 -> M10 -> N10,the,137,M9,K8,M9 -> L8 -> K8
+7,2,6,True,False,the get,the,137,M9,K8,M9 -> L8 -> K8,get,134,L9,J10,L9 -> K10 -> J10
+7,2,6,True,False,the get,the,137,M9,K8,M9 -> L8 -> K8,get,136,L9,N10,L9 -> M10 -> N10
+3,2,5,False,False,the it,the,137,M9,K8,M9 -> L8 -> K8,it,132,J9,J10,J9 -> J10
+3,2,3,False,False,a it,a,139,C10,C10,C10,it,128,B9,C9,B9 -> C9
+3,2,3,False,False,a it,a,139,C10,C10,C10,it,129,B9,A10,B9 -> A10
+3,2,3,False,False,a at,a,139,C10,C10,C10,at,153,B11,A10,B11 -> A10
+3,2,3,False,False,a an,a,139,C10,C10,C10,an,154,B11,A12,B11 -> A12
+3,2,3,False,False,a at,a,139,C10,C10,C10,at,155,B11,C12,B11 -> C12
+3,2,3,True,False,a is,a,139,C10,C10,C10,is,156,C11,B12,C11 -> B12
+3,2,3,False,False,a it,a,139,C10,C10,C10,it,157,C11,C12,C11 -> C12
+3,2,2,False,False,a a,a,139,C10,C10,C10,a,152,B11,B11,B11
+3,2,4,False,False,at it,at,140,C10,C9,C10 -> C9,it,129,B9,A10,B9 -> A10
+7,2,5,True,False,in get,in,141,E10,E11,E10 -> E11,get,179,F12,F14,F12 -> G13 -> F14
+5,2,3,False,False,in a,in,141,E10,E11,E10 -> E11,a,177,E12,E12,E12
+3,2,4,False,False,in or,in,141,E10,E11,E10 -> E11,or,176,D12,E13,D12 -> E13
+10,2,8,False,True,to ninety,to,142,H10,I10,H10 -> I10,ninety,164,I11,F13,I11 -> I12 -> H12 -> G13 -> F14 -> F13
+10,2,8,False,True,to ninety,to,142,H10,I10,H10 -> I10,ninety,165,I11,G14,I11 -> I12 -> H12 -> G13 -> F14 -> G14
+10,2,6,False,True,to nine,to,142,H10,I10,H10 -> I10,nine,163,I11,G13,I11 -> I12 -> H12 -> G13
+10,2,6,False,True,to nine,to,142,H10,I10,H10 -> I10,nine,166,I11,H13,I11 -> I12 -> H12 -> H13
+8,2,9,False,True,to integer,to,142,H10,I10,H10 -> I10,integer,169,J11,M12,J11 -> I11 -> J10 -> K10 -> L10 -> M11 -> M12
+3,2,4,False,False,to it,to,142,H10,I10,H10 -> I10,it,132,J9,J10,J9 -> J10
+3,2,4,False,False,to it,to,142,H10,I10,H10 -> I10,it,167,J11,J10,J11 -> J10
+3,2,4,False,False,to in,to,142,H10,I10,H10 -> I10,in,168,J11,I11,J11 -> I11
+3,2,4,False,False,on it,on,143,I10,I11,I10 -> I11,it,167,J11,J10,J11 -> J10
+3,2,4,False,False,on it,on,143,I10,I11,I10 -> I11,it,180,I12,H11,I12 -> H11
+3,2,4,False,False,on in,on,143,I10,I11,I10 -> I11,in,183,I12,H12,I12 -> H12
+3,2,4,True,False,on is,on,143,I10,I11,I10 -> I11,is,184,I12,I13,I12 -> I13
+3,2,4,True,False,on is,on,143,I10,I11,I10 -> I11,is,187,J12,I13,J12 -> I13
+10,2,8,False,True,to ninety,to,144,J10,I10,J10 -> I10,ninety,164,I11,F13,I11 -> I12 -> H12 -> G13 -> F14 -> F13
+10,2,8,False,True,to ninety,to,144,J10,I10,J10 -> I10,ninety,165,I11,G14,I11 -> I12 -> H12 -> G13 -> F14 -> G14
+10,2,6,False,True,to nine,to,144,J10,I10,J10 -> I10,nine,163,I11,G13,I11 -> I12 -> H12 -> G13
+10,2,6,False,True,to nine,to,144,J10,I10,J10 -> I10,nine,166,I11,H13,I11 -> I12 -> H12 -> H13
+3,2,4,False,False,to it,to,144,J10,I10,J10 -> I10,it,130,H9,H10,H9 -> H10
+3,2,4,False,False,to in,to,144,J10,I10,J10 -> I10,in,168,J11,I11,J11 -> I11
+16,2,9,True,True,get ninety,get,145,L10,J10,L10 -> K10 -> J10,ninety,164,I11,F13,I11 -> I12 -> H12 -> G13 -> F14 -> F13
+16,2,9,True,True,get ninety,get,145,L10,J10,L10 -> K10 -> J10,ninety,165,I11,G14,I11 -> I12 -> H12 -> G13 -> F14 -> G14
+16,2,7,True,True,get nine,get,145,L10,J10,L10 -> K10 -> J10,nine,163,I11,G13,I11 -> I12 -> H12 -> G13
+16,2,7,True,True,get nine,get,145,L10,J10,L10 -> K10 -> J10,nine,166,I11,H13,I11 -> I12 -> H12 -> H13
+15,2,5,True,False,get go,get,145,L10,J10,L10 -> K10 -> J10,go,131,I9,I10,I9 -> I10
+15,2,4,True,False,get a,get,145,L10,J10,L10 -> K10 -> J10,a,170,K11,K11,K11
+11,2,5,True,False,get on,get,145,L10,J10,L10 -> K10 -> J10,on,143,I10,I11,I10 -> I11
+11,2,5,True,False,get in,get,145,L10,J10,L10 -> K10 -> J10,in,168,J11,I11,J11 -> I11
+16,2,6,True,True,get ten,get,146,L10,M9,L10 -> M10 -> M9,ten,151,N10,N11,N10 -> M11 -> N11
+15,2,6,True,False,get get,get,146,L10,M9,L10 -> M10 -> M9,get,133,L9,L7,L9 -> K8 -> L7
+15,2,6,True,False,get get,get,146,L10,M9,L10 -> M10 -> M9,get,134,L9,J10,L9 -> K10 -> J10
+15,2,6,True,False,get the,get,147,L10,N10,L10 -> M10 -> N10,the,137,M9,K8,M9 -> L8 -> K8
+16,2,6,True,True,get ten,get,148,L10,N10,L10 -> M11 -> N10,ten,138,M9,N11,M9 -> M10 -> N11
+15,2,6,True,False,get the,get,148,L10,N10,L10 -> M11 -> N10,the,137,M9,K8,M9 -> L8 -> K8
+11,2,4,False,True,a ten,a,152,B11,B11,B11,ten,173,C12,A12,C12 -> B13 -> A12
+11,2,4,False,True,a ten,a,152,B11,B11,B11,ten,174,C12,C14,C12 -> B13 -> C14
+3,2,3,False,False,a at,a,152,B11,B11,B11,at,140,C10,C9,C10 -> C9
+3,2,3,True,False,a is,a,152,B11,B11,B11,is,156,C11,B12,C11 -> B12
+3,2,3,False,False,a it,a,152,B11,B11,B11,it,157,C11,C12,C11 -> C12
+3,2,3,False,False,a to,a,152,B11,B11,B11,to,172,C12,D12,C12 -> D12
+3,2,2,False,False,a a,a,152,B11,B11,B11,a,139,C10,C10,C10
+3,2,4,False,False,at it,at,153,B11,A10,B11 -> A10,it,128,B9,C9,B9 -> C9
+3,2,4,True,False,an is,an,154,B11,A12,B11 -> A12,is,192,A13,B12,A13 -> B12
+3,2,4,False,False,an it,an,154,B11,A12,B11 -> A12,it,193,A13,A14,A13 -> A14
+10,2,5,False,True,at ten,at,155,B11,C12,B11 -> C12,ten,195,C13,A12,C13 -> B13 -> A12
+10,2,5,False,True,at ten,at,155,B11,C12,B11 -> C12,ten,196,C13,C14,C13 -> B13 -> C14
+10,2,5,False,True,at ten,at,155,B11,C12,B11 -> C12,ten,197,C13,C14,C13 -> D14 -> C14
+10,2,5,False,True,at ten,at,155,B11,C12,B11 -> C12,ten,198,C13,E14,C13 -> D14 -> E14
+3,2,4,True,False,at is,at,155,B11,C12,B11 -> C12,is,156,C11,B12,C11 -> B12
+3,2,4,False,False,at on,at,155,B11,C12,B11 -> C12,on,175,D12,E11,D12 -> E11
+3,2,4,False,False,at or,at,155,B11,C12,B11 -> C12,or,176,D12,E13,D12 -> E13
+3,2,4,False,False,at to,at,155,B11,C12,B11 -> C12,to,194,C13,D12,C13 -> D12
+3,2,4,False,False,at it,at,155,B11,C12,B11 -> C12,it,200,D13,C13,D13 -> C13
+3,2,4,False,False,at in,at,155,B11,C12,B11 -> C12,in,201,D13,C14,D13 -> C14
+3,2,4,False,False,at in,at,155,B11,C12,B11 -> C12,in,202,D13,E14,D13 -> E14
+8,2,5,True,True,is ten,is,156,C11,B12,C11 -> B12,ten,173,C12,A12,C12 -> B13 -> A12
+8,2,5,True,True,is ten,is,156,C11,B12,C11 -> B12,ten,174,C12,C14,C12 -> B13 -> C14
+8,2,5,True,True,is ten,is,156,C11,B12,C11 -> B12,ten,195,C13,A12,C13 -> B13 -> A12
+8,2,5,True,True,is ten,is,156,C11,B12,C11 -> B12,ten,196,C13,C14,C13 -> B13 -> C14
+8,2,5,True,True,is ten,is,156,C11,B12,C11 -> B12,ten,197,C13,C14,C13 -> D14 -> C14
+8,2,5,True,True,is ten,is,156,C11,B12,C11 -> B12,ten,198,C13,E14,C13 -> D14 -> E14
+3,2,4,True,False,is at,is,156,C11,B12,C11 -> B12,at,153,B11,A10,B11 -> A10
+3,2,4,True,False,is an,is,156,C11,B12,C11 -> B12,an,154,B11,A12,B11 -> A12
+3,2,4,True,False,is at,is,156,C11,B12,C11 -> B12,at,155,B11,C12,B11 -> C12
+3,2,4,True,False,is to,is,156,C11,B12,C11 -> B12,to,172,C12,D12,C12 -> D12
+3,2,4,True,False,is in,is,156,C11,B12,C11 -> B12,in,191,A13,A12,A13 -> A12
+3,2,4,True,False,is it,is,156,C11,B12,C11 -> B12,it,193,A13,A14,A13 -> A14
+3,2,4,True,False,is to,is,156,C11,B12,C11 -> B12,to,194,C13,D12,C13 -> D12
+3,2,3,True,False,is a,is,156,C11,B12,C11 -> B12,a,152,B11,B11,B11
+8,2,5,False,True,it ten,it,157,C11,C12,C11 -> C12,ten,195,C13,A12,C13 -> B13 -> A12
+8,2,5,False,True,it ten,it,157,C11,C12,C11 -> C12,ten,196,C13,C14,C13 -> B13 -> C14
+8,2,5,False,True,it ten,it,157,C11,C12,C11 -> C12,ten,197,C13,C14,C13 -> D14 -> C14
+8,2,5,False,True,it ten,it,157,C11,C12,C11 -> C12,ten,198,C13,E14,C13 -> D14 -> E14
+3,2,4,False,False,it at,it,157,C11,C12,C11 -> C12,at,153,B11,A10,B11 -> A10
+3,2,4,False,False,it an,it,157,C11,C12,C11 -> C12,an,154,B11,A12,B11 -> A12
+3,2,4,False,False,it on,it,157,C11,C12,C11 -> C12,on,175,D12,E11,D12 -> E11
+3,2,4,False,False,it or,it,157,C11,C12,C11 -> C12,or,176,D12,E13,D12 -> E13
+3,2,4,False,False,it to,it,157,C11,C12,C11 -> C12,to,194,C13,D12,C13 -> D12
+3,2,4,False,False,it it,it,157,C11,C12,C11 -> C12,it,200,D13,C13,D13 -> C13
+3,2,4,False,False,it in,it,157,C11,C12,C11 -> C12,in,201,D13,C14,D13 -> C14
+3,2,4,False,False,it in,it,157,C11,C12,C11 -> C12,in,202,D13,E14,D13 -> E14
+3,2,3,False,False,it a,it,157,C11,C12,C11 -> C12,a,152,B11,B11,B11
+7,2,5,True,False,in get,in,158,F11,E11,F11 -> E11,get,179,F12,F14,F12 -> G13 -> F14
+5,2,3,False,False,in a,in,158,F11,E11,F11 -> E11,a,177,E12,E12,E12
+3,2,4,False,False,in or,in,158,F11,E11,F11 -> E11,or,176,D12,E13,D12 -> E13
+8,2,8,False,True,it ninety,it,159,G11,H10,G11 -> H10,ninety,164,I11,F13,I11 -> I12 -> H12 -> G13 -> F14 -> F13
+8,2,8,False,True,it ninety,it,159,G11,H10,G11 -> H10,ninety,165,I11,G14,I11 -> I12 -> H12 -> G13 -> F14 -> G14
+8,2,6,False,True,it nine,it,159,G11,H10,G11 -> H10,nine,163,I11,G13,I11 -> I12 -> H12 -> G13
+8,2,6,False,True,it nine,it,159,G11,H10,G11 -> H10,nine,166,I11,H13,I11 -> I12 -> H12 -> H13
+7,2,4,True,False,it go,it,159,G11,H10,G11 -> H10,go,131,I9,I10,I9 -> I10
+3,2,4,False,False,it on,it,159,G11,H10,G11 -> H10,on,143,I10,I11,I10 -> I11
+3,2,4,False,False,it to,it,159,G11,H10,G11 -> H10,to,162,H11,I10,H11 -> I10
+8,2,9,False,True,it integer,it,160,G11,H11,G11 -> H11,integer,182,I12,M12,I12 -> I11 -> J10 -> K10 -> L10 -> M11 -> M12
+8,2,8,False,True,it ninety,it,160,G11,H11,G11 -> H11,ninety,164,I11,F13,I11 -> I12 -> H12 -> G13 -> F14 -> F13
+8,2,8,False,True,it ninety,it,160,G11,H11,G11 -> H11,ninety,165,I11,G14,I11 -> I12 -> H12 -> G13 -> F14 -> G14
+8,2,6,False,True,it nine,it,160,G11,H11,G11 -> H11,nine,163,I11,G13,I11 -> I12 -> H12 -> G13
+8,2,6,False,True,it nine,it,160,G11,H11,G11 -> H11,nine,166,I11,H13,I11 -> I12 -> H12 -> H13
+3,2,4,False,False,it to,it,160,G11,H11,G11 -> H11,to,142,H10,I10,H10 -> I10
+3,2,4,False,False,it on,it,160,G11,H11,G11 -> H11,on,143,I10,I11,I10 -> I11
+3,2,4,False,False,it in,it,160,G11,H11,G11 -> H11,in,181,I12,I11,I12 -> I11
+3,2,4,False,False,it in,it,160,G11,H11,G11 -> H11,in,183,I12,H12,I12 -> H12
+3,2,4,True,False,it is,it,160,G11,H11,G11 -> H11,is,184,I12,I13,I12 -> I13
+8,2,9,False,True,in integer,in,161,G11,H12,G11 -> H12,integer,182,I12,M12,I12 -> I11 -> J10 -> K10 -> L10 -> M11 -> M12
+3,2,4,False,False,in to,in,161,G11,H12,G11 -> H12,to,162,H11,I10,H11 -> I10
+3,2,4,False,False,in it,in,161,G11,H12,G11 -> H12,it,180,I12,H11,I12 -> H11
+3,2,4,False,False,in in,in,161,G11,H12,G11 -> H12,in,181,I12,I11,I12 -> I11
+3,2,4,True,False,in is,in,161,G11,H12,G11 -> H12,is,184,I12,I13,I12 -> I13
+10,2,8,False,True,to ninety,to,162,H11,I10,H11 -> I10,ninety,164,I11,F13,I11 -> I12 -> H12 -> G13 -> F14 -> F13
+10,2,8,False,True,to ninety,to,162,H11,I10,H11 -> I10,ninety,165,I11,G14,I11 -> I12 -> H12 -> G13 -> F14 -> G14
+10,2,6,False,True,to nine,to,162,H11,I10,H11 -> I10,nine,163,I11,G13,I11 -> I12 -> H12 -> G13
+10,2,6,False,True,to nine,to,162,H11,I10,H11 -> I10,nine,166,I11,H13,I11 -> I12 -> H12 -> H13
+8,2,9,False,True,to integer,to,162,H11,I10,H11 -> I10,integer,169,J11,M12,J11 -> I11 -> J10 -> K10 -> L10 -> M11 -> M12
+3,2,4,False,False,to it,to,162,H11,I10,H11 -> I10,it,130,H9,H10,H9 -> H10
+3,2,4,False,False,to it,to,162,H11,I10,H11 -> I10,it,132,J9,J10,J9 -> J10
+3,2,4,False,False,to it,to,162,H11,I10,H11 -> I10,it,167,J11,J10,J11 -> J10
+3,2,4,False,False,to in,to,162,H11,I10,H11 -> I10,in,168,J11,I11,J11 -> I11
+17,2,10,False,True,ninety nine,ninety,164,I11,F13,I11 -> I12 -> H12 -> G13 -> F14 -> F13,nine,207,E14,B13,E14 -> D13 -> C14 -> B13
+17,2,10,False,True,ninety nine,ninety,164,I11,F13,I11 -> I12 -> H12 -> G13 -> F14 -> F13,nine,208,E14,D14,E14 -> D13 -> C14 -> D14
+8,2,8,False,True,ninety an,ninety,164,I11,F13,I11 -> I12 -> H12 -> G13 -> F14 -> F13,an,178,E12,E11,E12 -> E11
+8,2,7,False,True,ninety a,ninety,164,I11,F13,I11 -> I12 -> H12 -> G13 -> F14 -> F13,a,177,E12,E12,E12
+8,2,8,False,True,it ninety,it,167,J11,J10,J11 -> J10,ninety,164,I11,F13,I11 -> I12 -> H12 -> G13 -> F14 -> F13
+8,2,8,False,True,it ninety,it,167,J11,J10,J11 -> J10,ninety,165,I11,G14,I11 -> I12 -> H12 -> G13 -> F14 -> G14
+8,2,6,False,True,it nine,it,167,J11,J10,J11 -> J10,nine,163,I11,G13,I11 -> I12 -> H12 -> G13
+8,2,6,False,True,it nine,it,167,J11,J10,J11 -> J10,nine,166,I11,H13,I11 -> I12 -> H12 -> H13
+7,2,4,True,False,it go,it,167,J11,J10,J11 -> J10,go,131,I9,I10,I9 -> I10
+3,2,4,False,False,it on,it,167,J11,J10,J11 -> J10,on,143,I10,I11,I10 -> I11
+3,2,3,False,False,it a,it,167,J11,J10,J11 -> J10,a,170,K11,K11,K11
+3,2,4,False,False,in to,in,168,J11,I11,J11 -> I11,to,142,H10,I10,H10 -> I10
+3,2,4,False,False,in to,in,168,J11,I11,J11 -> I11,to,144,J10,I10,J10 -> I10
+3,2,4,False,False,in to,in,168,J11,I11,J11 -> I11,to,162,H11,I10,H11 -> I10
+3,2,4,False,False,in it,in,168,J11,I11,J11 -> I11,it,180,I12,H11,I12 -> H11
+3,2,4,False,False,in in,in,168,J11,I11,J11 -> I11,in,183,I12,H12,I12 -> H12
+3,2,4,True,False,in is,in,168,J11,I11,J11 -> I11,is,184,I12,I13,I12 -> I13
+3,2,4,True,False,in is,in,168,J11,I11,J11 -> I11,is,187,J12,I13,J12 -> I13
+8,2,9,False,True,integer by,integer,169,J11,M12,J11 -> I11 -> J10 -> K10 -> L10 -> M11 -> M12,by,189,L12,M13,L12 -> M13
+8,2,8,False,True,integer a,integer,169,J11,M12,J11 -> I11 -> J10 -> K10 -> L10 -> M11 -> M12,a,203,L13,L13,L13
+11,2,8,False,True,a integer,a,170,K11,K11,K11,integer,169,J11,M12,J11 -> I11 -> J10 -> K10 -> L10 -> M11 -> M12
+11,2,8,False,True,a integer,a,170,K11,K11,K11,integer,186,J12,M12,J12 -> I11 -> J10 -> K10 -> L10 -> M11 -> M12
+7,2,4,True,False,a get,a,170,K11,K11,K11,get,145,L10,J10,L10 -> K10 -> J10
+7,2,4,True,False,a get,a,170,K11,K11,K11,get,146,L10,M9,L10 -> M10 -> M9
+7,2,4,True,False,a get,a,170,K11,K11,K11,get,147,L10,N10,L10 -> M10 -> N10
+7,2,4,True,False,a get,a,170,K11,K11,K11,get,148,L10,N10,L10 -> M11 -> N10
+7,2,4,True,False,a get,a,170,K11,K11,K11,get,149,L10,N12,L10 -> M11 -> N12
+3,2,3,False,False,a to,a,170,K11,K11,K11,to,144,J10,I10,J10 -> I10
+3,2,3,False,False,a it,a,170,K11,K11,K11,it,167,J11,J10,J11 -> J10
+3,2,3,False,False,a in,a,170,K11,K11,K11,in,168,J11,I11,J11 -> I11
+3,2,3,False,False,a in,a,170,K11,K11,K11,in,185,J12,I11,J12 -> I11
+3,2,3,True,False,a is,a,170,K11,K11,K11,is,187,J12,I13,J12 -> I13
+3,2,3,False,False,a or,a,170,K11,K11,K11,or,188,K12,K13,K12 -> K13
+3,2,3,False,False,a by,a,170,K11,K11,K11,by,189,L12,M13,L12 -> M13
+10,2,8,False,True,at ninety,at,171,K11,J10,K11 -> J10,ninety,164,I11,F13,I11 -> I12 -> H12 -> G13 -> F14 -> F13
+10,2,8,False,True,at ninety,at,171,K11,J10,K11 -> J10,ninety,165,I11,G14,I11 -> I12 -> H12 -> G13 -> F14 -> G14
+10,2,6,False,True,at nine,at,171,K11,J10,K11 -> J10,nine,163,I11,G13,I11 -> I12 -> H12 -> G13
+10,2,6,False,True,at nine,at,171,K11,J10,K11 -> J10,nine,166,I11,H13,I11 -> I12 -> H12 -> H13
+7,2,4,True,False,at go,at,171,K11,J10,K11 -> J10,go,131,I9,I10,I9 -> I10
+3,2,4,False,False,at on,at,171,K11,J10,K11 -> J10,on,143,I10,I11,I10 -> I11
+3,2,4,False,False,at in,at,171,K11,J10,K11 -> J10,in,168,J11,I11,J11 -> I11
+10,2,5,False,True,to ten,to,172,C12,D12,C12 -> D12,ten,195,C13,A12,C13 -> B13 -> A12
+10,2,5,False,True,to ten,to,172,C12,D12,C12 -> D12,ten,196,C13,C14,C13 -> B13 -> C14
+10,2,5,False,True,to ten,to,172,C12,D12,C12 -> D12,ten,197,C13,C14,C13 -> D14 -> C14
+10,2,5,False,True,to ten,to,172,C12,D12,C12 -> D12,ten,198,C13,E14,C13 -> D14 -> E14
+5,2,4,False,False,to an,to,172,C12,D12,C12 -> D12,an,178,E12,E11,E12 -> E11
+5,2,3,False,False,to a,to,172,C12,D12,C12 -> D12,a,177,E12,E12,E12
+3,2,4,True,False,to is,to,172,C12,D12,C12 -> D12,is,156,C11,B12,C11 -> B12
+3,2,4,False,False,to it,to,172,C12,D12,C12 -> D12,it,200,D13,C13,D13 -> C13
+3,2,4,False,False,to in,to,172,C12,D12,C12 -> D12,in,201,D13,C14,D13 -> C14
+3,2,4,False,False,to in,to,172,C12,D12,C12 -> D12,in,202,D13,E14,D13 -> E14
+8,2,5,False,True,ten at,ten,173,C12,A12,C12 -> B13 -> A12,at,153,B11,A10,B11 -> A10
+8,2,5,True,True,ten is,ten,173,C12,A12,C12 -> B13 -> A12,is,192,A13,B12,A13 -> B12
+8,2,5,False,True,ten it,ten,173,C12,A12,C12 -> B13 -> A12,it,193,A13,A14,A13 -> A14
+8,2,4,False,True,ten a,ten,173,C12,A12,C12 -> B13 -> A12,a,152,B11,B11,B11
+17,2,6,False,True,ten ten,ten,174,C12,C14,C12 -> B13 -> C14,ten,198,C13,E14,C13 -> D14 -> E14
+8,2,5,False,True,ten to,ten,174,C12,C14,C12 -> B13 -> C14,to,194,C13,D12,C13 -> D12
+8,2,5,False,True,ten it,ten,174,C12,C14,C12 -> B13 -> C14,it,200,D13,C13,D13 -> C13
+8,2,5,False,True,ten in,ten,174,C12,C14,C12 -> B13 -> C14,in,202,D13,E14,D13 -> E14
+7,2,5,True,False,on get,on,175,D12,E11,D12 -> E11,get,179,F12,F14,F12 -> G13 -> F14
+5,2,3,False,False,on a,on,175,D12,E11,D12 -> E11,a,177,E12,E12,E12
+8,2,6,False,True,or nine,or,176,D12,E13,D12 -> E13,nine,207,E14,B13,E14 -> D13 -> C14 -> B13
+8,2,6,False,True,or nine,or,176,D12,E13,D12 -> E13,nine,208,E14,D14,E14 -> D13 -> C14 -> D14
+8,2,5,False,True,or ten,or,176,D12,E13,D12 -> E13,ten,209,F14,H12,F14 -> G13 -> H12
+7,2,5,True,False,or get,or,176,D12,E13,D12 -> E13,get,179,F12,F14,F12 -> G13 -> F14
+3,2,4,False,False,or an,or,176,D12,E13,D12 -> E13,an,178,E12,E11,E12 -> E11
+3,2,4,False,False,or it,or,176,D12,E13,D12 -> E13,it,199,D13,C12,D13 -> C12
+3,2,4,False,False,or it,or,176,D12,E13,D12 -> E13,it,200,D13,C13,D13 -> C13
+3,2,4,False,False,or in,or,176,D12,E13,D12 -> E13,in,201,D13,C14,D13 -> C14
+3,2,4,False,False,or in,or,176,D12,E13,D12 -> E13,in,202,D13,E14,D13 -> E14
+3,2,3,False,False,or a,or,176,D12,E13,D12 -> E13,a,177,E12,E12,E12
+7,2,4,True,False,a get,a,177,E12,E12,E12,get,179,F12,F14,F12 -> G13 -> F14
+3,2,3,False,False,a in,a,177,E12,E12,E12,in,158,F11,E11,F11 -> E11
+3,2,3,False,False,a on,a,177,E12,E12,E12,on,175,D12,E11,D12 -> E11
+3,2,3,False,False,a or,a,177,E12,E12,E12,or,176,D12,E13,D12 -> E13
+3,2,3,False,False,a it,a,177,E12,E12,E12,it,199,D13,C12,D13 -> C12
+3,2,3,False,False,a it,a,177,E12,E12,E12,it,200,D13,C13,D13 -> C13
+3,2,3,False,False,a in,a,177,E12,E12,E12,in,201,D13,C14,D13 -> C14
+3,2,3,False,False,a in,a,177,E12,E12,E12,in,202,D13,E14,D13 -> E14
+7,2,5,True,False,an get,an,178,E12,E11,E12 -> E11,get,179,F12,F14,F12 -> G13 -> F14
+3,2,4,False,False,an or,an,178,E12,E11,E12 -> E11,or,176,D12,E13,D12 -> E13
+16,2,7,True,True,get nine,get,179,F12,F14,F12 -> G13 -> F14,nine,207,E14,B13,E14 -> D13 -> C14 -> B13
+16,2,7,True,True,get nine,get,179,F12,F14,F12 -> G13 -> F14,nine,208,E14,D14,E14 -> D13 -> C14 -> D14
+3,2,4,False,False,it to,it,180,I12,H11,I12 -> H11,to,142,H10,I10,H10 -> I10
+3,2,4,False,False,it on,it,180,I12,H11,I12 -> H11,on,143,I10,I11,I10 -> I11
+3,2,4,False,False,it it,it,180,I12,H11,I12 -> H11,it,159,G11,H10,G11 -> H10
+3,2,4,False,False,it in,it,180,I12,H11,I12 -> H11,in,161,G11,H12,G11 -> H12
+3,2,4,False,False,in to,in,181,I12,I11,I12 -> I11,to,142,H10,I10,H10 -> I10
+3,2,4,False,False,in to,in,181,I12,I11,I12 -> I11,to,144,J10,I10,J10 -> I10
+3,2,4,False,False,in to,in,181,I12,I11,I12 -> I11,to,162,H11,I10,H11 -> I10
+3,2,4,False,False,in it,in,181,I12,I11,I12 -> I11,it,167,J11,J10,J11 -> J10
+3,2,4,True,False,in is,in,181,I12,I11,I12 -> I11,is,187,J12,I13,J12 -> I13
+8,2,9,False,True,integer by,integer,182,I12,M12,I12 -> I11 -> J10 -> K10 -> L10 -> M11 -> M12,by,189,L12,M13,L12 -> M13
+8,2,8,False,True,integer a,integer,182,I12,M12,I12 -> I11 -> J10 -> K10 -> L10 -> M11 -> M12,a,203,L13,L13,L13
+3,2,4,False,False,in it,in,183,I12,H12,I12 -> H12,it,159,G11,H10,G11 -> H10
+3,2,4,False,False,in it,in,183,I12,H12,I12 -> H12,it,160,G11,H11,G11 -> H11
+3,2,4,False,False,in to,in,183,I12,H12,I12 -> H12,to,162,H11,I10,H11 -> I10
+8,2,9,True,True,is integer,is,184,I12,I13,I12 -> I13,integer,186,J12,M12,J12 -> I11 -> J10 -> K10 -> L10 -> M11 -> M12
+8,2,5,True,True,is ten,is,184,I12,I13,I12 -> I13,ten,210,I14,H12,I14 -> H13 -> H12
+3,2,4,True,False,is in,is,184,I12,I13,I12 -> I13,in,185,J12,I11,J12 -> I11
+3,2,4,False,False,in to,in,185,J12,I11,J12 -> I11,to,142,H10,I10,H10 -> I10
+3,2,4,False,False,in to,in,185,J12,I11,J12 -> I11,to,144,J10,I10,J10 -> I10
+3,2,4,False,False,in to,in,185,J12,I11,J12 -> I11,to,162,H11,I10,H11 -> I10
+3,2,4,False,False,in it,in,185,J12,I11,J12 -> I11,it,167,J11,J10,J11 -> J10
+3,2,4,False,False,in it,in,185,J12,I11,J12 -> I11,it,180,I12,H11,I12 -> H11
+3,2,4,False,False,in in,in,185,J12,I11,J12 -> I11,in,183,I12,H12,I12 -> H12
+3,2,4,True,False,in is,in,185,J12,I11,J12 -> I11,is,184,I12,I13,I12 -> I13
+8,2,9,False,True,integer by,integer,186,J12,M12,J12 -> I11 -> J10 -> K10 -> L10 -> M11 -> M12,by,189,L12,M13,L12 -> M13
+8,2,8,False,True,integer a,integer,186,J12,M12,J12 -> I11 -> J10 -> K10 -> L10 -> M11 -> M12,a,203,L13,L13,L13
+8,2,9,True,True,is integer,is,187,J12,I13,J12 -> I13,integer,182,I12,M12,I12 -> I11 -> J10 -> K10 -> L10 -> M11 -> M12
+8,2,5,True,True,is ten,is,187,J12,I13,J12 -> I13,ten,210,I14,H12,I14 -> H13 -> H12
+3,2,4,True,False,is it,is,187,J12,I13,J12 -> I13,it,180,I12,H11,I12 -> H11
+3,2,4,True,False,is in,is,187,J12,I13,J12 -> I13,in,181,I12,I11,I12 -> I11
+3,2,4,True,False,is in,is,187,J12,I13,J12 -> I13,in,183,I12,H12,I12 -> H12
+8,2,9,False,True,or integer,or,188,K12,K13,K12 -> K13,integer,186,J12,M12,J12 -> I11 -> J10 -> K10 -> L10 -> M11 -> M12
+8,2,5,False,True,or six,or,188,K12,K13,K12 -> K13,six,211,L14,N14,L14 -> M14 -> N14
+3,2,4,False,False,or in,or,188,K12,K13,K12 -> K13,in,185,J12,I11,J12 -> I11
+3,2,4,True,False,or is,or,188,K12,K13,K12 -> K13,is,187,J12,I13,J12 -> I13
+3,2,4,False,False,or by,or,188,K12,K13,K12 -> K13,by,189,L12,M13,L12 -> M13
+3,2,3,False,False,or a,or,188,K12,K13,K12 -> K13,a,203,L13,L13,L13
+10,2,5,False,True,by ten,by,189,L12,M13,L12 -> M13,ten,190,N12,N11,N12 -> M11 -> N11
+10,2,5,False,True,by six,by,189,L12,M13,L12 -> M13,six,211,L14,N14,L14 -> M14 -> N14
+5,2,3,False,False,by a,by,189,L12,M13,L12 -> M13,a,203,L13,L13,L13
+3,2,4,True,False,by is,by,189,L12,M13,L12 -> M13,is,212,M14,L14,M14 -> L14
+5,2,3,False,False,in a,in,191,A13,A12,A13 -> A12,a,152,B11,B11,B11
+3,2,4,False,False,in at,in,191,A13,A12,A13 -> A12,at,153,B11,A10,B11 -> A10
+3,2,4,False,False,in at,in,191,A13,A12,A13 -> A12,at,155,B11,C12,B11 -> C12
+8,2,5,True,True,is ten,is,192,A13,B12,A13 -> B12,ten,173,C12,A12,C12 -> B13 -> A12
+8,2,5,True,True,is ten,is,192,A13,B12,A13 -> B12,ten,174,C12,C14,C12 -> B13 -> C14
+8,2,5,True,True,is ten,is,192,A13,B12,A13 -> B12,ten,195,C13,A12,C13 -> B13 -> A12
+8,2,5,True,True,is ten,is,192,A13,B12,A13 -> B12,ten,196,C13,C14,C13 -> B13 -> C14
+8,2,5,True,True,is ten,is,192,A13,B12,A13 -> B12,ten,197,C13,C14,C13 -> D14 -> C14
+8,2,5,True,True,is ten,is,192,A13,B12,A13 -> B12,ten,198,C13,E14,C13 -> D14 -> E14
+3,2,4,True,False,is at,is,192,A13,B12,A13 -> B12,at,153,B11,A10,B11 -> A10
+3,2,4,True,False,is an,is,192,A13,B12,A13 -> B12,an,154,B11,A12,B11 -> A12
+3,2,4,True,False,is at,is,192,A13,B12,A13 -> B12,at,155,B11,C12,B11 -> C12
+3,2,4,True,False,is it,is,192,A13,B12,A13 -> B12,it,157,C11,C12,C11 -> C12
+3,2,4,True,False,is to,is,192,A13,B12,A13 -> B12,to,172,C12,D12,C12 -> D12
+3,2,4,True,False,is to,is,192,A13,B12,A13 -> B12,to,194,C13,D12,C13 -> D12
+3,2,3,True,False,is a,is,192,A13,B12,A13 -> B12,a,152,B11,B11,B11
+10,2,5,False,True,to ten,to,194,C13,D12,C13 -> D12,ten,173,C12,A12,C12 -> B13 -> A12
+10,2,5,False,True,to ten,to,194,C13,D12,C13 -> D12,ten,174,C12,C14,C12 -> B13 -> C14
+5,2,4,False,False,to an,to,194,C13,D12,C13 -> D12,an,178,E12,E11,E12 -> E11
+5,2,3,False,False,to a,to,194,C13,D12,C13 -> D12,a,177,E12,E12,E12
+3,2,4,True,False,to is,to,194,C13,D12,C13 -> D12,is,156,C11,B12,C11 -> B12
+3,2,4,False,False,to it,to,194,C13,D12,C13 -> D12,it,157,C11,C12,C11 -> C12
+3,2,4,False,False,to it,to,194,C13,D12,C13 -> D12,it,199,D13,C12,D13 -> C12
+3,2,4,False,False,to in,to,194,C13,D12,C13 -> D12,in,201,D13,C14,D13 -> C14
+3,2,4,False,False,to in,to,194,C13,D12,C13 -> D12,in,202,D13,E14,D13 -> E14
+8,2,5,False,True,ten at,ten,195,C13,A12,C13 -> B13 -> A12,at,153,B11,A10,B11 -> A10
+8,2,5,False,True,ten at,ten,195,C13,A12,C13 -> B13 -> A12,at,155,B11,C12,B11 -> C12
+8,2,5,True,True,ten is,ten,195,C13,A12,C13 -> B13 -> A12,is,192,A13,B12,A13 -> B12
+8,2,5,False,True,ten it,ten,195,C13,A12,C13 -> B13 -> A12,it,193,A13,A14,A13 -> A14
+8,2,4,False,True,ten a,ten,195,C13,A12,C13 -> B13 -> A12,a,152,B11,B11,B11
+8,2,5,False,True,ten it,ten,196,C13,C14,C13 -> B13 -> C14,it,199,D13,C12,D13 -> C12
+8,2,5,False,True,ten in,ten,196,C13,C14,C13 -> B13 -> C14,in,202,D13,E14,D13 -> E14
+8,2,5,False,True,ten it,ten,197,C13,C14,C13 -> D14 -> C14,it,199,D13,C12,D13 -> C12
+8,2,5,False,True,ten in,ten,197,C13,C14,C13 -> D14 -> C14,in,202,D13,E14,D13 -> E14
+17,2,6,False,True,ten ten,ten,198,C13,E14,C13 -> D14 -> E14,ten,209,F14,H12,F14 -> G13 -> H12
+8,2,5,False,True,ten it,ten,198,C13,E14,C13 -> D14 -> E14,it,199,D13,C12,D13 -> C12
+8,2,5,False,True,ten in,ten,198,C13,E14,C13 -> D14 -> E14,in,201,D13,C14,D13 -> C14
+8,2,5,False,True,it ten,it,199,D13,C12,D13 -> C12,ten,195,C13,A12,C13 -> B13 -> A12
+8,2,5,False,True,it ten,it,199,D13,C12,D13 -> C12,ten,196,C13,C14,C13 -> B13 -> C14
+8,2,5,False,True,it ten,it,199,D13,C12,D13 -> C12,ten,197,C13,C14,C13 -> D14 -> C14
+8,2,5,False,True,it ten,it,199,D13,C12,D13 -> C12,ten,198,C13,E14,C13 -> D14 -> E14
+3,2,4,False,False,it at,it,199,D13,C12,D13 -> C12,at,153,B11,A10,B11 -> A10
+3,2,4,False,False,it an,it,199,D13,C12,D13 -> C12,an,154,B11,A12,B11 -> A12
+3,2,4,True,False,it is,it,199,D13,C12,D13 -> C12,is,156,C11,B12,C11 -> B12
+3,2,4,False,False,it on,it,199,D13,C12,D13 -> C12,on,175,D12,E11,D12 -> E11
+3,2,4,False,False,it or,it,199,D13,C12,D13 -> C12,or,176,D12,E13,D12 -> E13
+3,2,4,False,False,it to,it,199,D13,C12,D13 -> C12,to,194,C13,D12,C13 -> D12
+3,2,3,False,False,it a,it,199,D13,C12,D13 -> C12,a,152,B11,B11,B11
+8,2,5,False,True,it ten,it,200,D13,C13,D13 -> C13,ten,173,C12,A12,C12 -> B13 -> A12
+8,2,5,False,True,it ten,it,200,D13,C13,D13 -> C13,ten,174,C12,C14,C12 -> B13 -> C14
+3,2,4,False,False,it to,it,200,D13,C13,D13 -> C13,to,172,C12,D12,C12 -> D12
+3,2,4,False,False,it on,it,200,D13,C13,D13 -> C13,on,175,D12,E11,D12 -> E11
+3,2,4,False,False,it or,it,200,D13,C13,D13 -> C13,or,176,D12,E13,D12 -> E13
+10,2,5,False,True,in ten,in,201,D13,C14,D13 -> C14,ten,195,C13,A12,C13 -> B13 -> A12
+10,2,5,False,True,in ten,in,201,D13,C14,D13 -> C14,ten,198,C13,E14,C13 -> D14 -> E14
+3,2,4,False,False,in to,in,201,D13,C14,D13 -> C14,to,194,C13,D12,C13 -> D12
+10,2,5,False,True,in ten,in,202,D13,E14,D13 -> E14,ten,209,F14,H12,F14 -> G13 -> H12
+11,2,4,False,True,a six,a,203,L13,L13,L13,six,211,L14,N14,L14 -> M14 -> N14
+3,2,3,False,False,a or,a,203,L13,L13,L13,or,188,K12,K13,K12 -> K13
+3,2,3,False,False,a by,a,203,L13,L13,L13,by,189,L12,M13,L12 -> M13
+3,2,3,True,False,a is,a,203,L13,L13,L13,is,212,M14,L14,M14 -> L14
+8,2,5,False,True,ten at,ten,204,A14,A12,A14 -> B13 -> A12,at,153,B11,A10,B11 -> A10
+8,2,5,False,True,ten at,ten,204,A14,A12,A14 -> B13 -> A12,at,155,B11,C12,B11 -> C12
+8,2,5,True,True,ten is,ten,204,A14,A12,A14 -> B13 -> A12,is,192,A13,B12,A13 -> B12
+8,2,4,False,True,ten a,ten,204,A14,A12,A14 -> B13 -> A12,a,152,B11,B11,B11
+17,2,6,False,True,ten ten,ten,205,A14,C14,A14 -> B13 -> C14,ten,198,C13,E14,C13 -> D14 -> E14
+8,2,5,False,True,ten to,ten,205,A14,C14,A14 -> B13 -> C14,to,194,C13,D12,C13 -> D12
+8,2,5,False,True,ten it,ten,205,A14,C14,A14 -> B13 -> C14,it,199,D13,C12,D13 -> C12
+8,2,5,False,True,ten it,ten,205,A14,C14,A14 -> B13 -> C14,it,200,D13,C13,D13 -> C13
+8,2,5,False,True,ten in,ten,205,A14,C14,A14 -> B13 -> C14,in,202,D13,E14,D13 -> E14
+17,2,7,False,True,nine ten,nine,206,C14,D14,C14 -> D13 -> E14 -> D14,ten,195,C13,A12,C13 -> B13 -> A12
+8,2,6,False,True,nine to,nine,206,C14,D14,C14 -> D13 -> E14 -> D14,to,194,C13,D12,C13 -> D12
+8,2,6,False,True,nine to,nine,207,E14,B13,E14 -> D13 -> C14 -> B13,to,172,C12,D12,C12 -> D12
+8,2,6,False,True,nine in,nine,207,E14,B13,E14 -> D13 -> C14 -> B13,in,191,A13,A12,A13 -> A12
+8,2,6,True,True,nine is,nine,207,E14,B13,E14 -> D13 -> C14 -> B13,is,192,A13,B12,A13 -> B12
+8,2,6,False,True,nine it,nine,207,E14,B13,E14 -> D13 -> C14 -> B13,it,193,A13,A14,A13 -> A14
+8,2,6,False,True,nine to,nine,207,E14,B13,E14 -> D13 -> C14 -> B13,to,194,C13,D12,C13 -> D12
+17,2,7,False,True,nine ten,nine,208,E14,D14,E14 -> D13 -> C14 -> D14,ten,195,C13,A12,C13 -> B13 -> A12
+8,2,6,False,True,nine to,nine,208,E14,D14,E14 -> D13 -> C14 -> D14,to,194,C13,D12,C13 -> D12
+17,2,10,False,True,ten integer,ten,209,F14,H12,F14 -> G13 -> H12,integer,182,I12,M12,I12 -> I11 -> J10 -> K10 -> L10 -> M11 -> M12
+8,2,5,False,True,ten it,ten,209,F14,H12,F14 -> G13 -> H12,it,159,G11,H10,G11 -> H10
+8,2,5,False,True,ten it,ten,209,F14,H12,F14 -> G13 -> H12,it,160,G11,H11,G11 -> H11
+8,2,5,False,True,ten to,ten,209,F14,H12,F14 -> G13 -> H12,to,162,H11,I10,H11 -> I10
+8,2,5,False,True,ten it,ten,209,F14,H12,F14 -> G13 -> H12,it,180,I12,H11,I12 -> H11
+8,2,5,False,True,ten in,ten,209,F14,H12,F14 -> G13 -> H12,in,181,I12,I11,I12 -> I11
+8,2,5,True,True,ten is,ten,209,F14,H12,F14 -> G13 -> H12,is,184,I12,I13,I12 -> I13
+17,2,10,False,True,ten integer,ten,210,I14,H12,I14 -> H13 -> H12,integer,182,I12,M12,I12 -> I11 -> J10 -> K10 -> L10 -> M11 -> M12
+8,2,5,False,True,ten it,ten,210,I14,H12,I14 -> H13 -> H12,it,159,G11,H10,G11 -> H10
+8,2,5,False,True,ten it,ten,210,I14,H12,I14 -> H13 -> H12,it,160,G11,H11,G11 -> H11
+8,2,5,False,True,ten to,ten,210,I14,H12,I14 -> H13 -> H12,to,162,H11,I10,H11 -> I10
+8,2,5,False,True,ten it,ten,210,I14,H12,I14 -> H13 -> H12,it,180,I12,H11,I12 -> H11
+8,2,5,False,True,ten in,ten,210,I14,H12,I14 -> H13 -> H12,in,181,I12,I11,I12 -> I11
+8,2,5,True,True,ten is,ten,210,I14,H12,I14 -> H13 -> H12,is,184,I12,I13,I12 -> I13
+3,2,3,True,False,is a,is,212,M14,L14,M14 -> L14,a,203,L13,L13,L13

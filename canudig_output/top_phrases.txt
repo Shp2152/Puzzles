@@ -1,0 +1,4168 @@
+#1 | score=52 | phrase=find the start a nine go
+  word1: find
+  path1: E1 -> F1 -> G1 -> H1
+  word2: the
+  path2: I1 -> J1 -> J2
+  word3: start
+  path3: K1 -> K2 -> L1 -> M1 -> N1
+  word4: a
+  path4: N2
+  word5: nine
+  path5: M2 -> M3 -> L4 -> K4
+  word6: go
+  path6: J3 -> K3
+
+#2 | score=51 | phrase=a decimal ten ten ten integer
+  word1: a
+  path1: I6
+  word2: decimal
+  path2: H7 -> G8 -> F9 -> E10 -> D10 -> C10 -> D11
+  word3: ten
+  path3: C12 -> B13 -> C14
+  word4: ten
+  path4: C13 -> D14 -> E14
+  word5: ten
+  path5: F14 -> G13 -> H12
+  word6: integer
+  path6: I12 -> I11 -> J10 -> K10 -> L10 -> M11 -> M12
+
+#3 | score=51 | phrase=decimal a ten ten ten integer
+  word1: decimal
+  path1: H7 -> G8 -> F9 -> E10 -> D10 -> C10 -> B10
+  word2: a
+  path2: B11
+  word3: ten
+  path3: C12 -> B13 -> C14
+  word4: ten
+  path4: C13 -> D14 -> E14
+  word5: ten
+  path5: F14 -> G13 -> H12
+  word6: integer
+  path6: I12 -> I11 -> J10 -> K10 -> L10 -> M11 -> M12
+
+#4 | score=51 | phrase=decimals a ten ten ten integer
+  word1: decimals
+  path1: H7 -> G8 -> F9 -> E10 -> D10 -> C10 -> B10 -> A11
+  word2: a
+  path2: B11
+  word3: ten
+  path3: C12 -> B13 -> C14
+  word4: ten
+  path4: C13 -> D14 -> E14
+  word5: ten
+  path5: F14 -> G13 -> H12
+  word6: integer
+  path6: I12 -> I11 -> J10 -> K10 -> L10 -> M11 -> M12
+
+#5 | score=51 | phrase=ten ten ten integer a six
+  word1: ten
+  path1: C12 -> B13 -> C14
+  word2: ten
+  path2: C13 -> D14 -> E14
+  word3: ten
+  path3: F14 -> G13 -> H12
+  word4: integer
+  path4: I12 -> I11 -> J10 -> K10 -> L10 -> M11 -> M12
+  word5: a
+  path5: L13
+  word6: six
+  path6: L14 -> M14 -> N14
+
+#6 | score=51 | phrase=ten ten ten integer a six
+  word1: ten
+  path1: A14 -> B13 -> C14
+  word2: ten
+  path2: C13 -> D14 -> E14
+  word3: ten
+  path3: F14 -> G13 -> H12
+  word4: integer
+  path4: I12 -> I11 -> J10 -> K10 -> L10 -> M11 -> M12
+  word5: a
+  path5: L13
+  word6: six
+  path6: L14 -> M14 -> N14
+
+#7 | score=51 | phrase=the decimal ten ten ten integer
+  word1: the
+  path1: G6 -> H6 -> I7
+  word2: decimal
+  path2: H7 -> G8 -> F9 -> E10 -> D10 -> C10 -> D11
+  word3: ten
+  path3: C12 -> B13 -> C14
+  word4: ten
+  path4: C13 -> D14 -> E14
+  word5: ten
+  path5: F14 -> G13 -> H12
+  word6: integer
+  path6: I12 -> I11 -> J10 -> K10 -> L10 -> M11 -> M12
+
+#8 | score=50 | phrase=get get go ninety nine ten
+  word1: get
+  path1: L9 -> M10 -> M9
+  word2: get
+  path2: L10 -> K10 -> J10
+  word3: go
+  path3: I9 -> I10
+  word4: ninety
+  path4: I11 -> I12 -> H12 -> G13 -> F14 -> F13
+  word5: nine
+  path5: E14 -> D13 -> C14 -> D14
+  word6: ten
+  path6: C13 -> B13 -> A12
+
+#9 | score=50 | phrase=get get go ninety nine ten
+  word1: get
+  path1: L10 -> M10 -> M9
+  word2: get
+  path2: L9 -> K10 -> J10
+  word3: go
+  path3: I9 -> I10
+  word4: ninety
+  path4: I11 -> I12 -> H12 -> G13 -> F14 -> F13
+  word5: nine
+  path5: E14 -> D13 -> C14 -> D14
+  word6: ten
+  path6: C13 -> B13 -> A12
+
+#10 | score=50 | phrase=get the get ninety nine ten
+  word1: get
+  path1: L10 -> M10 -> N10
+  word2: the
+  path2: M9 -> L8 -> K8
+  word3: get
+  path3: L9 -> K10 -> J10
+  word4: ninety
+  path4: I11 -> I12 -> H12 -> G13 -> F14 -> F13
+  word5: nine
+  path5: E14 -> D13 -> C14 -> D14
+  word6: ten
+  path6: C13 -> B13 -> A12
+
+#11 | score=50 | phrase=get the get ninety nine ten
+  word1: get
+  path1: L10 -> M11 -> N10
+  word2: the
+  path2: M9 -> L8 -> K8
+  word3: get
+  path3: L9 -> K10 -> J10
+  word4: ninety
+  path4: I11 -> I12 -> H12 -> G13 -> F14 -> F13
+  word5: nine
+  path5: E14 -> D13 -> C14 -> D14
+  word6: ten
+  path6: C13 -> B13 -> A12
+
+#12 | score=50 | phrase=ten ten ten integer by six
+  word1: ten
+  path1: C12 -> B13 -> C14
+  word2: ten
+  path2: C13 -> D14 -> E14
+  word3: ten
+  path3: F14 -> G13 -> H12
+  word4: integer
+  path4: I12 -> I11 -> J10 -> K10 -> L10 -> M11 -> M12
+  word5: by
+  path5: L12 -> M13
+  word6: six
+  path6: L14 -> M14 -> N14
+
+#13 | score=50 | phrase=ten ten ten integer by six
+  word1: ten
+  path1: A14 -> B13 -> C14
+  word2: ten
+  path2: C13 -> D14 -> E14
+  word3: ten
+  path3: F14 -> G13 -> H12
+  word4: integer
+  path4: I12 -> I11 -> J10 -> K10 -> L10 -> M11 -> M12
+  word5: by
+  path5: L12 -> M13
+  word6: six
+  path6: L14 -> M14 -> N14
+
+#14 | score=49 | phrase=find the start an go end
+  word1: find
+  path1: E1 -> F1 -> G1 -> H1
+  word2: the
+  path2: I1 -> J1 -> J2
+  word3: start
+  path3: K1 -> K2 -> L1 -> M1 -> N1
+  word4: an
+  path4: N2 -> M2
+  word5: go
+  path5: L2 -> K3
+  word6: end
+  path6: K4 -> L4 -> K5
+
+#15 | score=49 | phrase=find the start an go end
+  word1: find
+  path1: E1 -> F1 -> G1 -> H1
+  word2: the
+  path2: I1 -> J1 -> J2
+  word3: start
+  path3: K1 -> K2 -> L1 -> M1 -> N1
+  word4: an
+  path4: N2 -> M2
+  word5: go
+  path5: L2 -> K3
+  word6: end
+  path6: K4 -> L5 -> K5
+
+#16 | score=49 | phrase=find the start nine go a
+  word1: find
+  path1: E1 -> F1 -> G1 -> H1
+  word2: the
+  path2: I1 -> J1 -> J2
+  word3: start
+  path3: K1 -> K2 -> L1 -> M1 -> N1
+  word4: nine
+  path4: M2 -> M3 -> L4 -> K4
+  word5: go
+  path5: J3 -> K3
+  word6: a
+  path6: J4
+
+#17 | score=49 | phrase=integers find the start a nine
+  word1: integers
+  path1: D6 -> C5 -> B5 -> A4 -> B4 -> C4 -> D3 -> E2
+  word2: find
+  path2: E1 -> F1 -> G1 -> H1
+  word3: the
+  path3: I1 -> J1 -> J2
+  word4: start
+  path4: K1 -> K2 -> L1 -> M1 -> N1
+  word5: a
+  path5: N2
+  word6: nine
+  path6: M2 -> M3 -> L4 -> K4
+
+#18 | score=49 | phrase=integers find the start a nine
+  word1: integers
+  path1: D6 -> C5 -> B5 -> A4 -> B4 -> C4 -> D3 -> E2
+  word2: find
+  path2: E1 -> F1 -> G1 -> H1
+  word3: the
+  path3: I1 -> J1 -> J2
+  word4: start
+  path4: K1 -> K2 -> L1 -> M1 -> N1
+  word5: a
+  path5: N2
+  word6: nine
+  path6: M2 -> M3 -> L4 -> M5
+
+#19 | score=48 | phrase=decimal is ten ten ten integer
+  word1: decimal
+  path1: H7 -> G8 -> F9 -> E10 -> D10 -> C10 -> B10
+  word2: is
+  path2: C11 -> B12
+  word3: ten
+  path3: C12 -> B13 -> C14
+  word4: ten
+  path4: C13 -> D14 -> E14
+  word5: ten
+  path5: F14 -> G13 -> H12
+  word6: integer
+  path6: I12 -> I11 -> J10 -> K10 -> L10 -> M11 -> M12
+
+#20 | score=48 | phrase=decimal is ten ten ten integer
+  word1: decimal
+  path1: H7 -> G8 -> F9 -> E10 -> D10 -> C10 -> D11
+  word2: is
+  path2: C11 -> B12
+  word3: ten
+  path3: C12 -> B13 -> C14
+  word4: ten
+  path4: C13 -> D14 -> E14
+  word5: ten
+  path5: F14 -> G13 -> H12
+  word6: integer
+  path6: I12 -> I11 -> J10 -> K10 -> L10 -> M11 -> M12
+
+#21 | score=48 | phrase=decimal ten ten ten integer a
+  word1: decimal
+  path1: H7 -> G8 -> F9 -> E10 -> D10 -> C10 -> D11
+  word2: ten
+  path2: C12 -> B13 -> C14
+  word3: ten
+  path3: C13 -> D14 -> E14
+  word4: ten
+  path4: F14 -> G13 -> H12
+  word5: integer
+  path5: I12 -> I11 -> J10 -> K10 -> L10 -> M11 -> M12
+  word6: a
+  path6: L13
+
+#22 | score=48 | phrase=decimal ten ten ten integer by
+  word1: decimal
+  path1: H7 -> G8 -> F9 -> E10 -> D10 -> C10 -> D11
+  word2: ten
+  path2: C12 -> B13 -> C14
+  word3: ten
+  path3: C13 -> D14 -> E14
+  word4: ten
+  path4: F14 -> G13 -> H12
+  word5: integer
+  path5: I12 -> I11 -> J10 -> K10 -> L10 -> M11 -> M12
+  word6: by
+  path6: L12 -> M13
+
+#23 | score=48 | phrase=find a the start a nine
+  word1: find
+  path1: E1 -> F1 -> G1 -> H1
+  word2: a
+  path2: H2
+  word3: the
+  path3: I1 -> J1 -> J2
+  word4: start
+  path4: K1 -> K2 -> L1 -> M1 -> N1
+  word5: a
+  path5: N2
+  word6: nine
+  path6: M2 -> M3 -> L4 -> K4
+
+#24 | score=48 | phrase=find a the start a nine
+  word1: find
+  path1: E1 -> F1 -> G1 -> H1
+  word2: a
+  path2: H2
+  word3: the
+  path3: I1 -> J1 -> J2
+  word4: start
+  path4: K1 -> K2 -> L1 -> M1 -> N1
+  word5: a
+  path5: N2
+  word6: nine
+  path6: M2 -> M3 -> L4 -> M5
+
+#25 | score=48 | phrase=find a the start a nine
+  word1: find
+  path1: E1 -> F1 -> G1 -> G2
+  word2: a
+  path2: H2
+  word3: the
+  path3: I1 -> J1 -> J2
+  word4: start
+  path4: K1 -> K2 -> L1 -> M1 -> N1
+  word5: a
+  path5: N2
+  word6: nine
+  path6: M2 -> M3 -> L4 -> K4
+
+#26 | score=48 | phrase=find a the start a nine
+  word1: find
+  path1: E1 -> F1 -> G1 -> G2
+  word2: a
+  path2: H2
+  word3: the
+  path3: I1 -> J1 -> J2
+  word4: start
+  path4: K1 -> K2 -> L1 -> M1 -> N1
+  word5: a
+  path5: N2
+  word6: nine
+  path6: M2 -> M3 -> L4 -> M5
+
+#27 | score=48 | phrase=find the start a nine a
+  word1: find
+  path1: E1 -> F1 -> G1 -> H1
+  word2: the
+  path2: I1 -> J1 -> J2
+  word3: start
+  path3: K1 -> K2 -> L1 -> M1 -> N1
+  word4: a
+  path4: N2
+  word5: nine
+  path5: M2 -> M3 -> L4 -> K4
+  word6: a
+  path6: J4
+
+#28 | score=48 | phrase=find the start a nine in
+  word1: find
+  path1: E1 -> F1 -> G1 -> H1
+  word2: the
+  path2: I1 -> J1 -> J2
+  word3: start
+  path3: K1 -> K2 -> L1 -> M1 -> N1
+  word4: a
+  path4: N2
+  word5: nine
+  path5: M2 -> M3 -> L4 -> K4
+  word6: in
+  path6: J5 -> J6
+
+#29 | score=48 | phrase=find the start an go a
+  word1: find
+  path1: E1 -> F1 -> G1 -> H1
+  word2: the
+  path2: I1 -> J1 -> J2
+  word3: start
+  path3: K1 -> K2 -> L1 -> M1 -> N1
+  word4: an
+  path4: N2 -> M2
+  word5: go
+  path5: L2 -> K3
+  word6: a
+  path6: J4
+
+#30 | score=48 | phrase=in a ten ten ten integer
+  word1: in
+  path1: A13 -> A12
+  word2: a
+  path2: B11
+  word3: ten
+  path3: C12 -> B13 -> C14
+  word4: ten
+  path4: C13 -> D14 -> E14
+  word5: ten
+  path5: F14 -> G13 -> H12
+  word6: integer
+  path6: I12 -> I11 -> J10 -> K10 -> L10 -> M11 -> M12
+
+#31 | score=47 | phrase=find the start a in end
+  word1: find
+  path1: E1 -> F1 -> G1 -> H1
+  word2: the
+  path2: I1 -> J1 -> J2
+  word3: start
+  path3: K1 -> K2 -> L1 -> M1 -> N1
+  word4: a
+  path4: N2
+  word5: in
+  path5: M3 -> L4
+  word6: end
+  path6: K4 -> L5 -> K5
+
+#32 | score=47 | phrase=find the start a in end
+  word1: find
+  path1: E1 -> F1 -> G1 -> H1
+  word2: the
+  path2: I1 -> J1 -> J2
+  word3: start
+  path3: K1 -> K2 -> L1 -> M1 -> N1
+  word4: a
+  path4: N2
+  word5: in
+  path5: M3 -> L4
+  word6: end
+  path6: M5 -> L5 -> K5
+
+#33 | score=47 | phrase=find the start an in end
+  word1: find
+  path1: E1 -> F1 -> G1 -> H1
+  word2: the
+  path2: I1 -> J1 -> J2
+  word3: start
+  path3: K1 -> K2 -> L1 -> M1 -> N1
+  word4: an
+  path4: N2 -> M2
+  word5: in
+  path5: M3 -> L4
+  word6: end
+  path6: K4 -> L5 -> K5
+
+#34 | score=47 | phrase=find the start an in end
+  word1: find
+  path1: E1 -> F1 -> G1 -> H1
+  word2: the
+  path2: I1 -> J1 -> J2
+  word3: start
+  path3: K1 -> K2 -> L1 -> M1 -> N1
+  word4: an
+  path4: N2 -> M2
+  word5: in
+  path5: M3 -> L4
+  word6: end
+  path6: M5 -> L5 -> K5
+
+#35 | score=47 | phrase=start a nine in a decimal
+  word1: start
+  path1: K1 -> K2 -> L1 -> M1 -> N1
+  word2: a
+  path2: N2
+  word3: nine
+  path3: M2 -> M3 -> L4 -> K4
+  word4: in
+  path4: J5 -> J6
+  word5: a
+  path5: I6
+  word6: decimal
+  path6: H7 -> G8 -> F9 -> E10 -> D10 -> C10 -> B10
+
+#36 | score=47 | phrase=start a nine in a decimal
+  word1: start
+  path1: K1 -> K2 -> L1 -> M1 -> N1
+  word2: a
+  path2: N2
+  word3: nine
+  path3: M2 -> M3 -> L4 -> K4
+  word4: in
+  path4: J5 -> J6
+  word5: a
+  path5: I6
+  word6: decimal
+  path6: H7 -> G8 -> F9 -> E10 -> D10 -> C10 -> D11
+
+#37 | score=47 | phrase=start a nine in a decimals
+  word1: start
+  path1: K1 -> K2 -> L1 -> M1 -> N1
+  word2: a
+  path2: N2
+  word3: nine
+  path3: M2 -> M3 -> L4 -> K4
+  word4: in
+  path4: J5 -> J6
+  word5: a
+  path5: I6
+  word6: decimals
+  path6: H7 -> G8 -> F9 -> E10 -> D10 -> C10 -> B10 -> A11
+
+#38 | score=46 | phrase=a a ten ten ten integer
+  word1: a
+  path1: C10
+  word2: a
+  path2: B11
+  word3: ten
+  path3: C12 -> B13 -> C14
+  word4: ten
+  path4: C13 -> D14 -> E14
+  word5: ten
+  path5: F14 -> G13 -> H12
+  word6: integer
+  path6: I12 -> I11 -> J10 -> K10 -> L10 -> M11 -> M12
+
+#39 | score=46 | phrase=a ten ten ten integer a
+  word1: a
+  path1: B11
+  word2: ten
+  path2: C12 -> B13 -> C14
+  word3: ten
+  path3: C13 -> D14 -> E14
+  word4: ten
+  path4: F14 -> G13 -> H12
+  word5: integer
+  path5: I12 -> I11 -> J10 -> K10 -> L10 -> M11 -> M12
+  word6: a
+  path6: L13
+
+#40 | score=46 | phrase=a ten ten ten integer by
+  word1: a
+  path1: B11
+  word2: ten
+  path2: C12 -> B13 -> C14
+  word3: ten
+  path3: C13 -> D14 -> E14
+  word4: ten
+  path4: F14 -> G13 -> H12
+  word5: integer
+  path5: I12 -> I11 -> J10 -> K10 -> L10 -> M11 -> M12
+  word6: by
+  path6: L12 -> M13
+
+#41 | score=46 | phrase=get get ninety nine ten a
+  word1: get
+  path1: L9 -> M10 -> M9
+  word2: get
+  path2: L10 -> K10 -> J10
+  word3: ninety
+  path3: I11 -> I12 -> H12 -> G13 -> F14 -> F13
+  word4: nine
+  path4: E14 -> D13 -> C14 -> D14
+  word5: ten
+  path5: C13 -> B13 -> A12
+  word6: a
+  path6: B11
+
+#42 | score=46 | phrase=get get ninety nine ten a
+  word1: get
+  path1: L10 -> M10 -> M9
+  word2: get
+  path2: L9 -> K10 -> J10
+  word3: ninety
+  path3: I11 -> I12 -> H12 -> G13 -> F14 -> F13
+  word4: nine
+  path4: E14 -> D13 -> C14 -> D14
+  word5: ten
+  path5: C13 -> B13 -> A12
+  word6: a
+  path6: B11
+
+#43 | score=46 | phrase=get get ninety nine ten at
+  word1: get
+  path1: L9 -> M10 -> M9
+  word2: get
+  path2: L10 -> K10 -> J10
+  word3: ninety
+  path3: I11 -> I12 -> H12 -> G13 -> F14 -> F13
+  word4: nine
+  path4: E14 -> D13 -> C14 -> D14
+  word5: ten
+  path5: C13 -> B13 -> A12
+  word6: at
+  path6: B11 -> A10
+
+#44 | score=46 | phrase=get get ninety nine ten at
+  word1: get
+  path1: L9 -> M10 -> M9
+  word2: get
+  path2: L10 -> K10 -> J10
+  word3: ninety
+  path3: I11 -> I12 -> H12 -> G13 -> F14 -> F13
+  word4: nine
+  path4: E14 -> D13 -> C14 -> D14
+  word5: ten
+  path5: C13 -> B13 -> A12
+  word6: at
+  path6: B11 -> C12
+
+#45 | score=46 | phrase=get get ninety nine ten at
+  word1: get
+  path1: L10 -> M10 -> M9
+  word2: get
+  path2: L9 -> K10 -> J10
+  word3: ninety
+  path3: I11 -> I12 -> H12 -> G13 -> F14 -> F13
+  word4: nine
+  path4: E14 -> D13 -> C14 -> D14
+  word5: ten
+  path5: C13 -> B13 -> A12
+  word6: at
+  path6: B11 -> A10
+
+#46 | score=46 | phrase=get get ninety nine ten at
+  word1: get
+  path1: L10 -> M10 -> M9
+  word2: get
+  path2: L9 -> K10 -> J10
+  word3: ninety
+  path3: I11 -> I12 -> H12 -> G13 -> F14 -> F13
+  word4: nine
+  path4: E14 -> D13 -> C14 -> D14
+  word5: ten
+  path5: C13 -> B13 -> A12
+  word6: at
+  path6: B11 -> C12
+
+#47 | score=46 | phrase=get get ninety nine ten is
+  word1: get
+  path1: L9 -> M10 -> M9
+  word2: get
+  path2: L10 -> K10 -> J10
+  word3: ninety
+  path3: I11 -> I12 -> H12 -> G13 -> F14 -> F13
+  word4: nine
+  path4: E14 -> D13 -> C14 -> D14
+  word5: ten
+  path5: C13 -> B13 -> A12
+  word6: is
+  path6: A13 -> B12
+
+#48 | score=46 | phrase=get get ninety nine ten is
+  word1: get
+  path1: L10 -> M10 -> M9
+  word2: get
+  path2: L9 -> K10 -> J10
+  word3: ninety
+  path3: I11 -> I12 -> H12 -> G13 -> F14 -> F13
+  word4: nine
+  path4: E14 -> D13 -> C14 -> D14
+  word5: ten
+  path5: C13 -> B13 -> A12
+  word6: is
+  path6: A13 -> B12
+
+#49 | score=46 | phrase=get get ninety nine ten it
+  word1: get
+  path1: L9 -> M10 -> M9
+  word2: get
+  path2: L10 -> K10 -> J10
+  word3: ninety
+  path3: I11 -> I12 -> H12 -> G13 -> F14 -> F13
+  word4: nine
+  path4: E14 -> D13 -> C14 -> D14
+  word5: ten
+  path5: C13 -> B13 -> A12
+  word6: it
+  path6: A13 -> A14
+
+#50 | score=46 | phrase=get get ninety nine ten it
+  word1: get
+  path1: L10 -> M10 -> M9
+  word2: get
+  path2: L9 -> K10 -> J10
+  word3: ninety
+  path3: I11 -> I12 -> H12 -> G13 -> F14 -> F13
+  word4: nine
+  path4: E14 -> D13 -> C14 -> D14
+  word5: ten
+  path5: C13 -> B13 -> A12
+  word6: it
+  path6: A13 -> A14
+
+#51 | score=46 | phrase=get go it ninety nine ten
+  word1: get
+  path1: L9 -> K10 -> J10
+  word2: go
+  path2: I9 -> I10
+  word3: it
+  path3: H9 -> H10
+  word4: ninety
+  path4: I11 -> I12 -> H12 -> G13 -> F14 -> F13
+  word5: nine
+  path5: E14 -> D13 -> C14 -> D14
+  word6: ten
+  path6: C13 -> B13 -> A12
+
+#52 | score=46 | phrase=get go it ninety nine ten
+  word1: get
+  path1: L10 -> K10 -> J10
+  word2: go
+  path2: I9 -> I10
+  word3: it
+  path3: H9 -> H10
+  word4: ninety
+  path4: I11 -> I12 -> H12 -> G13 -> F14 -> F13
+  word5: nine
+  path5: E14 -> D13 -> C14 -> D14
+  word6: ten
+  path6: C13 -> B13 -> A12
+
+#53 | score=46 | phrase=get go ninety nine ten a
+  word1: get
+  path1: L9 -> K10 -> J10
+  word2: go
+  path2: I9 -> I10
+  word3: ninety
+  path3: I11 -> I12 -> H12 -> G13 -> F14 -> F13
+  word4: nine
+  path4: E14 -> D13 -> C14 -> D14
+  word5: ten
+  path5: C13 -> B13 -> A12
+  word6: a
+  path6: B11
+
+#54 | score=46 | phrase=get go ninety nine ten a
+  word1: get
+  path1: L10 -> K10 -> J10
+  word2: go
+  path2: I9 -> I10
+  word3: ninety
+  path3: I11 -> I12 -> H12 -> G13 -> F14 -> F13
+  word4: nine
+  path4: E14 -> D13 -> C14 -> D14
+  word5: ten
+  path5: C13 -> B13 -> A12
+  word6: a
+  path6: B11
+
+#55 | score=46 | phrase=get go ninety nine ten at
+  word1: get
+  path1: L9 -> K10 -> J10
+  word2: go
+  path2: I9 -> I10
+  word3: ninety
+  path3: I11 -> I12 -> H12 -> G13 -> F14 -> F13
+  word4: nine
+  path4: E14 -> D13 -> C14 -> D14
+  word5: ten
+  path5: C13 -> B13 -> A12
+  word6: at
+  path6: B11 -> A10
+
+#56 | score=46 | phrase=get go ninety nine ten at
+  word1: get
+  path1: L9 -> K10 -> J10
+  word2: go
+  path2: I9 -> I10
+  word3: ninety
+  path3: I11 -> I12 -> H12 -> G13 -> F14 -> F13
+  word4: nine
+  path4: E14 -> D13 -> C14 -> D14
+  word5: ten
+  path5: C13 -> B13 -> A12
+  word6: at
+  path6: B11 -> C12
+
+#57 | score=46 | phrase=get go ninety nine ten at
+  word1: get
+  path1: L10 -> K10 -> J10
+  word2: go
+  path2: I9 -> I10
+  word3: ninety
+  path3: I11 -> I12 -> H12 -> G13 -> F14 -> F13
+  word4: nine
+  path4: E14 -> D13 -> C14 -> D14
+  word5: ten
+  path5: C13 -> B13 -> A12
+  word6: at
+  path6: B11 -> A10
+
+#58 | score=46 | phrase=get go ninety nine ten at
+  word1: get
+  path1: L10 -> K10 -> J10
+  word2: go
+  path2: I9 -> I10
+  word3: ninety
+  path3: I11 -> I12 -> H12 -> G13 -> F14 -> F13
+  word4: nine
+  path4: E14 -> D13 -> C14 -> D14
+  word5: ten
+  path5: C13 -> B13 -> A12
+  word6: at
+  path6: B11 -> C12
+
+#59 | score=46 | phrase=get go ninety nine ten is
+  word1: get
+  path1: L9 -> K10 -> J10
+  word2: go
+  path2: I9 -> I10
+  word3: ninety
+  path3: I11 -> I12 -> H12 -> G13 -> F14 -> F13
+  word4: nine
+  path4: E14 -> D13 -> C14 -> D14
+  word5: ten
+  path5: C13 -> B13 -> A12
+  word6: is
+  path6: A13 -> B12
+
+#60 | score=46 | phrase=get go ninety nine ten is
+  word1: get
+  path1: L10 -> K10 -> J10
+  word2: go
+  path2: I9 -> I10
+  word3: ninety
+  path3: I11 -> I12 -> H12 -> G13 -> F14 -> F13
+  word4: nine
+  path4: E14 -> D13 -> C14 -> D14
+  word5: ten
+  path5: C13 -> B13 -> A12
+  word6: is
+  path6: A13 -> B12
+
+#61 | score=46 | phrase=get go ninety nine ten it
+  word1: get
+  path1: L9 -> K10 -> J10
+  word2: go
+  path2: I9 -> I10
+  word3: ninety
+  path3: I11 -> I12 -> H12 -> G13 -> F14 -> F13
+  word4: nine
+  path4: E14 -> D13 -> C14 -> D14
+  word5: ten
+  path5: C13 -> B13 -> A12
+  word6: it
+  path6: A13 -> A14
+
+#62 | score=46 | phrase=get go ninety nine ten it
+  word1: get
+  path1: L10 -> K10 -> J10
+  word2: go
+  path2: I9 -> I10
+  word3: ninety
+  path3: I11 -> I12 -> H12 -> G13 -> F14 -> F13
+  word4: nine
+  path4: E14 -> D13 -> C14 -> D14
+  word5: ten
+  path5: C13 -> B13 -> A12
+  word6: it
+  path6: A13 -> A14
+
+#63 | score=46 | phrase=get the it ninety nine ten
+  word1: get
+  path1: L9 -> M10 -> N10
+  word2: the
+  path2: M9 -> L8 -> K8
+  word3: it
+  path3: J9 -> J10
+  word4: ninety
+  path4: I11 -> I12 -> H12 -> G13 -> F14 -> F13
+  word5: nine
+  path5: E14 -> D13 -> C14 -> D14
+  word6: ten
+  path6: C13 -> B13 -> A12
+
+#64 | score=46 | phrase=get the it ninety nine ten
+  word1: get
+  path1: L10 -> M10 -> N10
+  word2: the
+  path2: M9 -> L8 -> K8
+  word3: it
+  path3: J9 -> J10
+  word4: ninety
+  path4: I11 -> I12 -> H12 -> G13 -> F14 -> F13
+  word5: nine
+  path5: E14 -> D13 -> C14 -> D14
+  word6: ten
+  path6: C13 -> B13 -> A12
+
+#65 | score=46 | phrase=get the it ninety nine ten
+  word1: get
+  path1: L10 -> M11 -> N10
+  word2: the
+  path2: M9 -> L8 -> K8
+  word3: it
+  path3: J9 -> J10
+  word4: ninety
+  path4: I11 -> I12 -> H12 -> G13 -> F14 -> F13
+  word5: nine
+  path5: E14 -> D13 -> C14 -> D14
+  word6: ten
+  path6: C13 -> B13 -> A12
+
+#66 | score=46 | phrase=integers find the start nine go
+  word1: integers
+  path1: D6 -> C5 -> B5 -> A4 -> B4 -> C4 -> D3 -> E2
+  word2: find
+  path2: E1 -> F1 -> G1 -> H1
+  word3: the
+  path3: I1 -> J1 -> J2
+  word4: start
+  path4: K1 -> K2 -> L1 -> M1 -> N1
+  word5: nine
+  path5: M2 -> M3 -> L4 -> K4
+  word6: go
+  path6: J3 -> K3
+
+#67 | score=46 | phrase=is a ten ten ten integer
+  word1: is
+  path1: C11 -> B12
+  word2: a
+  path2: B11
+  word3: ten
+  path3: C12 -> B13 -> C14
+  word4: ten
+  path4: C13 -> D14 -> E14
+  word5: ten
+  path5: F14 -> G13 -> H12
+  word6: integer
+  path6: I12 -> I11 -> J10 -> K10 -> L10 -> M11 -> M12
+
+#68 | score=46 | phrase=is a ten ten ten integer
+  word1: is
+  path1: A13 -> B12
+  word2: a
+  path2: B11
+  word3: ten
+  path3: C12 -> B13 -> C14
+  word4: ten
+  path4: C13 -> D14 -> E14
+  word5: ten
+  path5: F14 -> G13 -> H12
+  word6: integer
+  path6: I12 -> I11 -> J10 -> K10 -> L10 -> M11 -> M12
+
+#69 | score=46 | phrase=it a ten ten ten integer
+  word1: it
+  path1: B9 -> A10
+  word2: a
+  path2: B11
+  word3: ten
+  path3: C12 -> B13 -> C14
+  word4: ten
+  path4: C13 -> D14 -> E14
+  word5: ten
+  path5: F14 -> G13 -> H12
+  word6: integer
+  path6: I12 -> I11 -> J10 -> K10 -> L10 -> M11 -> M12
+
+#70 | score=46 | phrase=ten hundred is find the start
+  word1: ten
+  path1: C3 -> C4 -> C5
+  word2: hundred
+  path2: B6 -> C6 -> D5 -> D4 -> D3 -> D2 -> C1
+  word3: is
+  path3: D1 -> E2
+  word4: find
+  path4: E1 -> F1 -> G1 -> H1
+  word5: the
+  path5: I1 -> J1 -> J2
+  word6: start
+  path6: K1 -> K2 -> L1 -> M1 -> N1
+
+#71 | score=46 | phrase=ten hundred is find the start
+  word1: ten
+  path1: B5 -> C4 -> C5
+  word2: hundred
+  path2: B6 -> C6 -> D5 -> D4 -> D3 -> D2 -> C1
+  word3: is
+  path3: D1 -> E2
+  word4: find
+  path4: E1 -> F1 -> G1 -> H1
+  word5: the
+  path5: I1 -> J1 -> J2
+  word6: start
+  path6: K1 -> K2 -> L1 -> M1 -> N1
+
+#72 | score=46 | phrase=ten integer is find the start
+  word1: ten
+  path1: C3 -> C4 -> D5
+  word2: integer
+  path2: D6 -> C5 -> B5 -> A4 -> B4 -> B3 -> C2
+  word3: is
+  path3: D1 -> E2
+  word4: find
+  path4: E1 -> F1 -> G1 -> H1
+  word5: the
+  path5: I1 -> J1 -> J2
+  word6: start
+  path6: K1 -> K2 -> L1 -> M1 -> N1
+
+#73 | score=46 | phrase=up integers find the start nine
+  word1: up
+  path1: C6 -> D7
+  word2: integers
+  path2: D6 -> C5 -> B5 -> A4 -> B4 -> C4 -> D3 -> E2
+  word3: find
+  path3: E1 -> F1 -> G1 -> H1
+  word4: the
+  path4: I1 -> J1 -> J2
+  word5: start
+  path5: K1 -> K2 -> L1 -> M1 -> N1
+  word6: nine
+  path6: M2 -> M3 -> L4 -> K4
+
+#74 | score=46 | phrase=up integers find the start nine
+  word1: up
+  path1: C6 -> D7
+  word2: integers
+  path2: D6 -> C5 -> B5 -> A4 -> B4 -> C4 -> D3 -> E2
+  word3: find
+  path3: E1 -> F1 -> G1 -> H1
+  word4: the
+  path4: I1 -> J1 -> J2
+  word5: start
+  path5: K1 -> K2 -> L1 -> M1 -> N1
+  word6: nine
+  path6: M2 -> M3 -> L4 -> M5
+
+#75 | score=46 | phrase=decimal ten ten ten integer
+  word1: decimal
+  path1: H7 -> G8 -> F9 -> E10 -> D10 -> C10 -> D11
+  word2: ten
+  path2: C12 -> B13 -> C14
+  word3: ten
+  path3: C13 -> D14 -> E14
+  word4: ten
+  path4: F14 -> G13 -> H12
+  word5: integer
+  path5: I12 -> I11 -> J10 -> K10 -> L10 -> M11 -> M12
+
+#76 | score=46 | phrase=find the start a nine
+  word1: find
+  path1: E1 -> F1 -> G1 -> H1
+  word2: the
+  path2: I1 -> J1 -> J2
+  word3: start
+  path3: K1 -> K2 -> L1 -> M1 -> N1
+  word4: a
+  path4: N2
+  word5: nine
+  path5: M2 -> M3 -> L4 -> K4
+
+#77 | score=46 | phrase=find the start a nine
+  word1: find
+  path1: E1 -> F1 -> G1 -> H1
+  word2: the
+  path2: I1 -> J1 -> J2
+  word3: start
+  path3: K1 -> K2 -> L1 -> M1 -> N1
+  word4: a
+  path4: N2
+  word5: nine
+  path5: M2 -> M3 -> L4 -> M5
+
+#78 | score=45 | phrase=a decimal a ten ten ten
+  word1: a
+  path1: I6
+  word2: decimal
+  path2: H7 -> G8 -> F9 -> E10 -> D10 -> C10 -> B10
+  word3: a
+  path3: B11
+  word4: ten
+  path4: C12 -> B13 -> C14
+  word5: ten
+  path5: C13 -> D14 -> E14
+  word6: ten
+  path6: F14 -> G13 -> H12
+
+#79 | score=45 | phrase=a decimals a ten ten ten
+  word1: a
+  path1: I6
+  word2: decimals
+  path2: H7 -> G8 -> F9 -> E10 -> D10 -> C10 -> B10 -> A11
+  word3: a
+  path3: B11
+  word4: ten
+  path4: C12 -> B13 -> C14
+  word5: ten
+  path5: C13 -> D14 -> E14
+  word6: ten
+  path6: F14 -> G13 -> H12
+
+#80 | score=45 | phrase=an integers find the start nine
+  word1: an
+  path1: E4 -> D5
+  word2: integers
+  path2: D6 -> C5 -> B5 -> A4 -> B4 -> C4 -> D3 -> E2
+  word3: find
+  path3: E1 -> F1 -> G1 -> H1
+  word4: the
+  path4: I1 -> J1 -> J2
+  word5: start
+  path5: K1 -> K2 -> L1 -> M1 -> N1
+  word6: nine
+  path6: M2 -> M3 -> L4 -> K4
+
+#81 | score=45 | phrase=an integers find the start nine
+  word1: an
+  path1: E4 -> D5
+  word2: integers
+  path2: D6 -> C5 -> B5 -> A4 -> B4 -> C4 -> D3 -> E2
+  word3: find
+  path3: E1 -> F1 -> G1 -> H1
+  word4: the
+  path4: I1 -> J1 -> J2
+  word5: start
+  path5: K1 -> K2 -> L1 -> M1 -> N1
+  word6: nine
+  path6: M2 -> M3 -> L4 -> M5
+
+#82 | score=45 | phrase=find a the start nine go
+  word1: find
+  path1: E1 -> F1 -> G1 -> H1
+  word2: a
+  path2: H2
+  word3: the
+  path3: I1 -> J1 -> J2
+  word4: start
+  path4: K1 -> K2 -> L1 -> M1 -> N1
+  word5: nine
+  path5: M2 -> M3 -> L4 -> K4
+  word6: go
+  path6: J3 -> K3
+
+#83 | score=45 | phrase=find a the start nine go
+  word1: find
+  path1: E1 -> F1 -> G1 -> G2
+  word2: a
+  path2: H2
+  word3: the
+  path3: I1 -> J1 -> J2
+  word4: start
+  path4: K1 -> K2 -> L1 -> M1 -> N1
+  word5: nine
+  path5: M2 -> M3 -> L4 -> K4
+  word6: go
+  path6: J3 -> K3
+
+#84 | score=45 | phrase=find the start nine a go
+  word1: find
+  path1: E1 -> F1 -> G1 -> H1
+  word2: the
+  path2: I1 -> J1 -> J2
+  word3: start
+  path3: K1 -> K2 -> L1 -> M1 -> N1
+  word4: nine
+  path4: M2 -> M3 -> L4 -> K4
+  word5: a
+  path5: J4
+  word6: go
+  path6: J3 -> K3
+
+#85 | score=45 | phrase=get an a decimal ten ten
+  word1: get
+  path1: L9 -> K8 -> L7
+  word2: an
+  path2: K6 -> J6
+  word3: a
+  path3: I6
+  word4: decimal
+  path4: H7 -> G8 -> F9 -> E10 -> D10 -> C10 -> D11
+  word5: ten
+  path5: C12 -> B13 -> C14
+  word6: ten
+  path6: C13 -> D14 -> E14
+
+#86 | score=45 | phrase=get hundred is find the start
+  word1: get
+  path1: B4 -> A4 -> B5
+  word2: hundred
+  path2: B6 -> C6 -> C5 -> D4 -> D3 -> D2 -> C1
+  word3: is
+  path3: D1 -> E2
+  word4: find
+  path4: E1 -> F1 -> G1 -> H1
+  word5: the
+  path5: I1 -> J1 -> J2
+  word6: start
+  path6: K1 -> K2 -> L1 -> M1 -> N1
+
+#87 | score=45 | phrase=get hundred is find the start
+  word1: get
+  path1: B4 -> A4 -> B5
+  word2: hundred
+  path2: B6 -> C6 -> D5 -> D4 -> D3 -> D2 -> C1
+  word3: is
+  path3: D1 -> E2
+  word4: find
+  path4: E1 -> F1 -> G1 -> H1
+  word5: the
+  path5: I1 -> J1 -> J2
+  word6: start
+  path6: K1 -> K2 -> L1 -> M1 -> N1
+
+#88 | score=45 | phrase=get hundred is find the start
+  word1: get
+  path1: B4 -> C4 -> B5
+  word2: hundred
+  path2: B6 -> C6 -> C5 -> D4 -> D3 -> D2 -> C1
+  word3: is
+  path3: D1 -> E2
+  word4: find
+  path4: E1 -> F1 -> G1 -> H1
+  word5: the
+  path5: I1 -> J1 -> J2
+  word6: start
+  path6: K1 -> K2 -> L1 -> M1 -> N1
+
+#89 | score=45 | phrase=get hundred is find the start
+  word1: get
+  path1: B4 -> C4 -> B5
+  word2: hundred
+  path2: B6 -> C6 -> D5 -> D4 -> D3 -> D2 -> C1
+  word3: is
+  path3: D1 -> E2
+  word4: find
+  path4: E1 -> F1 -> G1 -> H1
+  word5: the
+  path5: I1 -> J1 -> J2
+  word6: start
+  path6: K1 -> K2 -> L1 -> M1 -> N1
+
+#90 | score=45 | phrase=get the get go ninety nine
+  word1: get
+  path1: L10 -> M10 -> N10
+  word2: the
+  path2: M9 -> L8 -> K8
+  word3: get
+  path3: L9 -> K10 -> J10
+  word4: go
+  path4: I9 -> I10
+  word5: ninety
+  path5: I11 -> I12 -> H12 -> G13 -> F14 -> F13
+  word6: nine
+  path6: E14 -> D13 -> C14 -> B13
+
+#91 | score=45 | phrase=get the get go ninety nine
+  word1: get
+  path1: L10 -> M10 -> N10
+  word2: the
+  path2: M9 -> L8 -> K8
+  word3: get
+  path3: L9 -> K10 -> J10
+  word4: go
+  path4: I9 -> I10
+  word5: ninety
+  path5: I11 -> I12 -> H12 -> G13 -> F14 -> F13
+  word6: nine
+  path6: E14 -> D13 -> C14 -> D14
+
+#92 | score=45 | phrase=get the get go ninety nine
+  word1: get
+  path1: L10 -> M11 -> N10
+  word2: the
+  path2: M9 -> L8 -> K8
+  word3: get
+  path3: L9 -> K10 -> J10
+  word4: go
+  path4: I9 -> I10
+  word5: ninety
+  path5: I11 -> I12 -> H12 -> G13 -> F14 -> F13
+  word6: nine
+  path6: E14 -> D13 -> C14 -> B13
+
+#93 | score=45 | phrase=get the get go ninety nine
+  word1: get
+  path1: L10 -> M11 -> N10
+  word2: the
+  path2: M9 -> L8 -> K8
+  word3: get
+  path3: L9 -> K10 -> J10
+  word4: go
+  path4: I9 -> I10
+  word5: ninety
+  path5: I11 -> I12 -> H12 -> G13 -> F14 -> F13
+  word6: nine
+  path6: E14 -> D13 -> C14 -> D14
+
+#94 | score=45 | phrase=integers find the start an go
+  word1: integers
+  path1: D6 -> C5 -> B5 -> A4 -> B4 -> C4 -> D3 -> E2
+  word2: find
+  path2: E1 -> F1 -> G1 -> H1
+  word3: the
+  path3: I1 -> J1 -> J2
+  word4: start
+  path4: K1 -> K2 -> L1 -> M1 -> N1
+  word5: an
+  path5: N2 -> M2
+  word6: go
+  path6: L2 -> K3
+
+#95 | score=45 | phrase=start a in go a end
+  word1: start
+  path1: K1 -> K2 -> L1 -> M1 -> N1
+  word2: a
+  path2: N2
+  word3: in
+  path3: M3 -> M2
+  word4: go
+  path4: L2 -> K3
+  word5: a
+  path5: J4
+  word6: end
+  path6: K4 -> L4 -> K5
+
+#96 | score=45 | phrase=start a in go a end
+  word1: start
+  path1: K1 -> K2 -> L1 -> M1 -> N1
+  word2: a
+  path2: N2
+  word3: in
+  path3: M3 -> M2
+  word4: go
+  path4: L2 -> K3
+  word5: a
+  path5: J4
+  word6: end
+  path6: K4 -> L5 -> K5
+
+#97 | score=45 | phrase=start a nine a get a
+  word1: start
+  path1: K1 -> K2 -> L1 -> M1 -> N1
+  word2: a
+  path2: N2
+  word3: nine
+  path3: M2 -> M3 -> L4 -> K4
+  word4: a
+  path4: J4
+  word5: get
+  path5: J3 -> I2 -> I1
+  word6: a
+  path6: H2
+
+#98 | score=45 | phrase=start a nine a get a
+  word1: start
+  path1: K1 -> K2 -> L1 -> M1 -> N1
+  word2: a
+  path2: N2
+  word3: nine
+  path3: M2 -> M3 -> L4 -> K4
+  word4: a
+  path4: J4
+  word5: get
+  path5: J3 -> J2 -> I1
+  word6: a
+  path6: H2
+
+#99 | score=45 | phrase=start a nine a get an
+  word1: start
+  path1: K1 -> K2 -> L1 -> M1 -> N1
+  word2: a
+  path2: N2
+  word3: nine
+  path3: M2 -> M3 -> L4 -> K4
+  word4: a
+  path4: J4
+  word5: get
+  path5: J3 -> I2 -> I1
+  word6: an
+  path6: H2 -> G1
+
+#100 | score=45 | phrase=start a nine a get an
+  word1: start
+  path1: K1 -> K2 -> L1 -> M1 -> N1
+  word2: a
+  path2: N2
+  word3: nine
+  path3: M2 -> M3 -> L4 -> K4
+  word4: a
+  path4: J4
+  word5: get
+  path5: J3 -> J2 -> I1
+  word6: an
+  path6: H2 -> G1
+
+#101 | score=45 | phrase=start a nine get an is
+  word1: start
+  path1: K1 -> K2 -> L1 -> M1 -> N1
+  word2: a
+  path2: N2
+  word3: nine
+  path3: M2 -> M3 -> L4 -> K4
+  word4: get
+  path4: J3 -> I2 -> I1
+  word5: an
+  path5: H2 -> G1
+  word6: is
+  path6: F1 -> E2
+
+#102 | score=45 | phrase=start a nine get an is
+  word1: start
+  path1: K1 -> K2 -> L1 -> M1 -> N1
+  word2: a
+  path2: N2
+  word3: nine
+  path3: M2 -> M3 -> L4 -> K4
+  word4: get
+  path4: J3 -> J2 -> I1
+  word5: an
+  path5: H2 -> G1
+  word6: is
+  path6: F1 -> E2
+
+#103 | score=45 | phrase=start a nine get an of
+  word1: start
+  path1: K1 -> K2 -> L1 -> M1 -> N1
+  word2: a
+  path2: N2
+  word3: nine
+  path3: M2 -> M3 -> L4 -> K4
+  word4: get
+  path4: J3 -> I2 -> I1
+  word5: an
+  path5: H2 -> G1
+  word6: of
+  path6: F2 -> E1
+
+#104 | score=45 | phrase=start a nine get an of
+  word1: start
+  path1: K1 -> K2 -> L1 -> M1 -> N1
+  word2: a
+  path2: N2
+  word3: nine
+  path3: M2 -> M3 -> L4 -> K4
+  word4: get
+  path4: J3 -> J2 -> I1
+  word5: an
+  path5: H2 -> G1
+  word6: of
+  path6: F2 -> E1
+
+#105 | score=45 | phrase=start a nine go a in
+  word1: start
+  path1: K1 -> K2 -> L1 -> M1 -> N1
+  word2: a
+  path2: N2
+  word3: nine
+  path3: M2 -> M3 -> L4 -> K4
+  word4: go
+  path4: J3 -> K3
+  word5: a
+  path5: J4
+  word6: in
+  path6: J5 -> J6
+
+#106 | score=45 | phrase=start an go a end a
+  word1: start
+  path1: K1 -> K2 -> L1 -> M1 -> N1
+  word2: an
+  path2: N2 -> M2
+  word3: go
+  path3: L2 -> K3
+  word4: a
+  path4: J4
+  word5: end
+  path5: K4 -> L4 -> K5
+  word6: a
+  path6: K6
+
+#107 | score=45 | phrase=start an go a end a
+  word1: start
+  path1: K1 -> K2 -> L1 -> M1 -> N1
+  word2: an
+  path2: N2 -> M2
+  word3: go
+  path3: L2 -> K3
+  word4: a
+  path4: J4
+  word5: end
+  path5: K4 -> L5 -> K5
+  word6: a
+  path6: K6
+
+#108 | score=45 | phrase=start an go a end an
+  word1: start
+  path1: K1 -> K2 -> L1 -> M1 -> N1
+  word2: an
+  path2: N2 -> M2
+  word3: go
+  path3: L2 -> K3
+  word4: a
+  path4: J4
+  word5: end
+  path5: K4 -> L4 -> K5
+  word6: an
+  path6: K6 -> L5
+
+#109 | score=45 | phrase=start an go a end an
+  word1: start
+  path1: K1 -> K2 -> L1 -> M1 -> N1
+  word2: an
+  path2: N2 -> M2
+  word3: go
+  path3: L2 -> K3
+  word4: a
+  path4: J4
+  word5: end
+  path5: K4 -> L4 -> K5
+  word6: an
+  path6: K6 -> J6
+
+#110 | score=45 | phrase=start an go a end an
+  word1: start
+  path1: K1 -> K2 -> L1 -> M1 -> N1
+  word2: an
+  path2: N2 -> M2
+  word3: go
+  path3: L2 -> K3
+  word4: a
+  path4: J4
+  word5: end
+  path5: K4 -> L5 -> K5
+  word6: an
+  path6: K6 -> J6
+
+#111 | score=45 | phrase=start an go a end at
+  word1: start
+  path1: K1 -> K2 -> L1 -> M1 -> N1
+  word2: an
+  path2: N2 -> M2
+  word3: go
+  path3: L2 -> K3
+  word4: a
+  path4: J4
+  word5: end
+  path5: K4 -> L4 -> K5
+  word6: at
+  path6: K6 -> L7
+
+#112 | score=45 | phrase=start an go a end at
+  word1: start
+  path1: K1 -> K2 -> L1 -> M1 -> N1
+  word2: an
+  path2: N2 -> M2
+  word3: go
+  path3: L2 -> K3
+  word4: a
+  path4: J4
+  word5: end
+  path5: K4 -> L5 -> K5
+  word6: at
+  path6: K6 -> L7
+
+#113 | score=45 | phrase=start an go a end in
+  word1: start
+  path1: K1 -> K2 -> L1 -> M1 -> N1
+  word2: an
+  path2: N2 -> M2
+  word3: go
+  path3: L2 -> K3
+  word4: a
+  path4: J4
+  word5: end
+  path5: K4 -> L4 -> K5
+  word6: in
+  path6: J5 -> J6
+
+#114 | score=45 | phrase=start an go a end in
+  word1: start
+  path1: K1 -> K2 -> L1 -> M1 -> N1
+  word2: an
+  path2: N2 -> M2
+  word3: go
+  path3: L2 -> K3
+  word4: a
+  path4: J4
+  word5: end
+  path5: K4 -> L5 -> K5
+  word6: in
+  path6: J5 -> J6
+
+#115 | score=45 | phrase=start an go a get a
+  word1: start
+  path1: K1 -> K2 -> L1 -> M1 -> N1
+  word2: an
+  path2: N2 -> M2
+  word3: go
+  path3: L2 -> K3
+  word4: a
+  path4: J4
+  word5: get
+  path5: J3 -> I2 -> I1
+  word6: a
+  path6: H2
+
+#116 | score=45 | phrase=start an go a get a
+  word1: start
+  path1: K1 -> K2 -> L1 -> M1 -> N1
+  word2: an
+  path2: N2 -> M2
+  word3: go
+  path3: L2 -> K3
+  word4: a
+  path4: J4
+  word5: get
+  path5: J3 -> J2 -> I1
+  word6: a
+  path6: H2
+
+#117 | score=45 | phrase=start an go a get an
+  word1: start
+  path1: K1 -> K2 -> L1 -> M1 -> N1
+  word2: an
+  path2: N2 -> M2
+  word3: go
+  path3: L2 -> K3
+  word4: a
+  path4: J4
+  word5: get
+  path5: J3 -> I2 -> I1
+  word6: an
+  path6: H2 -> G1
+
+#118 | score=45 | phrase=start an go a get an
+  word1: start
+  path1: K1 -> K2 -> L1 -> M1 -> N1
+  word2: an
+  path2: N2 -> M2
+  word3: go
+  path3: L2 -> K3
+  word4: a
+  path4: J4
+  word5: get
+  path5: J3 -> J2 -> I1
+  word6: an
+  path6: H2 -> G1
+
+#119 | score=45 | phrase=start nine in a decimal ten
+  word1: start
+  path1: K1 -> K2 -> L1 -> M1 -> N1
+  word2: nine
+  path2: M2 -> M3 -> L4 -> K4
+  word3: in
+  path3: J5 -> J6
+  word4: a
+  path4: I6
+  word5: decimal
+  path5: H7 -> G8 -> F9 -> E10 -> D10 -> C10 -> D11
+  word6: ten
+  path6: C12 -> B13 -> A12
+
+#120 | score=45 | phrase=start nine in a decimal ten
+  word1: start
+  path1: K1 -> K2 -> L1 -> M1 -> N1
+  word2: nine
+  path2: M2 -> M3 -> L4 -> K4
+  word3: in
+  path3: J5 -> J6
+  word4: a
+  path4: I6
+  word5: decimal
+  path5: H7 -> G8 -> F9 -> E10 -> D10 -> C10 -> D11
+  word6: ten
+  path6: C12 -> B13 -> C14
+
+#121 | score=45 | phrase=ten ten ten integer by a
+  word1: ten
+  path1: C12 -> B13 -> C14
+  word2: ten
+  path2: C13 -> D14 -> E14
+  word3: ten
+  path3: F14 -> G13 -> H12
+  word4: integer
+  path4: I12 -> I11 -> J10 -> K10 -> L10 -> M11 -> M12
+  word5: by
+  path5: L12 -> M13
+  word6: a
+  path6: L13
+
+#122 | score=45 | phrase=ten ten ten integer by a
+  word1: ten
+  path1: A14 -> B13 -> C14
+  word2: ten
+  path2: C13 -> D14 -> E14
+  word3: ten
+  path3: F14 -> G13 -> H12
+  word4: integer
+  path4: I12 -> I11 -> J10 -> K10 -> L10 -> M11 -> M12
+  word5: by
+  path5: L12 -> M13
+  word6: a
+  path6: L13
+
+#123 | score=45 | phrase=the decimal a ten ten ten
+  word1: the
+  path1: G6 -> H6 -> I7
+  word2: decimal
+  path2: H7 -> G8 -> F9 -> E10 -> D10 -> C10 -> B10
+  word3: a
+  path3: B11
+  word4: ten
+  path4: C12 -> B13 -> C14
+  word5: ten
+  path5: C13 -> D14 -> E14
+  word6: ten
+  path6: F14 -> G13 -> H12
+
+#124 | score=45 | phrase=the decimals a ten ten ten
+  word1: the
+  path1: G6 -> H6 -> I7
+  word2: decimals
+  path2: H7 -> G8 -> F9 -> E10 -> D10 -> C10 -> B10 -> A11
+  word3: a
+  path3: B11
+  word4: ten
+  path4: C12 -> B13 -> C14
+  word5: ten
+  path5: C13 -> D14 -> E14
+  word6: ten
+  path6: F14 -> G13 -> H12
+
+#125 | score=45 | phrase=up integers find the start a
+  word1: up
+  path1: C6 -> D7
+  word2: integers
+  path2: D6 -> C5 -> B5 -> A4 -> B4 -> C4 -> D3 -> E2
+  word3: find
+  path3: E1 -> F1 -> G1 -> H1
+  word4: the
+  path4: I1 -> J1 -> J2
+  word5: start
+  path5: K1 -> K2 -> L1 -> M1 -> N1
+  word6: a
+  path6: N2
+
+#126 | score=45 | phrase=up integers find the start an
+  word1: up
+  path1: C6 -> D7
+  word2: integers
+  path2: D6 -> C5 -> B5 -> A4 -> B4 -> C4 -> D3 -> E2
+  word3: find
+  path3: E1 -> F1 -> G1 -> H1
+  word4: the
+  path4: I1 -> J1 -> J2
+  word5: start
+  path5: K1 -> K2 -> L1 -> M1 -> N1
+  word6: an
+  path6: N2 -> M2
+
+#127 | score=44 | phrase=a decimal at ten ten integer
+  word1: a
+  path1: I6
+  word2: decimal
+  path2: H7 -> G8 -> F9 -> E10 -> D10 -> C10 -> B10
+  word3: at
+  path3: B11 -> C12
+  word4: ten
+  path4: C13 -> D14 -> E14
+  word5: ten
+  path5: F14 -> G13 -> H12
+  word6: integer
+  path6: I12 -> I11 -> J10 -> K10 -> L10 -> M11 -> M12
+
+#128 | score=44 | phrase=a decimal to ten ten integer
+  word1: a
+  path1: I6
+  word2: decimal
+  path2: H7 -> G8 -> F9 -> E10 -> D10 -> C10 -> D11
+  word3: to
+  path3: C12 -> D12
+  word4: ten
+  path4: C13 -> D14 -> E14
+  word5: ten
+  path5: F14 -> G13 -> H12
+  word6: integer
+  path6: I12 -> I11 -> J10 -> K10 -> L10 -> M11 -> M12
+
+#129 | score=44 | phrase=a decimals at ten ten integer
+  word1: a
+  path1: I6
+  word2: decimals
+  path2: H7 -> G8 -> F9 -> E10 -> D10 -> C10 -> B10 -> A11
+  word3: at
+  path3: B11 -> C12
+  word4: ten
+  path4: C13 -> D14 -> E14
+  word5: ten
+  path5: F14 -> G13 -> H12
+  word6: integer
+  path6: I12 -> I11 -> J10 -> K10 -> L10 -> M11 -> M12
+
+#130 | score=44 | phrase=an integers find the start a
+  word1: an
+  path1: E4 -> D5
+  word2: integers
+  path2: D6 -> C5 -> B5 -> A4 -> B4 -> C4 -> D3 -> E2
+  word3: find
+  path3: E1 -> F1 -> G1 -> H1
+  word4: the
+  path4: I1 -> J1 -> J2
+  word5: start
+  path5: K1 -> K2 -> L1 -> M1 -> N1
+  word6: a
+  path6: N2
+
+#131 | score=44 | phrase=an integers find the start an
+  word1: an
+  path1: E4 -> D5
+  word2: integers
+  path2: D6 -> C5 -> B5 -> A4 -> B4 -> C4 -> D3 -> E2
+  word3: find
+  path3: E1 -> F1 -> G1 -> H1
+  word4: the
+  path4: I1 -> J1 -> J2
+  word5: start
+  path5: K1 -> K2 -> L1 -> M1 -> N1
+  word6: an
+  path6: N2 -> M2
+
+#132 | score=44 | phrase=at ten ten integer a six
+  word1: at
+  path1: B11 -> C12
+  word2: ten
+  path2: C13 -> D14 -> E14
+  word3: ten
+  path3: F14 -> G13 -> H12
+  word4: integer
+  path4: I12 -> I11 -> J10 -> K10 -> L10 -> M11 -> M12
+  word5: a
+  path5: L13
+  word6: six
+  path6: L14 -> M14 -> N14
+
+#133 | score=44 | phrase=decimal ten is ten ten integer
+  word1: decimal
+  path1: H7 -> G8 -> F9 -> E10 -> D10 -> C10 -> D11
+  word2: ten
+  path2: C12 -> B13 -> A12
+  word3: is
+  path3: A13 -> B12
+  word4: ten
+  path4: C13 -> D14 -> E14
+  word5: ten
+  path5: F14 -> G13 -> H12
+  word6: integer
+  path6: I12 -> I11 -> J10 -> K10 -> L10 -> M11 -> M12
+
+#134 | score=44 | phrase=decimal ten ten ten is integer
+  word1: decimal
+  path1: H7 -> G8 -> F9 -> E10 -> D10 -> C10 -> D11
+  word2: ten
+  path2: C12 -> B13 -> C14
+  word3: ten
+  path3: C13 -> D14 -> E14
+  word4: ten
+  path4: F14 -> G13 -> H12
+  word5: is
+  path5: I12 -> I13
+  word6: integer
+  path6: J12 -> I11 -> J10 -> K10 -> L10 -> M11 -> M12
+
+#135 | score=44 | phrase=decimal ten ten ten it integer
+  word1: decimal
+  path1: H7 -> G8 -> F9 -> E10 -> D10 -> C10 -> D11
+  word2: ten
+  path2: C12 -> B13 -> C14
+  word3: ten
+  path3: C13 -> D14 -> E14
+  word4: ten
+  path4: F14 -> G13 -> H12
+  word5: it
+  path5: G11 -> H11
+  word6: integer
+  path6: I12 -> I11 -> J10 -> K10 -> L10 -> M11 -> M12
+
+#136 | score=44 | phrase=decimal ten ten ten to integer
+  word1: decimal
+  path1: H7 -> G8 -> F9 -> E10 -> D10 -> C10 -> D11
+  word2: ten
+  path2: C12 -> B13 -> C14
+  word3: ten
+  path3: C13 -> D14 -> E14
+  word4: ten
+  path4: F14 -> G13 -> H12
+  word5: to
+  path5: H11 -> I10
+  word6: integer
+  path6: J11 -> I11 -> J10 -> K10 -> L10 -> M11 -> M12
+
+#137 | score=44 | phrase=find a a nine ten get
+  word1: find
+  path1: E1 -> F1 -> G1 -> G2
+  word2: a
+  path2: F3
+  word3: a
+  path3: E4
+  word4: nine
+  path4: D5 -> D6 -> C5 -> C4
+  word5: ten
+  path5: C3 -> B3 -> A3
+  word6: get
+  path6: B4 -> A4 -> B5
+
+#138 | score=44 | phrase=find a a nine ten get
+  word1: find
+  path1: E1 -> F1 -> G1 -> G2
+  word2: a
+  path2: F3
+  word3: a
+  path3: E4
+  word4: nine
+  path4: D5 -> D6 -> C5 -> C4
+  word5: ten
+  path5: B5 -> A4 -> A3
+  word6: get
+  path6: B4 -> B3 -> C3
+
+#139 | score=44 | phrase=find a a nine three get
+  word1: find
+  path1: E1 -> F1 -> G1 -> G2
+  word2: a
+  path2: F3
+  word3: a
+  path3: E4
+  word4: nine
+  path4: D5 -> D6 -> C5 -> C4
+  word5: three
+  path5: C3 -> B2 -> A1 -> A2 -> B3
+  word6: get
+  path6: B4 -> A4 -> B5
+
+#140 | score=44 | phrase=find a an nine ten get
+  word1: find
+  path1: E1 -> F1 -> G1 -> G2
+  word2: a
+  path2: F3
+  word3: an
+  path3: E4 -> D5
+  word4: nine
+  path4: E6 -> D6 -> C5 -> C4
+  word5: ten
+  path5: C3 -> B3 -> A3
+  word6: get
+  path6: B4 -> A4 -> B5
+
+#141 | score=44 | phrase=find a an nine ten get
+  word1: find
+  path1: E1 -> F1 -> G1 -> G2
+  word2: a
+  path2: F3
+  word3: an
+  path3: E4 -> D5
+  word4: nine
+  path4: E6 -> D6 -> C5 -> C4
+  word5: ten
+  path5: B5 -> A4 -> A3
+  word6: get
+  path6: B4 -> B3 -> C3
+
+#142 | score=44 | phrase=find a an nine three get
+  word1: find
+  path1: E1 -> F1 -> G1 -> G2
+  word2: a
+  path2: F3
+  word3: an
+  path3: E4 -> D5
+  word4: nine
+  path4: E6 -> D6 -> C5 -> C4
+  word5: three
+  path5: C3 -> B2 -> A1 -> A2 -> B3
+  word6: get
+  path6: B4 -> A4 -> B5
+
+#143 | score=44 | phrase=find a the start an go
+  word1: find
+  path1: E1 -> F1 -> G1 -> H1
+  word2: a
+  path2: H2
+  word3: the
+  path3: I1 -> J1 -> J2
+  word4: start
+  path4: K1 -> K2 -> L1 -> M1 -> N1
+  word5: an
+  path5: N2 -> M2
+  word6: go
+  path6: L2 -> K3
+
+#144 | score=44 | phrase=find a the start an go
+  word1: find
+  path1: E1 -> F1 -> G1 -> G2
+  word2: a
+  path2: H2
+  word3: the
+  path3: I1 -> J1 -> J2
+  word4: start
+  path4: K1 -> K2 -> L1 -> M1 -> N1
+  word5: an
+  path5: N2 -> M2
+  word6: go
+  path6: L2 -> K3
+
+#145 | score=44 | phrase=find the start a in go
+  word1: find
+  path1: E1 -> F1 -> G1 -> H1
+  word2: the
+  path2: I1 -> J1 -> J2
+  word3: start
+  path3: K1 -> K2 -> L1 -> M1 -> N1
+  word4: a
+  path4: N2
+  word5: in
+  path5: M3 -> M2
+  word6: go
+  path6: L2 -> K3
+
+#146 | score=44 | phrase=get get ninety nine to ten
+  word1: get
+  path1: L9 -> M10 -> M9
+  word2: get
+  path2: L10 -> K10 -> J10
+  word3: ninety
+  path3: I11 -> I12 -> H12 -> G13 -> F14 -> F13
+  word4: nine
+  path4: E14 -> D13 -> C14 -> D14
+  word5: to
+  path5: C13 -> D12
+  word6: ten
+  path6: C12 -> B13 -> A12
+
+#147 | score=44 | phrase=get get ninety nine to ten
+  word1: get
+  path1: L10 -> M10 -> M9
+  word2: get
+  path2: L9 -> K10 -> J10
+  word3: ninety
+  path3: I11 -> I12 -> H12 -> G13 -> F14 -> F13
+  word4: nine
+  path4: E14 -> D13 -> C14 -> D14
+  word5: to
+  path5: C13 -> D12
+  word6: ten
+  path6: C12 -> B13 -> A12
+
+#148 | score=44 | phrase=get go ninety nine to ten
+  word1: get
+  path1: L9 -> K10 -> J10
+  word2: go
+  path2: I9 -> I10
+  word3: ninety
+  path3: I11 -> I12 -> H12 -> G13 -> F14 -> F13
+  word4: nine
+  path4: E14 -> D13 -> C14 -> D14
+  word5: to
+  path5: C13 -> D12
+  word6: ten
+  path6: C12 -> B13 -> A12
+
+#149 | score=44 | phrase=get go ninety nine to ten
+  word1: get
+  path1: L10 -> K10 -> J10
+  word2: go
+  path2: I9 -> I10
+  word3: ninety
+  path3: I11 -> I12 -> H12 -> G13 -> F14 -> F13
+  word4: nine
+  path4: E14 -> D13 -> C14 -> D14
+  word5: to
+  path5: C13 -> D12
+  word6: ten
+  path6: C12 -> B13 -> A12
+
+#150 | score=44 | phrase=in a decimal ten ten ten
+  word1: in
+  path1: J5 -> J6
+  word2: a
+  path2: I6
+  word3: decimal
+  path3: H7 -> G8 -> F9 -> E10 -> D10 -> C10 -> D11
+  word4: ten
+  path4: C12 -> B13 -> C14
+  word5: ten
+  path5: C13 -> D14 -> E14
+  word6: ten
+  path6: F14 -> G13 -> H12
+
+#151 | score=44 | phrase=in ten ten integer a six
+  word1: in
+  path1: D13 -> C14
+  word2: ten
+  path2: C13 -> D14 -> E14
+  word3: ten
+  path3: F14 -> G13 -> H12
+  word4: integer
+  path4: I12 -> I11 -> J10 -> K10 -> L10 -> M11 -> M12
+  word5: a
+  path5: L13
+  word6: six
+  path6: L14 -> M14 -> N14
+
+#152 | score=44 | phrase=is find the start a nine
+  word1: is
+  path1: D1 -> E2
+  word2: find
+  path2: E1 -> F1 -> G1 -> H1
+  word3: the
+  path3: I1 -> J1 -> J2
+  word4: start
+  path4: K1 -> K2 -> L1 -> M1 -> N1
+  word5: a
+  path5: N2
+  word6: nine
+  path6: M2 -> M3 -> L4 -> K4
+
+#153 | score=44 | phrase=is find the start a nine
+  word1: is
+  path1: D1 -> E2
+  word2: find
+  path2: E1 -> F1 -> G1 -> H1
+  word3: the
+  path3: I1 -> J1 -> J2
+  word4: start
+  path4: K1 -> K2 -> L1 -> M1 -> N1
+  word5: a
+  path5: N2
+  word6: nine
+  path6: M2 -> M3 -> L4 -> M5
+
+#154 | score=44 | phrase=ten ten integer by a six
+  word1: ten
+  path1: C13 -> D14 -> E14
+  word2: ten
+  path2: F14 -> G13 -> H12
+  word3: integer
+  path3: I12 -> I11 -> J10 -> K10 -> L10 -> M11 -> M12
+  word4: by
+  path4: L12 -> M13
+  word5: a
+  path5: L13
+  word6: six
+  path6: L14 -> M14 -> N14
+
+#155 | score=44 | phrase=the decimal at ten ten integer
+  word1: the
+  path1: G6 -> H6 -> I7
+  word2: decimal
+  path2: H7 -> G8 -> F9 -> E10 -> D10 -> C10 -> B10
+  word3: at
+  path3: B11 -> C12
+  word4: ten
+  path4: C13 -> D14 -> E14
+  word5: ten
+  path5: F14 -> G13 -> H12
+  word6: integer
+  path6: I12 -> I11 -> J10 -> K10 -> L10 -> M11 -> M12
+
+#156 | score=44 | phrase=the decimal to ten ten integer
+  word1: the
+  path1: G6 -> H6 -> I7
+  word2: decimal
+  path2: H7 -> G8 -> F9 -> E10 -> D10 -> C10 -> D11
+  word3: to
+  path3: C12 -> D12
+  word4: ten
+  path4: C13 -> D14 -> E14
+  word5: ten
+  path5: F14 -> G13 -> H12
+  word6: integer
+  path6: I12 -> I11 -> J10 -> K10 -> L10 -> M11 -> M12
+
+#157 | score=44 | phrase=the decimals at ten ten integer
+  word1: the
+  path1: G6 -> H6 -> I7
+  word2: decimals
+  path2: H7 -> G8 -> F9 -> E10 -> D10 -> C10 -> B10 -> A11
+  word3: at
+  path3: B11 -> C12
+  word4: ten
+  path4: C13 -> D14 -> E14
+  word5: ten
+  path5: F14 -> G13 -> H12
+  word6: integer
+  path6: I12 -> I11 -> J10 -> K10 -> L10 -> M11 -> M12
+
+#158 | score=44 | phrase=the start a nine go a
+  word1: the
+  path1: I1 -> J1 -> J2
+  word2: start
+  path2: K1 -> K2 -> L1 -> M1 -> N1
+  word3: a
+  path3: N2
+  word4: nine
+  path4: M2 -> M3 -> L4 -> K4
+  word5: go
+  path5: J3 -> K3
+  word6: a
+  path6: J4
+
+#159 | score=44 | phrase=the start an go a end
+  word1: the
+  path1: I1 -> J1 -> J2
+  word2: start
+  path2: K1 -> K2 -> L1 -> M1 -> N1
+  word3: an
+  path3: N2 -> M2
+  word4: go
+  path4: L2 -> K3
+  word5: a
+  path5: J4
+  word6: end
+  path6: K4 -> L4 -> K5
+
+#160 | score=44 | phrase=the start an go a end
+  word1: the
+  path1: I1 -> J1 -> J2
+  word2: start
+  path2: K1 -> K2 -> L1 -> M1 -> N1
+  word3: an
+  path3: N2 -> M2
+  word4: go
+  path4: L2 -> K3
+  word5: a
+  path5: J4
+  word6: end
+  path6: K4 -> L5 -> K5
+
+#161 | score=44 | phrase=to ten ten integer a six
+  word1: to
+  path1: C12 -> D12
+  word2: ten
+  path2: C13 -> D14 -> E14
+  word3: ten
+  path3: F14 -> G13 -> H12
+  word4: integer
+  path4: I12 -> I11 -> J10 -> K10 -> L10 -> M11 -> M12
+  word5: a
+  path5: L13
+  word6: six
+  path6: L14 -> M14 -> N14
+
+#162 | score=44 | phrase=a ten ten ten integer
+  word1: a
+  path1: B11
+  word2: ten
+  path2: C12 -> B13 -> C14
+  word3: ten
+  path3: C13 -> D14 -> E14
+  word4: ten
+  path4: F14 -> G13 -> H12
+  word5: integer
+  path5: I12 -> I11 -> J10 -> K10 -> L10 -> M11 -> M12
+
+#163 | score=44 | phrase=get get ninety nine ten
+  word1: get
+  path1: L9 -> M10 -> M9
+  word2: get
+  path2: L10 -> K10 -> J10
+  word3: ninety
+  path3: I11 -> I12 -> H12 -> G13 -> F14 -> F13
+  word4: nine
+  path4: E14 -> D13 -> C14 -> D14
+  word5: ten
+  path5: C13 -> B13 -> A12
+
+#164 | score=44 | phrase=get get ninety nine ten
+  word1: get
+  path1: L10 -> M10 -> M9
+  word2: get
+  path2: L9 -> K10 -> J10
+  word3: ninety
+  path3: I11 -> I12 -> H12 -> G13 -> F14 -> F13
+  word4: nine
+  path4: E14 -> D13 -> C14 -> D14
+  word5: ten
+  path5: C13 -> B13 -> A12
+
+#165 | score=44 | phrase=get go ninety nine ten
+  word1: get
+  path1: L9 -> K10 -> J10
+  word2: go
+  path2: I9 -> I10
+  word3: ninety
+  path3: I11 -> I12 -> H12 -> G13 -> F14 -> F13
+  word4: nine
+  path4: E14 -> D13 -> C14 -> D14
+  word5: ten
+  path5: C13 -> B13 -> A12
+
+#166 | score=44 | phrase=get go ninety nine ten
+  word1: get
+  path1: L10 -> K10 -> J10
+  word2: go
+  path2: I9 -> I10
+  word3: ninety
+  path3: I11 -> I12 -> H12 -> G13 -> F14 -> F13
+  word4: nine
+  path4: E14 -> D13 -> C14 -> D14
+  word5: ten
+  path5: C13 -> B13 -> A12
+
+#167 | score=43 | phrase=a is ten ten ten integer
+  word1: a
+  path1: C10
+  word2: is
+  path2: C11 -> B12
+  word3: ten
+  path3: C12 -> B13 -> C14
+  word4: ten
+  path4: C13 -> D14 -> E14
+  word5: ten
+  path5: F14 -> G13 -> H12
+  word6: integer
+  path6: I12 -> I11 -> J10 -> K10 -> L10 -> M11 -> M12
+
+#168 | score=43 | phrase=a is ten ten ten integer
+  word1: a
+  path1: B11
+  word2: is
+  path2: C11 -> B12
+  word3: ten
+  path3: C12 -> B13 -> C14
+  word4: ten
+  path4: C13 -> D14 -> E14
+  word5: ten
+  path5: F14 -> G13 -> H12
+  word6: integer
+  path6: I12 -> I11 -> J10 -> K10 -> L10 -> M11 -> M12
+
+#169 | score=43 | phrase=an is ten ten ten integer
+  word1: an
+  path1: B11 -> A12
+  word2: is
+  path2: A13 -> B12
+  word3: ten
+  path3: C12 -> B13 -> C14
+  word4: ten
+  path4: C13 -> D14 -> E14
+  word5: ten
+  path5: F14 -> G13 -> H12
+  word6: integer
+  path6: I12 -> I11 -> J10 -> K10 -> L10 -> M11 -> M12
+
+#170 | score=43 | phrase=at ten ten integer by six
+  word1: at
+  path1: B11 -> C12
+  word2: ten
+  path2: C13 -> D14 -> E14
+  word3: ten
+  path3: F14 -> G13 -> H12
+  word4: integer
+  path4: I12 -> I11 -> J10 -> K10 -> L10 -> M11 -> M12
+  word5: by
+  path5: L12 -> M13
+  word6: six
+  path6: L14 -> M14 -> N14
+
+#171 | score=43 | phrase=decimal ten ten ten it go
+  word1: decimal
+  path1: H7 -> G8 -> F9 -> E10 -> D10 -> C10 -> D11
+  word2: ten
+  path2: C12 -> B13 -> C14
+  word3: ten
+  path3: C13 -> D14 -> E14
+  word4: ten
+  path4: F14 -> G13 -> H12
+  word5: it
+  path5: G11 -> H10
+  word6: go
+  path6: I9 -> I10
+
+#172 | score=43 | phrase=find a a nine get up
+  word1: find
+  path1: E1 -> F1 -> G1 -> G2
+  word2: a
+  path2: F3
+  word3: a
+  path3: E4
+  word4: nine
+  path4: D5 -> D6 -> C5 -> C4
+  word5: get
+  path5: B4 -> A4 -> B5
+  word6: up
+  path6: C6 -> D7
+
+#173 | score=43 | phrase=find a a nineteen get up
+  word1: find
+  path1: E1 -> F1 -> G1 -> G2
+  word2: a
+  path2: F3
+  word3: a
+  path3: E4
+  word4: nineteen
+  path4: D5 -> D6 -> C5 -> C4 -> C3 -> B3 -> A2 -> A3
+  word5: get
+  path5: B4 -> A4 -> B5
+  word6: up
+  path6: C6 -> D7
+
+#174 | score=43 | phrase=find a an nine get up
+  word1: find
+  path1: E1 -> F1 -> G1 -> G2
+  word2: a
+  path2: F3
+  word3: an
+  path3: E4 -> D5
+  word4: nine
+  path4: E6 -> D6 -> C5 -> C4
+  word5: get
+  path5: B4 -> A4 -> B5
+  word6: up
+  path6: C6 -> D7
+
+#175 | score=43 | phrase=find a an nineteen get up
+  word1: find
+  path1: E1 -> F1 -> G1 -> G2
+  word2: a
+  path2: F3
+  word3: an
+  path3: E4 -> D5
+  word4: nineteen
+  path4: E6 -> D6 -> C5 -> C4 -> C3 -> B3 -> A2 -> A3
+  word5: get
+  path5: B4 -> A4 -> B5
+  word6: up
+  path6: C6 -> D7
+
+#176 | score=43 | phrase=find the get go a end
+  word1: find
+  path1: E1 -> F1 -> G1 -> H1
+  word2: the
+  path2: I1 -> J1 -> I2
+  word3: get
+  path3: J3 -> J2 -> K2
+  word4: go
+  path4: L2 -> K3
+  word5: a
+  path5: J4
+  word6: end
+  path6: K4 -> L4 -> K5
+
+#177 | score=43 | phrase=find the get go a end
+  word1: find
+  path1: E1 -> F1 -> G1 -> H1
+  word2: the
+  path2: I1 -> J1 -> I2
+  word3: get
+  path3: J3 -> J2 -> K2
+  word4: go
+  path4: L2 -> K3
+  word5: a
+  path5: J4
+  word6: end
+  path6: K4 -> L5 -> K5
+
+#178 | score=43 | phrase=find the start nine in a
+  word1: find
+  path1: E1 -> F1 -> G1 -> H1
+  word2: the
+  path2: I1 -> J1 -> J2
+  word3: start
+  path3: K1 -> K2 -> L1 -> M1 -> N1
+  word4: nine
+  path4: M2 -> M3 -> L4 -> K4
+  word5: in
+  path5: J5 -> J6
+  word6: a
+  path6: I6
+
+#179 | score=43 | phrase=find the start nine in a
+  word1: find
+  path1: E1 -> F1 -> G1 -> H1
+  word2: the
+  path2: I1 -> J1 -> J2
+  word3: start
+  path3: K1 -> K2 -> L1 -> M1 -> N1
+  word4: nine
+  path4: M2 -> M3 -> L4 -> K4
+  word5: in
+  path5: J5 -> J6
+  word6: a
+  path6: K6
+
+#180 | score=43 | phrase=find the start nine in an
+  word1: find
+  path1: E1 -> F1 -> G1 -> H1
+  word2: the
+  path2: I1 -> J1 -> J2
+  word3: start
+  path3: K1 -> K2 -> L1 -> M1 -> N1
+  word4: nine
+  path4: M2 -> M3 -> L4 -> K4
+  word5: in
+  path5: J5 -> J6
+  word6: an
+  path6: K6 -> L5
+
+#181 | score=43 | phrase=in ten ten integer by six
+  word1: in
+  path1: D13 -> C14
+  word2: ten
+  path2: C13 -> D14 -> E14
+  word3: ten
+  path3: F14 -> G13 -> H12
+  word4: integer
+  path4: I12 -> I11 -> J10 -> K10 -> L10 -> M11 -> M12
+  word5: by
+  path5: L12 -> M13
+  word6: six
+  path6: L14 -> M14 -> N14
+
+#182 | score=43 | phrase=is ten ten ten integer a
+  word1: is
+  path1: C11 -> B12
+  word2: ten
+  path2: C12 -> B13 -> C14
+  word3: ten
+  path3: C13 -> D14 -> E14
+  word4: ten
+  path4: F14 -> G13 -> H12
+  word5: integer
+  path5: I12 -> I11 -> J10 -> K10 -> L10 -> M11 -> M12
+  word6: a
+  path6: L13
+
+#183 | score=43 | phrase=is ten ten ten integer a
+  word1: is
+  path1: A13 -> B12
+  word2: ten
+  path2: C12 -> B13 -> C14
+  word3: ten
+  path3: C13 -> D14 -> E14
+  word4: ten
+  path4: F14 -> G13 -> H12
+  word5: integer
+  path5: I12 -> I11 -> J10 -> K10 -> L10 -> M11 -> M12
+  word6: a
+  path6: L13
+
+#184 | score=43 | phrase=is ten ten ten integer by
+  word1: is
+  path1: C11 -> B12
+  word2: ten
+  path2: C12 -> B13 -> C14
+  word3: ten
+  path3: C13 -> D14 -> E14
+  word4: ten
+  path4: F14 -> G13 -> H12
+  word5: integer
+  path5: I12 -> I11 -> J10 -> K10 -> L10 -> M11 -> M12
+  word6: by
+  path6: L12 -> M13
+
+#185 | score=43 | phrase=is ten ten ten integer by
+  word1: is
+  path1: A13 -> B12
+  word2: ten
+  path2: C12 -> B13 -> C14
+  word3: ten
+  path3: C13 -> D14 -> E14
+  word4: ten
+  path4: F14 -> G13 -> H12
+  word5: integer
+  path5: I12 -> I11 -> J10 -> K10 -> L10 -> M11 -> M12
+  word6: by
+  path6: L12 -> M13
+
+#186 | score=43 | phrase=ten ten ten integer a by
+  word1: ten
+  path1: C12 -> B13 -> C14
+  word2: ten
+  path2: C13 -> D14 -> E14
+  word3: ten
+  path3: F14 -> G13 -> H12
+  word4: integer
+  path4: I12 -> I11 -> J10 -> K10 -> L10 -> M11 -> M12
+  word5: a
+  path5: L13
+  word6: by
+  path6: L12 -> M13
+
+#187 | score=43 | phrase=ten ten ten integer a by
+  word1: ten
+  path1: A14 -> B13 -> C14
+  word2: ten
+  path2: C13 -> D14 -> E14
+  word3: ten
+  path3: F14 -> G13 -> H12
+  word4: integer
+  path4: I12 -> I11 -> J10 -> K10 -> L10 -> M11 -> M12
+  word5: a
+  path5: L13
+  word6: by
+  path6: L12 -> M13
+
+#188 | score=43 | phrase=ten ten ten integer a is
+  word1: ten
+  path1: C12 -> B13 -> C14
+  word2: ten
+  path2: C13 -> D14 -> E14
+  word3: ten
+  path3: F14 -> G13 -> H12
+  word4: integer
+  path4: I12 -> I11 -> J10 -> K10 -> L10 -> M11 -> M12
+  word5: a
+  path5: L13
+  word6: is
+  path6: M14 -> L14
+
+#189 | score=43 | phrase=ten ten ten integer a is
+  word1: ten
+  path1: A14 -> B13 -> C14
+  word2: ten
+  path2: C13 -> D14 -> E14
+  word3: ten
+  path3: F14 -> G13 -> H12
+  word4: integer
+  path4: I12 -> I11 -> J10 -> K10 -> L10 -> M11 -> M12
+  word5: a
+  path5: L13
+  word6: is
+  path6: M14 -> L14
+
+#190 | score=43 | phrase=ten ten ten integer a or
+  word1: ten
+  path1: C12 -> B13 -> C14
+  word2: ten
+  path2: C13 -> D14 -> E14
+  word3: ten
+  path3: F14 -> G13 -> H12
+  word4: integer
+  path4: I12 -> I11 -> J10 -> K10 -> L10 -> M11 -> M12
+  word5: a
+  path5: L13
+  word6: or
+  path6: K12 -> K13
+
+#191 | score=43 | phrase=ten ten ten integer a or
+  word1: ten
+  path1: A14 -> B13 -> C14
+  word2: ten
+  path2: C13 -> D14 -> E14
+  word3: ten
+  path3: F14 -> G13 -> H12
+  word4: integer
+  path4: I12 -> I11 -> J10 -> K10 -> L10 -> M11 -> M12
+  word5: a
+  path5: L13
+  word6: or
+  path6: K12 -> K13
+
+#192 | score=43 | phrase=ten ten ten integer by is
+  word1: ten
+  path1: C12 -> B13 -> C14
+  word2: ten
+  path2: C13 -> D14 -> E14
+  word3: ten
+  path3: F14 -> G13 -> H12
+  word4: integer
+  path4: I12 -> I11 -> J10 -> K10 -> L10 -> M11 -> M12
+  word5: by
+  path5: L12 -> M13
+  word6: is
+  path6: M14 -> L14
+
+#193 | score=43 | phrase=ten ten ten integer by is
+  word1: ten
+  path1: A14 -> B13 -> C14
+  word2: ten
+  path2: C13 -> D14 -> E14
+  word3: ten
+  path3: F14 -> G13 -> H12
+  word4: integer
+  path4: I12 -> I11 -> J10 -> K10 -> L10 -> M11 -> M12
+  word5: by
+  path5: L12 -> M13
+  word6: is
+  path6: M14 -> L14
+
+#194 | score=43 | phrase=ten ten ten it go integer
+  word1: ten
+  path1: C12 -> B13 -> C14
+  word2: ten
+  path2: C13 -> D14 -> E14
+  word3: ten
+  path3: F14 -> G13 -> H12
+  word4: it
+  path4: G11 -> H10
+  word5: go
+  path5: I9 -> I10
+  word6: integer
+  path6: J11 -> I11 -> J10 -> K10 -> L10 -> M11 -> M12
+
+#195 | score=43 | phrase=ten ten ten it go integer
+  word1: ten
+  path1: A14 -> B13 -> C14
+  word2: ten
+  path2: C13 -> D14 -> E14
+  word3: ten
+  path3: F14 -> G13 -> H12
+  word4: it
+  path4: G11 -> H10
+  word5: go
+  path5: I9 -> I10
+  word6: integer
+  path6: J11 -> I11 -> J10 -> K10 -> L10 -> M11 -> M12
+
+#196 | score=43 | phrase=to ten ten integer by six
+  word1: to
+  path1: C12 -> D12
+  word2: ten
+  path2: C13 -> D14 -> E14
+  word3: ten
+  path3: F14 -> G13 -> H12
+  word4: integer
+  path4: I12 -> I11 -> J10 -> K10 -> L10 -> M11 -> M12
+  word5: by
+  path5: L12 -> M13
+  word6: six
+  path6: L14 -> M14 -> N14
+
+#197 | score=43 | phrase=find the start nine go
+  word1: find
+  path1: E1 -> F1 -> G1 -> H1
+  word2: the
+  path2: I1 -> J1 -> J2
+  word3: start
+  path3: K1 -> K2 -> L1 -> M1 -> N1
+  word4: nine
+  path4: M2 -> M3 -> L4 -> K4
+  word5: go
+  path5: J3 -> K3
+
+#198 | score=43 | phrase=start a nine get a
+  word1: start
+  path1: K1 -> K2 -> L1 -> M1 -> N1
+  word2: a
+  path2: N2
+  word3: nine
+  path3: M2 -> M3 -> L4 -> K4
+  word4: get
+  path4: J3 -> I2 -> I1
+  word5: a
+  path5: H2
+
+#199 | score=43 | phrase=start a nine get a
+  word1: start
+  path1: K1 -> K2 -> L1 -> M1 -> N1
+  word2: a
+  path2: N2
+  word3: nine
+  path3: M2 -> M3 -> L4 -> K4
+  word4: get
+  path4: J3 -> J2 -> I1
+  word5: a
+  path5: H2
+
+#200 | score=43 | phrase=start a nine get an
+  word1: start
+  path1: K1 -> K2 -> L1 -> M1 -> N1
+  word2: a
+  path2: N2
+  word3: nine
+  path3: M2 -> M3 -> L4 -> K4
+  word4: get
+  path4: J3 -> I2 -> I1
+  word5: an
+  path5: H2 -> G1
+
+#201 | score=43 | phrase=start a nine get an
+  word1: start
+  path1: K1 -> K2 -> L1 -> M1 -> N1
+  word2: a
+  path2: N2
+  word3: nine
+  path3: M2 -> M3 -> L4 -> K4
+  word4: get
+  path4: J3 -> J2 -> I1
+  word5: an
+  path5: H2 -> G1
+
+#202 | score=43 | phrase=start a nine go a
+  word1: start
+  path1: K1 -> K2 -> L1 -> M1 -> N1
+  word2: a
+  path2: N2
+  word3: nine
+  path3: M2 -> M3 -> L4 -> K4
+  word4: go
+  path4: J3 -> K3
+  word5: a
+  path5: J4
+
+#203 | score=43 | phrase=start an go a end
+  word1: start
+  path1: K1 -> K2 -> L1 -> M1 -> N1
+  word2: an
+  path2: N2 -> M2
+  word3: go
+  path3: L2 -> K3
+  word4: a
+  path4: J4
+  word5: end
+  path5: K4 -> L4 -> K5
+
+#204 | score=43 | phrase=start an go a end
+  word1: start
+  path1: K1 -> K2 -> L1 -> M1 -> N1
+  word2: an
+  path2: N2 -> M2
+  word3: go
+  path3: L2 -> K3
+  word4: a
+  path4: J4
+  word5: end
+  path5: K4 -> L5 -> K5
+
+#205 | score=42 | phrase=a decimal is ten ten integer
+  word1: a
+  path1: I6
+  word2: decimal
+  path2: H7 -> G8 -> F9 -> E10 -> D10 -> C10 -> B10
+  word3: is
+  path3: C11 -> B12
+  word4: ten
+  path4: C13 -> D14 -> E14
+  word5: ten
+  path5: F14 -> G13 -> H12
+  word6: integer
+  path6: I12 -> I11 -> J10 -> K10 -> L10 -> M11 -> M12
+
+#206 | score=42 | phrase=a decimal is ten ten integer
+  word1: a
+  path1: I6
+  word2: decimal
+  path2: H7 -> G8 -> F9 -> E10 -> D10 -> C10 -> D11
+  word3: is
+  path3: C11 -> B12
+  word4: ten
+  path4: C13 -> D14 -> E14
+  word5: ten
+  path5: F14 -> G13 -> H12
+  word6: integer
+  path6: I12 -> I11 -> J10 -> K10 -> L10 -> M11 -> M12
+
+#207 | score=42 | phrase=a decimal is ten ten ten
+  word1: a
+  path1: I6
+  word2: decimal
+  path2: H7 -> G8 -> F9 -> E10 -> D10 -> C10 -> B10
+  word3: is
+  path3: C11 -> B12
+  word4: ten
+  path4: C12 -> B13 -> C14
+  word5: ten
+  path5: C13 -> D14 -> E14
+  word6: ten
+  path6: F14 -> G13 -> H12
+
+#208 | score=42 | phrase=a decimal is ten ten ten
+  word1: a
+  path1: I6
+  word2: decimal
+  path2: H7 -> G8 -> F9 -> E10 -> D10 -> C10 -> D11
+  word3: is
+  path3: C11 -> B12
+  word4: ten
+  path4: C12 -> B13 -> C14
+  word5: ten
+  path5: C13 -> D14 -> E14
+  word6: ten
+  path6: F14 -> G13 -> H12
+
+#209 | score=42 | phrase=a decimal it ten ten integer
+  word1: a
+  path1: I6
+  word2: decimal
+  path2: H7 -> G8 -> F9 -> E10 -> D10 -> C10 -> B10
+  word3: it
+  path3: C11 -> C12
+  word4: ten
+  path4: C13 -> D14 -> E14
+  word5: ten
+  path5: F14 -> G13 -> H12
+  word6: integer
+  path6: I12 -> I11 -> J10 -> K10 -> L10 -> M11 -> M12
+
+#210 | score=42 | phrase=a decimal it ten ten integer
+  word1: a
+  path1: I6
+  word2: decimal
+  path2: H7 -> G8 -> F9 -> E10 -> D10 -> C10 -> D11
+  word3: it
+  path3: C11 -> C12
+  word4: ten
+  path4: C13 -> D14 -> E14
+  word5: ten
+  path5: F14 -> G13 -> H12
+  word6: integer
+  path6: I12 -> I11 -> J10 -> K10 -> L10 -> M11 -> M12
+
+#211 | score=42 | phrase=a decimal ten ten ten in
+  word1: a
+  path1: I6
+  word2: decimal
+  path2: H7 -> G8 -> F9 -> E10 -> D10 -> C10 -> D11
+  word3: ten
+  path3: C12 -> B13 -> C14
+  word4: ten
+  path4: C13 -> D14 -> E14
+  word5: ten
+  path5: F14 -> G13 -> H12
+  word6: in
+  path6: I12 -> I11
+
+#212 | score=42 | phrase=a decimal ten ten ten is
+  word1: a
+  path1: I6
+  word2: decimal
+  path2: H7 -> G8 -> F9 -> E10 -> D10 -> C10 -> D11
+  word3: ten
+  path3: C12 -> B13 -> C14
+  word4: ten
+  path4: C13 -> D14 -> E14
+  word5: ten
+  path5: F14 -> G13 -> H12
+  word6: is
+  path6: I12 -> I13
+
+#213 | score=42 | phrase=a decimal ten ten ten it
+  word1: a
+  path1: I6
+  word2: decimal
+  path2: H7 -> G8 -> F9 -> E10 -> D10 -> C10 -> D11
+  word3: ten
+  path3: C12 -> B13 -> C14
+  word4: ten
+  path4: C13 -> D14 -> E14
+  word5: ten
+  path5: F14 -> G13 -> H12
+  word6: it
+  path6: G11 -> H10
+
+#214 | score=42 | phrase=a decimal ten ten ten it
+  word1: a
+  path1: I6
+  word2: decimal
+  path2: H7 -> G8 -> F9 -> E10 -> D10 -> C10 -> D11
+  word3: ten
+  path3: C12 -> B13 -> C14
+  word4: ten
+  path4: C13 -> D14 -> E14
+  word5: ten
+  path5: F14 -> G13 -> H12
+  word6: it
+  path6: G11 -> H11
+
+#215 | score=42 | phrase=a decimal ten ten ten it
+  word1: a
+  path1: I6
+  word2: decimal
+  path2: H7 -> G8 -> F9 -> E10 -> D10 -> C10 -> D11
+  word3: ten
+  path3: C12 -> B13 -> C14
+  word4: ten
+  path4: C13 -> D14 -> E14
+  word5: ten
+  path5: F14 -> G13 -> H12
+  word6: it
+  path6: I12 -> H11
+
+#216 | score=42 | phrase=a decimal ten ten ten to
+  word1: a
+  path1: I6
+  word2: decimal
+  path2: H7 -> G8 -> F9 -> E10 -> D10 -> C10 -> D11
+  word3: ten
+  path3: C12 -> B13 -> C14
+  word4: ten
+  path4: C13 -> D14 -> E14
+  word5: ten
+  path5: F14 -> G13 -> H12
+  word6: to
+  path6: H11 -> I10
+
+#217 | score=42 | phrase=a ten is ten ten integer
+  word1: a
+  path1: B11
+  word2: ten
+  path2: C12 -> B13 -> A12
+  word3: is
+  path3: A13 -> B12
+  word4: ten
+  path4: C13 -> D14 -> E14
+  word5: ten
+  path5: F14 -> G13 -> H12
+  word6: integer
+  path6: I12 -> I11 -> J10 -> K10 -> L10 -> M11 -> M12
+
+#218 | score=42 | phrase=decimal a ten ten ten in
+  word1: decimal
+  path1: H7 -> G8 -> F9 -> E10 -> D10 -> C10 -> B10
+  word2: a
+  path2: B11
+  word3: ten
+  path3: C12 -> B13 -> C14
+  word4: ten
+  path4: C13 -> D14 -> E14
+  word5: ten
+  path5: F14 -> G13 -> H12
+  word6: in
+  path6: I12 -> I11
+
+#219 | score=42 | phrase=decimal a ten ten ten is
+  word1: decimal
+  path1: H7 -> G8 -> F9 -> E10 -> D10 -> C10 -> B10
+  word2: a
+  path2: B11
+  word3: ten
+  path3: C12 -> B13 -> C14
+  word4: ten
+  path4: C13 -> D14 -> E14
+  word5: ten
+  path5: F14 -> G13 -> H12
+  word6: is
+  path6: I12 -> I13
+
+#220 | score=42 | phrase=decimal a ten ten ten it
+  word1: decimal
+  path1: H7 -> G8 -> F9 -> E10 -> D10 -> C10 -> B10
+  word2: a
+  path2: B11
+  word3: ten
+  path3: C12 -> B13 -> C14
+  word4: ten
+  path4: C13 -> D14 -> E14
+  word5: ten
+  path5: F14 -> G13 -> H12
+  word6: it
+  path6: G11 -> H10
+
+#221 | score=42 | phrase=decimal a ten ten ten it
+  word1: decimal
+  path1: H7 -> G8 -> F9 -> E10 -> D10 -> C10 -> B10
+  word2: a
+  path2: B11
+  word3: ten
+  path3: C12 -> B13 -> C14
+  word4: ten
+  path4: C13 -> D14 -> E14
+  word5: ten
+  path5: F14 -> G13 -> H12
+  word6: it
+  path6: G11 -> H11
+
+#222 | score=42 | phrase=decimal a ten ten ten it
+  word1: decimal
+  path1: H7 -> G8 -> F9 -> E10 -> D10 -> C10 -> B10
+  word2: a
+  path2: B11
+  word3: ten
+  path3: C12 -> B13 -> C14
+  word4: ten
+  path4: C13 -> D14 -> E14
+  word5: ten
+  path5: F14 -> G13 -> H12
+  word6: it
+  path6: I12 -> H11
+
+#223 | score=42 | phrase=decimal a ten ten ten to
+  word1: decimal
+  path1: H7 -> G8 -> F9 -> E10 -> D10 -> C10 -> B10
+  word2: a
+  path2: B11
+  word3: ten
+  path3: C12 -> B13 -> C14
+  word4: ten
+  path4: C13 -> D14 -> E14
+  word5: ten
+  path5: F14 -> G13 -> H12
+  word6: to
+  path6: H11 -> I10
+
+#224 | score=42 | phrase=decimal is a ten ten ten
+  word1: decimal
+  path1: H7 -> G8 -> F9 -> E10 -> D10 -> C10 -> B10
+  word2: is
+  path2: C11 -> B12
+  word3: a
+  path3: B11
+  word4: ten
+  path4: C12 -> B13 -> C14
+  word5: ten
+  path5: C13 -> D14 -> E14
+  word6: ten
+  path6: F14 -> G13 -> H12
+
+#225 | score=42 | phrase=decimal is a ten ten ten
+  word1: decimal
+  path1: H7 -> G8 -> F9 -> E10 -> D10 -> C10 -> D11
+  word2: is
+  path2: C11 -> B12
+  word3: a
+  path3: B11
+  word4: ten
+  path4: C12 -> B13 -> C14
+  word5: ten
+  path5: C13 -> D14 -> E14
+  word6: ten
+  path6: F14 -> G13 -> H12
+
+#226 | score=42 | phrase=decimal it a ten ten ten
+  word1: decimal
+  path1: H7 -> G8 -> F9 -> E10 -> D10 -> C10 -> B10
+  word2: it
+  path2: B9 -> A10
+  word3: a
+  path3: B11
+  word4: ten
+  path4: C12 -> B13 -> C14
+  word5: ten
+  path5: C13 -> D14 -> E14
+  word6: ten
+  path6: F14 -> G13 -> H12
+
+#227 | score=42 | phrase=decimals a ten ten ten in
+  word1: decimals
+  path1: H7 -> G8 -> F9 -> E10 -> D10 -> C10 -> B10 -> A11
+  word2: a
+  path2: B11
+  word3: ten
+  path3: C12 -> B13 -> C14
+  word4: ten
+  path4: C13 -> D14 -> E14
+  word5: ten
+  path5: F14 -> G13 -> H12
+  word6: in
+  path6: I12 -> I11
+
+#228 | score=42 | phrase=decimals a ten ten ten is
+  word1: decimals
+  path1: H7 -> G8 -> F9 -> E10 -> D10 -> C10 -> B10 -> A11
+  word2: a
+  path2: B11
+  word3: ten
+  path3: C12 -> B13 -> C14
+  word4: ten
+  path4: C13 -> D14 -> E14
+  word5: ten
+  path5: F14 -> G13 -> H12
+  word6: is
+  path6: I12 -> I13
+
+#229 | score=42 | phrase=decimals a ten ten ten it
+  word1: decimals
+  path1: H7 -> G8 -> F9 -> E10 -> D10 -> C10 -> B10 -> A11
+  word2: a
+  path2: B11
+  word3: ten
+  path3: C12 -> B13 -> C14
+  word4: ten
+  path4: C13 -> D14 -> E14
+  word5: ten
+  path5: F14 -> G13 -> H12
+  word6: it
+  path6: G11 -> H10
+
+#230 | score=42 | phrase=decimals a ten ten ten it
+  word1: decimals
+  path1: H7 -> G8 -> F9 -> E10 -> D10 -> C10 -> B10 -> A11
+  word2: a
+  path2: B11
+  word3: ten
+  path3: C12 -> B13 -> C14
+  word4: ten
+  path4: C13 -> D14 -> E14
+  word5: ten
+  path5: F14 -> G13 -> H12
+  word6: it
+  path6: G11 -> H11
+
+#231 | score=42 | phrase=decimals a ten ten ten it
+  word1: decimals
+  path1: H7 -> G8 -> F9 -> E10 -> D10 -> C10 -> B10 -> A11
+  word2: a
+  path2: B11
+  word3: ten
+  path3: C12 -> B13 -> C14
+  word4: ten
+  path4: C13 -> D14 -> E14
+  word5: ten
+  path5: F14 -> G13 -> H12
+  word6: it
+  path6: I12 -> H11
+
+#232 | score=42 | phrase=decimals a ten ten ten to
+  word1: decimals
+  path1: H7 -> G8 -> F9 -> E10 -> D10 -> C10 -> B10 -> A11
+  word2: a
+  path2: B11
+  word3: ten
+  path3: C12 -> B13 -> C14
+  word4: ten
+  path4: C13 -> D14 -> E14
+  word5: ten
+  path5: F14 -> G13 -> H12
+  word6: to
+  path6: H11 -> I10
+
+#233 | score=42 | phrase=get ninety nine ten a a
+  word1: get
+  path1: L9 -> K10 -> J10
+  word2: ninety
+  path2: I11 -> I12 -> H12 -> G13 -> F14 -> F13
+  word3: nine
+  path3: E14 -> D13 -> C14 -> D14
+  word4: ten
+  path4: C13 -> B13 -> A12
+  word5: a
+  path5: B11
+  word6: a
+  path6: C10
+
+#234 | score=42 | phrase=get ninety nine ten a a
+  word1: get
+  path1: L10 -> K10 -> J10
+  word2: ninety
+  path2: I11 -> I12 -> H12 -> G13 -> F14 -> F13
+  word3: nine
+  path3: E14 -> D13 -> C14 -> D14
+  word4: ten
+  path4: C13 -> B13 -> A12
+  word5: a
+  path5: B11
+  word6: a
+  path6: C10
+
+#235 | score=42 | phrase=get ninety nine ten a at
+  word1: get
+  path1: L9 -> K10 -> J10
+  word2: ninety
+  path2: I11 -> I12 -> H12 -> G13 -> F14 -> F13
+  word3: nine
+  path3: E14 -> D13 -> C14 -> D14
+  word4: ten
+  path4: C13 -> B13 -> A12
+  word5: a
+  path5: B11
+  word6: at
+  path6: C10 -> C9
+
+#236 | score=42 | phrase=get ninety nine ten a at
+  word1: get
+  path1: L10 -> K10 -> J10
+  word2: ninety
+  path2: I11 -> I12 -> H12 -> G13 -> F14 -> F13
+  word3: nine
+  path3: E14 -> D13 -> C14 -> D14
+  word4: ten
+  path4: C13 -> B13 -> A12
+  word5: a
+  path5: B11
+  word6: at
+  path6: C10 -> C9
+
+#237 | score=42 | phrase=get ninety nine ten a is
+  word1: get
+  path1: L9 -> K10 -> J10
+  word2: ninety
+  path2: I11 -> I12 -> H12 -> G13 -> F14 -> F13
+  word3: nine
+  path3: E14 -> D13 -> C14 -> D14
+  word4: ten
+  path4: C13 -> B13 -> A12
+  word5: a
+  path5: B11
+  word6: is
+  path6: C11 -> B12
+
+#238 | score=42 | phrase=get ninety nine ten a is
+  word1: get
+  path1: L10 -> K10 -> J10
+  word2: ninety
+  path2: I11 -> I12 -> H12 -> G13 -> F14 -> F13
+  word3: nine
+  path3: E14 -> D13 -> C14 -> D14
+  word4: ten
+  path4: C13 -> B13 -> A12
+  word5: a
+  path5: B11
+  word6: is
+  path6: C11 -> B12
+
+#239 | score=42 | phrase=get ninety nine ten a it
+  word1: get
+  path1: L9 -> K10 -> J10
+  word2: ninety
+  path2: I11 -> I12 -> H12 -> G13 -> F14 -> F13
+  word3: nine
+  path3: E14 -> D13 -> C14 -> D14
+  word4: ten
+  path4: C13 -> B13 -> A12
+  word5: a
+  path5: B11
+  word6: it
+  path6: C11 -> C12
+
+#240 | score=42 | phrase=get ninety nine ten a it
+  word1: get
+  path1: L10 -> K10 -> J10
+  word2: ninety
+  path2: I11 -> I12 -> H12 -> G13 -> F14 -> F13
+  word3: nine
+  path3: E14 -> D13 -> C14 -> D14
+  word4: ten
+  path4: C13 -> B13 -> A12
+  word5: a
+  path5: B11
+  word6: it
+  path6: C11 -> C12
+
+#241 | score=42 | phrase=get ninety nine ten a to
+  word1: get
+  path1: L9 -> K10 -> J10
+  word2: ninety
+  path2: I11 -> I12 -> H12 -> G13 -> F14 -> F13
+  word3: nine
+  path3: E14 -> D13 -> C14 -> D14
+  word4: ten
+  path4: C13 -> B13 -> A12
+  word5: a
+  path5: B11
+  word6: to
+  path6: C12 -> D12
+
+#242 | score=42 | phrase=get ninety nine ten a to
+  word1: get
+  path1: L10 -> K10 -> J10
+  word2: ninety
+  path2: I11 -> I12 -> H12 -> G13 -> F14 -> F13
+  word3: nine
+  path3: E14 -> D13 -> C14 -> D14
+  word4: ten
+  path4: C13 -> B13 -> A12
+  word5: a
+  path5: B11
+  word6: to
+  path6: C12 -> D12
+
+#243 | score=42 | phrase=get ninety nine ten at is
+  word1: get
+  path1: L9 -> K10 -> J10
+  word2: ninety
+  path2: I11 -> I12 -> H12 -> G13 -> F14 -> F13
+  word3: nine
+  path3: E14 -> D13 -> C14 -> D14
+  word4: ten
+  path4: C13 -> B13 -> A12
+  word5: at
+  path5: B11 -> C12
+  word6: is
+  path6: C11 -> B12
+
+#244 | score=42 | phrase=get ninety nine ten at is
+  word1: get
+  path1: L10 -> K10 -> J10
+  word2: ninety
+  path2: I11 -> I12 -> H12 -> G13 -> F14 -> F13
+  word3: nine
+  path3: E14 -> D13 -> C14 -> D14
+  word4: ten
+  path4: C13 -> B13 -> A12
+  word5: at
+  path5: B11 -> C12
+  word6: is
+  path6: C11 -> B12
+
+#245 | score=42 | phrase=get ninety nine ten at it
+  word1: get
+  path1: L9 -> K10 -> J10
+  word2: ninety
+  path2: I11 -> I12 -> H12 -> G13 -> F14 -> F13
+  word3: nine
+  path3: E14 -> D13 -> C14 -> D14
+  word4: ten
+  path4: C13 -> B13 -> A12
+  word5: at
+  path5: B11 -> A10
+  word6: it
+  path6: B9 -> C9
+
+#246 | score=42 | phrase=get ninety nine ten at it
+  word1: get
+  path1: L10 -> K10 -> J10
+  word2: ninety
+  path2: I11 -> I12 -> H12 -> G13 -> F14 -> F13
+  word3: nine
+  path3: E14 -> D13 -> C14 -> D14
+  word4: ten
+  path4: C13 -> B13 -> A12
+  word5: at
+  path5: B11 -> A10
+  word6: it
+  path6: B9 -> C9
+
+#247 | score=42 | phrase=get ninety nine ten at on
+  word1: get
+  path1: L9 -> K10 -> J10
+  word2: ninety
+  path2: I11 -> I12 -> H12 -> G13 -> F14 -> F13
+  word3: nine
+  path3: E14 -> D13 -> C14 -> D14
+  word4: ten
+  path4: C13 -> B13 -> A12
+  word5: at
+  path5: B11 -> C12
+  word6: on
+  path6: D12 -> E11
+
+#248 | score=42 | phrase=get ninety nine ten at on
+  word1: get
+  path1: L10 -> K10 -> J10
+  word2: ninety
+  path2: I11 -> I12 -> H12 -> G13 -> F14 -> F13
+  word3: nine
+  path3: E14 -> D13 -> C14 -> D14
+  word4: ten
+  path4: C13 -> B13 -> A12
+  word5: at
+  path5: B11 -> C12
+  word6: on
+  path6: D12 -> E11
+
+#249 | score=42 | phrase=get ninety nine ten at or
+  word1: get
+  path1: L9 -> K10 -> J10
+  word2: ninety
+  path2: I11 -> I12 -> H12 -> G13 -> F14 -> F13
+  word3: nine
+  path3: E14 -> D13 -> C14 -> D14
+  word4: ten
+  path4: C13 -> B13 -> A12
+  word5: at
+  path5: B11 -> C12
+  word6: or
+  path6: D12 -> E13
+
+#250 | score=42 | phrase=get ninety nine ten at or
+  word1: get
+  path1: L10 -> K10 -> J10
+  word2: ninety
+  path2: I11 -> I12 -> H12 -> G13 -> F14 -> F13
+  word3: nine
+  path3: E14 -> D13 -> C14 -> D14
+  word4: ten
+  path4: C13 -> B13 -> A12
+  word5: at
+  path5: B11 -> C12
+  word6: or
+  path6: D12 -> E13
+
+#251 | score=42 | phrase=get ninety nine ten is a
+  word1: get
+  path1: L9 -> K10 -> J10
+  word2: ninety
+  path2: I11 -> I12 -> H12 -> G13 -> F14 -> F13
+  word3: nine
+  path3: E14 -> D13 -> C14 -> D14
+  word4: ten
+  path4: C13 -> B13 -> A12
+  word5: is
+  path5: A13 -> B12
+  word6: a
+  path6: B11
+
+#252 | score=42 | phrase=get ninety nine ten is a
+  word1: get
+  path1: L10 -> K10 -> J10
+  word2: ninety
+  path2: I11 -> I12 -> H12 -> G13 -> F14 -> F13
+  word3: nine
+  path3: E14 -> D13 -> C14 -> D14
+  word4: ten
+  path4: C13 -> B13 -> A12
+  word5: is
+  path5: A13 -> B12
+  word6: a
+  path6: B11
+
+#253 | score=42 | phrase=get ninety nine ten is at
+  word1: get
+  path1: L9 -> K10 -> J10
+  word2: ninety
+  path2: I11 -> I12 -> H12 -> G13 -> F14 -> F13
+  word3: nine
+  path3: E14 -> D13 -> C14 -> D14
+  word4: ten
+  path4: C13 -> B13 -> A12
+  word5: is
+  path5: A13 -> B12
+  word6: at
+  path6: B11 -> A10
+
+#254 | score=42 | phrase=get ninety nine ten is at
+  word1: get
+  path1: L9 -> K10 -> J10
+  word2: ninety
+  path2: I11 -> I12 -> H12 -> G13 -> F14 -> F13
+  word3: nine
+  path3: E14 -> D13 -> C14 -> D14
+  word4: ten
+  path4: C13 -> B13 -> A12
+  word5: is
+  path5: A13 -> B12
+  word6: at
+  path6: B11 -> C12
+
+#255 | score=42 | phrase=get ninety nine ten is at
+  word1: get
+  path1: L10 -> K10 -> J10
+  word2: ninety
+  path2: I11 -> I12 -> H12 -> G13 -> F14 -> F13
+  word3: nine
+  path3: E14 -> D13 -> C14 -> D14
+  word4: ten
+  path4: C13 -> B13 -> A12
+  word5: is
+  path5: A13 -> B12
+  word6: at
+  path6: B11 -> A10
+
+#256 | score=42 | phrase=get ninety nine ten is at
+  word1: get
+  path1: L10 -> K10 -> J10
+  word2: ninety
+  path2: I11 -> I12 -> H12 -> G13 -> F14 -> F13
+  word3: nine
+  path3: E14 -> D13 -> C14 -> D14
+  word4: ten
+  path4: C13 -> B13 -> A12
+  word5: is
+  path5: A13 -> B12
+  word6: at
+  path6: B11 -> C12
+
+#257 | score=42 | phrase=get ninety nine ten is it
+  word1: get
+  path1: L9 -> K10 -> J10
+  word2: ninety
+  path2: I11 -> I12 -> H12 -> G13 -> F14 -> F13
+  word3: nine
+  path3: E14 -> D13 -> C14 -> D14
+  word4: ten
+  path4: C13 -> B13 -> A12
+  word5: is
+  path5: A13 -> B12
+  word6: it
+  path6: C11 -> C12
+
+#258 | score=42 | phrase=get ninety nine ten is it
+  word1: get
+  path1: L10 -> K10 -> J10
+  word2: ninety
+  path2: I11 -> I12 -> H12 -> G13 -> F14 -> F13
+  word3: nine
+  path3: E14 -> D13 -> C14 -> D14
+  word4: ten
+  path4: C13 -> B13 -> A12
+  word5: is
+  path5: A13 -> B12
+  word6: it
+  path6: C11 -> C12
+
+#259 | score=42 | phrase=get ninety nine ten is to
+  word1: get
+  path1: L9 -> K10 -> J10
+  word2: ninety
+  path2: I11 -> I12 -> H12 -> G13 -> F14 -> F13
+  word3: nine
+  path3: E14 -> D13 -> C14 -> D14
+  word4: ten
+  path4: C13 -> B13 -> A12
+  word5: is
+  path5: A13 -> B12
+  word6: to
+  path6: C12 -> D12
+
+#260 | score=42 | phrase=get ninety nine ten is to
+  word1: get
+  path1: L10 -> K10 -> J10
+  word2: ninety
+  path2: I11 -> I12 -> H12 -> G13 -> F14 -> F13
+  word3: nine
+  path3: E14 -> D13 -> C14 -> D14
+  word4: ten
+  path4: C13 -> B13 -> A12
+  word5: is
+  path5: A13 -> B12
+  word6: to
+  path6: C12 -> D12
+
+#261 | score=42 | phrase=go it it ninety nine ten
+  word1: go
+  path1: I9 -> I10
+  word2: it
+  path2: H9 -> H10
+  word3: it
+  path3: G11 -> H11
+  word4: ninety
+  path4: I11 -> I12 -> H12 -> G13 -> F14 -> F13
+  word5: nine
+  path5: E14 -> D13 -> C14 -> D14
+  word6: ten
+  path6: C13 -> B13 -> A12
+
+#262 | score=42 | phrase=go it ninety nine ten a
+  word1: go
+  path1: I9 -> I10
+  word2: it
+  path2: H9 -> H10
+  word3: ninety
+  path3: I11 -> I12 -> H12 -> G13 -> F14 -> F13
+  word4: nine
+  path4: E14 -> D13 -> C14 -> D14
+  word5: ten
+  path5: C13 -> B13 -> A12
+  word6: a
+  path6: B11
+
+#263 | score=42 | phrase=go it ninety nine ten a
+  word1: go
+  path1: I9 -> I10
+  word2: it
+  path2: J9 -> J10
+  word3: ninety
+  path3: I11 -> I12 -> H12 -> G13 -> F14 -> F13
+  word4: nine
+  path4: E14 -> D13 -> C14 -> D14
+  word5: ten
+  path5: C13 -> B13 -> A12
+  word6: a
+  path6: B11
+
+#264 | score=42 | phrase=go it ninety nine ten a
+  word1: go
+  path1: I9 -> I10
+  word2: it
+  path2: J11 -> J10
+  word3: ninety
+  path3: I11 -> I12 -> H12 -> G13 -> F14 -> F13
+  word4: nine
+  path4: E14 -> D13 -> C14 -> D14
+  word5: ten
+  path5: C13 -> B13 -> A12
+  word6: a
+  path6: B11
+
+#265 | score=42 | phrase=go it ninety nine ten at
+  word1: go
+  path1: I9 -> I10
+  word2: it
+  path2: H9 -> H10
+  word3: ninety
+  path3: I11 -> I12 -> H12 -> G13 -> F14 -> F13
+  word4: nine
+  path4: E14 -> D13 -> C14 -> D14
+  word5: ten
+  path5: C13 -> B13 -> A12
+  word6: at
+  path6: B11 -> A10
+
+#266 | score=42 | phrase=go it ninety nine ten at
+  word1: go
+  path1: I9 -> I10
+  word2: it
+  path2: H9 -> H10
+  word3: ninety
+  path3: I11 -> I12 -> H12 -> G13 -> F14 -> F13
+  word4: nine
+  path4: E14 -> D13 -> C14 -> D14
+  word5: ten
+  path5: C13 -> B13 -> A12
+  word6: at
+  path6: B11 -> C12
+
+#267 | score=42 | phrase=go it ninety nine ten at
+  word1: go
+  path1: I9 -> I10
+  word2: it
+  path2: J9 -> J10
+  word3: ninety
+  path3: I11 -> I12 -> H12 -> G13 -> F14 -> F13
+  word4: nine
+  path4: E14 -> D13 -> C14 -> D14
+  word5: ten
+  path5: C13 -> B13 -> A12
+  word6: at
+  path6: B11 -> A10
+
+#268 | score=42 | phrase=go it ninety nine ten at
+  word1: go
+  path1: I9 -> I10
+  word2: it
+  path2: J9 -> J10
+  word3: ninety
+  path3: I11 -> I12 -> H12 -> G13 -> F14 -> F13
+  word4: nine
+  path4: E14 -> D13 -> C14 -> D14
+  word5: ten
+  path5: C13 -> B13 -> A12
+  word6: at
+  path6: B11 -> C12
+
+#269 | score=42 | phrase=go it ninety nine ten at
+  word1: go
+  path1: I9 -> I10
+  word2: it
+  path2: J11 -> J10
+  word3: ninety
+  path3: I11 -> I12 -> H12 -> G13 -> F14 -> F13
+  word4: nine
+  path4: E14 -> D13 -> C14 -> D14
+  word5: ten
+  path5: C13 -> B13 -> A12
+  word6: at
+  path6: B11 -> A10
+
+#270 | score=42 | phrase=go it ninety nine ten at
+  word1: go
+  path1: I9 -> I10
+  word2: it
+  path2: J11 -> J10
+  word3: ninety
+  path3: I11 -> I12 -> H12 -> G13 -> F14 -> F13
+  word4: nine
+  path4: E14 -> D13 -> C14 -> D14
+  word5: ten
+  path5: C13 -> B13 -> A12
+  word6: at
+  path6: B11 -> C12
+
+#271 | score=42 | phrase=go it ninety nine ten is
+  word1: go
+  path1: I9 -> I10
+  word2: it
+  path2: H9 -> H10
+  word3: ninety
+  path3: I11 -> I12 -> H12 -> G13 -> F14 -> F13
+  word4: nine
+  path4: E14 -> D13 -> C14 -> D14
+  word5: ten
+  path5: C13 -> B13 -> A12
+  word6: is
+  path6: A13 -> B12
+
+#272 | score=42 | phrase=go it ninety nine ten is
+  word1: go
+  path1: I9 -> I10
+  word2: it
+  path2: J9 -> J10
+  word3: ninety
+  path3: I11 -> I12 -> H12 -> G13 -> F14 -> F13
+  word4: nine
+  path4: E14 -> D13 -> C14 -> D14
+  word5: ten
+  path5: C13 -> B13 -> A12
+  word6: is
+  path6: A13 -> B12
+
+#273 | score=42 | phrase=go it ninety nine ten is
+  word1: go
+  path1: I9 -> I10
+  word2: it
+  path2: J11 -> J10
+  word3: ninety
+  path3: I11 -> I12 -> H12 -> G13 -> F14 -> F13
+  word4: nine
+  path4: E14 -> D13 -> C14 -> D14
+  word5: ten
+  path5: C13 -> B13 -> A12
+  word6: is
+  path6: A13 -> B12
+
+#274 | score=42 | phrase=go it ninety nine ten it
+  word1: go
+  path1: I9 -> I10
+  word2: it
+  path2: H9 -> H10
+  word3: ninety
+  path3: I11 -> I12 -> H12 -> G13 -> F14 -> F13
+  word4: nine
+  path4: E14 -> D13 -> C14 -> D14
+  word5: ten
+  path5: C13 -> B13 -> A12
+  word6: it
+  path6: A13 -> A14
+
+#275 | score=42 | phrase=go it ninety nine ten it
+  word1: go
+  path1: I9 -> I10
+  word2: it
+  path2: J9 -> J10
+  word3: ninety
+  path3: I11 -> I12 -> H12 -> G13 -> F14 -> F13
+  word4: nine
+  path4: E14 -> D13 -> C14 -> D14
+  word5: ten
+  path5: C13 -> B13 -> A12
+  word6: it
+  path6: A13 -> A14
+
+#276 | score=42 | phrase=go it ninety nine ten it
+  word1: go
+  path1: I9 -> I10
+  word2: it
+  path2: J11 -> J10
+  word3: ninety
+  path3: I11 -> I12 -> H12 -> G13 -> F14 -> F13
+  word4: nine
+  path4: E14 -> D13 -> C14 -> D14
+  word5: ten
+  path5: C13 -> B13 -> A12
+  word6: it
+  path6: A13 -> A14
+
+#277 | score=42 | phrase=go ninety nine ten a a
+  word1: go
+  path1: I9 -> I10
+  word2: ninety
+  path2: I11 -> I12 -> H12 -> G13 -> F14 -> F13
+  word3: nine
+  path3: E14 -> D13 -> C14 -> D14
+  word4: ten
+  path4: C13 -> B13 -> A12
+  word5: a
+  path5: B11
+  word6: a
+  path6: C10
+
+#278 | score=42 | phrase=go ninety nine ten a at
+  word1: go
+  path1: I9 -> I10
+  word2: ninety
+  path2: I11 -> I12 -> H12 -> G13 -> F14 -> F13
+  word3: nine
+  path3: E14 -> D13 -> C14 -> D14
+  word4: ten
+  path4: C13 -> B13 -> A12
+  word5: a
+  path5: B11
+  word6: at
+  path6: C10 -> C9
+
+#279 | score=42 | phrase=go ninety nine ten a is
+  word1: go
+  path1: I9 -> I10
+  word2: ninety
+  path2: I11 -> I12 -> H12 -> G13 -> F14 -> F13
+  word3: nine
+  path3: E14 -> D13 -> C14 -> D14
+  word4: ten
+  path4: C13 -> B13 -> A12
+  word5: a
+  path5: B11
+  word6: is
+  path6: C11 -> B12
+
+#280 | score=42 | phrase=go ninety nine ten a it
+  word1: go
+  path1: I9 -> I10
+  word2: ninety
+  path2: I11 -> I12 -> H12 -> G13 -> F14 -> F13
+  word3: nine
+  path3: E14 -> D13 -> C14 -> D14
+  word4: ten
+  path4: C13 -> B13 -> A12
+  word5: a
+  path5: B11
+  word6: it
+  path6: C11 -> C12
+
+#281 | score=42 | phrase=go ninety nine ten a to
+  word1: go
+  path1: I9 -> I10
+  word2: ninety
+  path2: I11 -> I12 -> H12 -> G13 -> F14 -> F13
+  word3: nine
+  path3: E14 -> D13 -> C14 -> D14
+  word4: ten
+  path4: C13 -> B13 -> A12
+  word5: a
+  path5: B11
+  word6: to
+  path6: C12 -> D12
+
+#282 | score=42 | phrase=go ninety nine ten at is
+  word1: go
+  path1: I9 -> I10
+  word2: ninety
+  path2: I11 -> I12 -> H12 -> G13 -> F14 -> F13
+  word3: nine
+  path3: E14 -> D13 -> C14 -> D14
+  word4: ten
+  path4: C13 -> B13 -> A12
+  word5: at
+  path5: B11 -> C12
+  word6: is
+  path6: C11 -> B12
+
+#283 | score=42 | phrase=go ninety nine ten at it
+  word1: go
+  path1: I9 -> I10
+  word2: ninety
+  path2: I11 -> I12 -> H12 -> G13 -> F14 -> F13
+  word3: nine
+  path3: E14 -> D13 -> C14 -> D14
+  word4: ten
+  path4: C13 -> B13 -> A12
+  word5: at
+  path5: B11 -> A10
+  word6: it
+  path6: B9 -> C9
+
+#284 | score=42 | phrase=go ninety nine ten at on
+  word1: go
+  path1: I9 -> I10
+  word2: ninety
+  path2: I11 -> I12 -> H12 -> G13 -> F14 -> F13
+  word3: nine
+  path3: E14 -> D13 -> C14 -> D14
+  word4: ten
+  path4: C13 -> B13 -> A12
+  word5: at
+  path5: B11 -> C12
+  word6: on
+  path6: D12 -> E11
+
+#285 | score=42 | phrase=go ninety nine ten at or
+  word1: go
+  path1: I9 -> I10
+  word2: ninety
+  path2: I11 -> I12 -> H12 -> G13 -> F14 -> F13
+  word3: nine
+  path3: E14 -> D13 -> C14 -> D14
+  word4: ten
+  path4: C13 -> B13 -> A12
+  word5: at
+  path5: B11 -> C12
+  word6: or
+  path6: D12 -> E13
+
+#286 | score=42 | phrase=go ninety nine ten is a
+  word1: go
+  path1: I9 -> I10
+  word2: ninety
+  path2: I11 -> I12 -> H12 -> G13 -> F14 -> F13
+  word3: nine
+  path3: E14 -> D13 -> C14 -> D14
+  word4: ten
+  path4: C13 -> B13 -> A12
+  word5: is
+  path5: A13 -> B12
+  word6: a
+  path6: B11
+
+#287 | score=42 | phrase=go ninety nine ten is at
+  word1: go
+  path1: I9 -> I10
+  word2: ninety
+  path2: I11 -> I12 -> H12 -> G13 -> F14 -> F13
+  word3: nine
+  path3: E14 -> D13 -> C14 -> D14
+  word4: ten
+  path4: C13 -> B13 -> A12
+  word5: is
+  path5: A13 -> B12
+  word6: at
+  path6: B11 -> A10
+
+#288 | score=42 | phrase=go ninety nine ten is at
+  word1: go
+  path1: I9 -> I10
+  word2: ninety
+  path2: I11 -> I12 -> H12 -> G13 -> F14 -> F13
+  word3: nine
+  path3: E14 -> D13 -> C14 -> D14
+  word4: ten
+  path4: C13 -> B13 -> A12
+  word5: is
+  path5: A13 -> B12
+  word6: at
+  path6: B11 -> C12
+
+#289 | score=42 | phrase=go ninety nine ten is it
+  word1: go
+  path1: I9 -> I10
+  word2: ninety
+  path2: I11 -> I12 -> H12 -> G13 -> F14 -> F13
+  word3: nine
+  path3: E14 -> D13 -> C14 -> D14
+  word4: ten
+  path4: C13 -> B13 -> A12
+  word5: is
+  path5: A13 -> B12
+  word6: it
+  path6: C11 -> C12
+
+#290 | score=42 | phrase=go ninety nine ten is to
+  word1: go
+  path1: I9 -> I10
+  word2: ninety
+  path2: I11 -> I12 -> H12 -> G13 -> F14 -> F13
+  word3: nine
+  path3: E14 -> D13 -> C14 -> D14
+  word4: ten
+  path4: C13 -> B13 -> A12
+  word5: is
+  path5: A13 -> B12
+  word6: to
+  path6: C12 -> D12
+
+#291 | score=42 | phrase=integer is find the start nine
+  word1: integer
+  path1: D6 -> C5 -> B5 -> A4 -> B4 -> B3 -> C2
+  word2: is
+  path2: D1 -> E2
+  word3: find
+  path3: E1 -> F1 -> G1 -> H1
+  word4: the
+  path4: I1 -> J1 -> J2
+  word5: start
+  path5: K1 -> K2 -> L1 -> M1 -> N1
+  word6: nine
+  path6: M2 -> M3 -> L4 -> K4
+
+#292 | score=42 | phrase=integer is find the start nine
+  word1: integer
+  path1: D6 -> C5 -> B5 -> A4 -> B4 -> B3 -> C2
+  word2: is
+  path2: D1 -> E2
+  word3: find
+  path3: E1 -> F1 -> G1 -> H1
+  word4: the
+  path4: I1 -> J1 -> J2
+  word5: start
+  path5: K1 -> K2 -> L1 -> M1 -> N1
+  word6: nine
+  path6: M2 -> M3 -> L4 -> M5
+
+#293 | score=42 | phrase=integer is find the start nine
+  word1: integer
+  path1: D6 -> C5 -> B5 -> C4 -> B4 -> B3 -> C2
+  word2: is
+  path2: D1 -> E2
+  word3: find
+  path3: E1 -> F1 -> G1 -> H1
+  word4: the
+  path4: I1 -> J1 -> J2
+  word5: start
+  path5: K1 -> K2 -> L1 -> M1 -> N1
+  word6: nine
+  path6: M2 -> M3 -> L4 -> K4
+
+#294 | score=42 | phrase=integer is find the start nine
+  word1: integer
+  path1: D6 -> C5 -> B5 -> C4 -> B4 -> B3 -> C2
+  word2: is
+  path2: D1 -> E2
+  word3: find
+  path3: E1 -> F1 -> G1 -> H1
+  word4: the
+  path4: I1 -> J1 -> J2
+  word5: start
+  path5: K1 -> K2 -> L1 -> M1 -> N1
+  word6: nine
+  path6: M2 -> M3 -> L4 -> M5
+
+#295 | score=42 | phrase=integers find a the start nine
+  word1: integers
+  path1: D6 -> C5 -> B5 -> A4 -> B4 -> C4 -> D3 -> E2
+  word2: find
+  path2: E1 -> F1 -> G1 -> H1
+  word3: a
+  path3: H2
+  word4: the
+  path4: I1 -> J1 -> J2
+  word5: start
+  path5: K1 -> K2 -> L1 -> M1 -> N1
+  word6: nine
+  path6: M2 -> M3 -> L4 -> K4
+
+#296 | score=42 | phrase=integers find a the start nine
+  word1: integers
+  path1: D6 -> C5 -> B5 -> A4 -> B4 -> C4 -> D3 -> E2
+  word2: find
+  path2: E1 -> F1 -> G1 -> H1
+  word3: a
+  path3: H2
+  word4: the
+  path4: I1 -> J1 -> J2
+  word5: start
+  path5: K1 -> K2 -> L1 -> M1 -> N1
+  word6: nine
+  path6: M2 -> M3 -> L4 -> M5
+
+#297 | score=42 | phrase=integers find a the start nine
+  word1: integers
+  path1: D6 -> C5 -> B5 -> A4 -> B4 -> C4 -> D3 -> E2
+  word2: find
+  path2: E1 -> F1 -> G1 -> G2
+  word3: a
+  path3: H2
+  word4: the
+  path4: I1 -> J1 -> J2
+  word5: start
+  path5: K1 -> K2 -> L1 -> M1 -> N1
+  word6: nine
+  path6: M2 -> M3 -> L4 -> K4
+
+#298 | score=42 | phrase=integers find a the start nine
+  word1: integers
+  path1: D6 -> C5 -> B5 -> A4 -> B4 -> C4 -> D3 -> E2
+  word2: find
+  path2: E1 -> F1 -> G1 -> G2
+  word3: a
+  path3: H2
+  word4: the
+  path4: I1 -> J1 -> J2
+  word5: start
+  path5: K1 -> K2 -> L1 -> M1 -> N1
+  word6: nine
+  path6: M2 -> M3 -> L4 -> M5
+
+#299 | score=42 | phrase=integers find the start nine a
+  word1: integers
+  path1: D6 -> C5 -> B5 -> A4 -> B4 -> C4 -> D3 -> E2
+  word2: find
+  path2: E1 -> F1 -> G1 -> H1
+  word3: the
+  path3: I1 -> J1 -> J2
+  word4: start
+  path4: K1 -> K2 -> L1 -> M1 -> N1
+  word5: nine
+  path5: M2 -> M3 -> L4 -> K4
+  word6: a
+  path6: J4
+
+#300 | score=42 | phrase=integers find the start nine in
+  word1: integers
+  path1: D6 -> C5 -> B5 -> A4 -> B4 -> C4 -> D3 -> E2
+  word2: find
+  path2: E1 -> F1 -> G1 -> H1
+  word3: the
+  path3: I1 -> J1 -> J2
+  word4: start
+  path4: K1 -> K2 -> L1 -> M1 -> N1
+  word5: nine
+  path5: M2 -> M3 -> L4 -> K4
+  word6: in
+  path6: J5 -> J6
+

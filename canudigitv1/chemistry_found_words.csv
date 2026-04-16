@@ -1,0 +1,15 @@
+bin,term,length,total_paths,sample_path
+core_chemistry_terms,salts,5,1,B12 -> B11 -> B10 -> A10 -> A11
+core_chemistry_terms,salt,4,4,A11 -> B11 -> B10 -> C9
+core_chemistry_terms,gas,3,1,L2 -> L1 -> K1
+core_chemistry_terms,ion,3,6,F1 -> F2 -> G1
+element_ium_stems,einstein,8,2,B13 -> A13 -> A12 -> B12 -> C13 -> D14 -> D13 -> C14
+element_ium_stems,titan,5,2,C9 -> B9 -> A10 -> B11 -> A12
+element_ium_stems,holm,4,1,B6 -> A6 -> B7 -> C8
+element_ium_stems,thul,4,1,B5 -> B6 -> C6 -> B7
+periodic_elements,aluminum,8,6,H2 -> G3 -> F4 -> E5 -> D6 -> C7 -> B8 -> C8
+periodic_elements,holmium,7,2,B6 -> A6 -> B7 -> C8 -> B9 -> A8 -> A9
+periodic_elements,argon,5,2,L1 -> M1 -> L2 -> K3 -> L4
+periodic_elements,iron,4,1,D13 -> E13 -> D12 -> E11
+periodic_elements,neon,4,1,L5 -> K4 -> K3 -> L4
+periodic_elements,tin,3,10,H10 -> G11 -> H12

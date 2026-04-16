@@ -1,0 +1,96 @@
+import csv
+import string
+from collections import defaultdict
+
+CSV_PATH = "can u dig it.csv"
+
+# Start small and expand this list as clues emerge.
+CANDIDATES = [
+    "find the start",
+    "the end",
+    "then get up",
+    "there is",
+    "there is a",
+    "integers",
+    "decimals",
+    "hundreds",
+    "nineteen",
+    "twenty six",
+]
+
+def normalize(s: str) -> str:
+    return "".join(ch for ch in s.lower() if ch.isalpha())
+
+# ---------- load grid ----------
+with open(CSV_PATH, newline="", encoding="utf-8") as f:
+    grid = [row for row in csv.reader(f)]
+
+R = len(grid)
+C = len(grid[0])
+N = R * C
+COLS = string.ascii_uppercase[:C]
+
+def cell_id(r: int, c: int) -> int:
+    return r * C + c
+
+def rc(cell: int) -> tuple[int, int]:
+    return divmod(cell, C)
+
+def coord(cell: int) -> str:
+    r, c = rc(cell)
+    return f"{COLS[c]}{r+1}"
+
+letters = [grid[r][c].lower() for r in range(R) for c in range(C)]
+
+# ---------- neighbors ----------
+neighbors: list[list[int]] = [[] for _ in range(N)]
+for r in range(R):
+    for c in range(C):
+        i = cell_id(r, c)
+        for rr in range(max(0, r - 1), min(R, r + 2)):
+            for cc in range(max(0, c - 1), min(C, c + 2)):
+                if (rr, cc) != (r, c):
+                    neighbors[i].append(cell_id(rr, cc))
+
+# ---------- trie of candidate phrases ----------
+# trie nodes are dicts; terminal phrases stored under "_out_"
+root: dict = {}
+for phrase in CANDIDATES:
+    s = normalize(phrase)
+    node = root
+    for ch in s:
+        node = node.setdefault(ch, {})
+    node.setdefault("_out_", []).append(phrase)
+
+# ---------- search ----------
+results: dict[str, list[tuple[int, ...]]] = defaultdict(list)
+
+def dfs(cell: int, node: dict, used_mask: int, path: list[int]) -> None:
+    ch = letters[cell]
+    nxt = node.get(ch)
+    if nxt is None:
+        return
+
+    path.append(cell)
+
+    for phrase in nxt.get("_out_", []):
+        results[phrase].append(tuple(path))
+
+    used_mask |= 1 << cell
+    for nb in neighbors[cell]:
+        if not ((used_mask >> nb) & 1):
+            dfs(nb, nxt, used_mask, path)
+
+    path.pop()
+
+for start in range(N):
+    dfs(start, root, 0, [])
+
+# ---------- display ----------
+for phrase in CANDIDATES:
+    paths = results.get(phrase, [])
+    if not paths:
+        continue
+    print(f"{phrase} | {len(paths)} match(es)")
+    for p in paths[:10]:
+        print("  " + " -> ".join(coord(x) for x in p))

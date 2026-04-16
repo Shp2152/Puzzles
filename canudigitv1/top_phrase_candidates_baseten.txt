@@ -1,0 +1,196 @@
+=== CANDIDATE SOURCE ===
+canudig_search.py:EMBEDDED_CANDIDATE_WORDS
+
+=== CANDIDATE WORDS FOUND ===
+
+hexadecimal | instances=2 | weight=1 | tags=NOUN
+  I3 -> I4 -> I5 -> I6 -> H7 -> G8 -> F9 -> E10 -> D10 -> C10 -> B10
+  I3 -> I4 -> I5 -> I6 -> H7 -> G8 -> F9 -> E10 -> D10 -> C10 -> D11
+
+decimals | instances=1 | weight=6 | tags=NOUN
+  H7 -> G8 -> F9 -> E10 -> D10 -> C10 -> B10 -> A11
+
+hundreds | instances=2 | weight=6 | tags=NOUN|NUMBER
+  B6 -> C6 -> C5 -> D4 -> D3 -> D2 -> C1 -> B1
+  B6 -> C6 -> D5 -> D4 -> D3 -> D2 -> C1 -> B1
+
+integers | instances=3 | weight=6 | tags=NOUN
+  D6 -> C5 -> B5 -> A4 -> B4 -> B3 -> C2 -> B1
+  D6 -> C5 -> B5 -> A4 -> B4 -> C4 -> D3 -> E2
+  D6 -> C5 -> B5 -> C4 -> B4 -> B3 -> C2 -> B1
+
+nineteen | instances=18 | weight=6 | tags=NOUN|NUMBER
+  C5 -> D6 -> D5 -> C4 -> C3 -> B3 -> A2 -> A3
+  C5 -> D6 -> D5 -> C4 -> C3 -> B3 -> A4 -> A3
+  C5 -> D6 -> D5 -> C4 -> B5 -> A4 -> B3 -> A3
+  D5 -> D6 -> C5 -> C4 -> C3 -> B3 -> A2 -> A3
+  D5 -> D6 -> C5 -> C4 -> C3 -> B3 -> A4 -> A3
+  D5 -> D6 -> C5 -> C4 -> B5 -> A4 -> B3 -> A3
+  E6 -> D6 -> C5 -> C4 -> C3 -> B3 -> A2 -> A3
+  E6 -> D6 -> C5 -> C4 -> C3 -> B3 -> A4 -> A3
+  E6 -> D6 -> C5 -> C4 -> B5 -> A4 -> B3 -> A3
+  E6 -> D6 -> D5 -> C4 -> C3 -> B3 -> A2 -> A3
+  E6 -> D6 -> D5 -> C4 -> C3 -> B3 -> A4 -> A3
+  E6 -> D6 -> D5 -> C4 -> B5 -> A4 -> B3 -> A3
+  ... 6 more
+
+baseten | instances=1 | weight=8 | tags=NOUN
+  L12 -> L13 -> K14 -> J14 -> I14 -> H13 -> H12
+
+decimal | instances=2 | weight=6 | tags=NOUN
+  H7 -> G8 -> F9 -> E10 -> D10 -> C10 -> B10
+  H7 -> G8 -> F9 -> E10 -> D10 -> C10 -> D11
+
+hexagon | instances=1 | weight=3 | tags=NOUN
+  I3 -> I4 -> I5 -> J4 -> J3 -> K3 -> L4
+
+hundred | instances=2 | weight=6 | tags=NOUN|NUMBER|VERB
+  B6 -> C6 -> C5 -> D4 -> D3 -> D2 -> C1
+  B6 -> C6 -> D5 -> D4 -> D3 -> D2 -> C1
+
+integer | instances=6 | weight=6 | tags=NOUN
+  D6 -> C5 -> B5 -> A4 -> B4 -> B3 -> C2
+  D6 -> C5 -> B5 -> A4 -> B4 -> C4 -> D3
+  D6 -> C5 -> B5 -> C4 -> B4 -> B3 -> C2
+  J11 -> I11 -> J10 -> K10 -> L10 -> M11 -> M12
+  I12 -> I11 -> J10 -> K10 -> L10 -> M11 -> M12
+  J12 -> I11 -> J10 -> K10 -> L10 -> M11 -> M12
+
+binary | instances=2 | weight=8 | tags=ADJ|NOUN
+  F10 -> E10 -> E11 -> E12 -> E13 -> F13
+  F10 -> F11 -> E11 -> E12 -> E13 -> F13
+
+threed | instances=1 | weight=8 | tags=HEXNUMBER|NOUN|NUMBER|VERB
+  C3 -> B2 -> C2 -> B3 -> C4 -> D4
+
+threee | instances=2 | weight=8 | tags=HEXNUMBER|NOUN|NUMBER
+  C3 -> B2 -> A1 -> A2 -> B3 -> A4
+  C3 -> B2 -> A1 -> A2 -> B3 -> C4
+
+getup | instances=2 | weight=1 | tags=VERB
+  B4 -> A4 -> B5 -> C6 -> D7
+  B4 -> C4 -> B5 -> C6 -> D7
+
+start | instances=1 | weight=1 | tags=NOUN|VERB
+  K1 -> K2 -> L1 -> M1 -> N1
+
+three | instances=4 | weight=6 | tags=NOUN|NUMBER
+  C3 -> B2 -> A1 -> A2 -> B3
+  C3 -> B2 -> C2 -> B3 -> A2
+  C3 -> B2 -> C2 -> B3 -> A4
+  C3 -> B2 -> C2 -> B3 -> C4
+
+total | instances=1 | weight=6 | tags=ADJ|NOUN
+  C13 -> D12 -> C12 -> B11 -> B10
+
+find | instances=4 | weight=1 | tags=VERB
+  E1 -> F1 -> G1 -> H1
+  E1 -> F1 -> G1 -> G2
+  E7 -> D6 -> C5 -> D4
+  E7 -> D6 -> D5 -> D4
+
+nine | instances=13 | weight=6 | tags=NOUN|NUMBER
+  M2 -> M3 -> L4 -> K4
+  M2 -> M3 -> L4 -> M5
+  C5 -> D6 -> D5 -> C4
+  D5 -> D6 -> C5 -> C4
+  E6 -> D6 -> C5 -> C4
+  E6 -> D6 -> D5 -> C4
+  C7 -> D6 -> C5 -> C4
+  C7 -> D6 -> D5 -> C4
+  I11 -> I12 -> H12 -> G13
+  I11 -> I12 -> H12 -> H13
+  C14 -> D13 -> E14 -> D14
+  E14 -> D13 -> C14 -> B13
+  ... 1 more
+
+onea | instances=1 | weight=8 | tags=HEXNUMBER|NOUN|NUMBER
+  K3 -> L4 -> K4 -> J4
+
+onec | instances=1 | weight=8 | tags=HEXNUMBER|NOUN|NUMBER
+  K3 -> L4 -> M5 -> L6
+
+oned | instances=1 | weight=8 | tags=HEXNUMBER|NOUN|NUMBER|VERB
+  K3 -> L4 -> K4 -> K5
+
+onee | instances=1 | weight=8 | tags=HEXNUMBER|NOUN|NUMBER
+  K3 -> L4 -> M5 -> N5
+
+twoa | instances=1 | weight=8 | tags=HEXNUMBER|NOUN|NUMBER
+  K2 -> L3 -> K3 -> J4
+
+twoe | instances=2 | weight=8 | tags=HEXNUMBER|NOUN|NUMBER
+  K2 -> L3 -> K3 -> J2
+  K2 -> L3 -> K3 -> K4
+
+add | instances=3 | weight=3 | tags=VERB
+  H2 -> H1 -> G2
+  H2 -> G2 -> H1
+  F3 -> G2 -> H1
+
+end | instances=7 | weight=1 | tags=NOUN|VERB
+  C4 -> C5 -> D4
+  C4 -> D5 -> D4
+  K4 -> L4 -> K5
+  K4 -> L5 -> K5
+  M5 -> L4 -> K5
+  M5 -> L5 -> K5
+  I7 -> J6 -> K5
+
+get | instances=17 | weight=1 | tags=VERB
+  J3 -> I2 -> I1
+  J3 -> J2 -> I1
+  J3 -> J2 -> K2
+  B4 -> B3 -> C3
+  B4 -> A4 -> B5
+  B4 -> C4 -> C3
+  B4 -> C4 -> B5
+  L9 -> K8 -> L7
+  L9 -> K10 -> J10
+  L9 -> M10 -> M9
+  L9 -> M10 -> N10
+  L10 -> K10 -> J10
+  ... 5 more
+
+odd | instances=1 | weight=6 | tags=ADJ
+  F2 -> G2 -> H1
+
+one | instances=2 | weight=6 | tags=NOUN|NUMBER
+  K3 -> L4 -> K4
+  K3 -> L4 -> M5
+
+six | instances=1 | weight=6 | tags=NOUN|NUMBER
+  L14 -> M14 -> N14
+
+ten | instances=20 | weight=6 | tags=NOUN|NUMBER
+  C3 -> B3 -> A3
+  C3 -> C4 -> C5
+  C3 -> C4 -> D5
+  B5 -> A4 -> A3
+  B5 -> C4 -> C5
+  B5 -> C4 -> D5
+  M9 -> M10 -> N11
+  N10 -> M10 -> N11
+  N10 -> M11 -> N11
+  C12 -> B13 -> A12
+  C12 -> B13 -> C14
+  N12 -> M11 -> N11
+  ... 8 more
+
+two | instances=1 | weight=6 | tags=NOUN|NUMBER
+  K2 -> L3 -> K3
+
+=== CANDIDATE WORDS NOT FOUND ===
+baseeight, basefive, basefour, basenine, baseone, baseseven, basesix, basethree, basetwo, digit, digits, eight, eighteen, eleven, even, fifteen, five, four, fourteen, minus, negative, oneb, onef, plus, positive, seven, seventeen, sixteen, subtract, sum, thirteen, thousand, thousands, threea, threeb, threec, threef, twelve, twenty, twob, twoc, twod, twof
+
+=== SEARCH STATS ===
+states_visited=793
+bound_prunes=0
+overlap_prunes=5518
+structure_prunes=1358
+mandatory_prunes=301
+must_have_word=baseten
+allowed_patterns=['VERB NOUN FUNCTION NOUN', 'VERB NOUN FUNCTION ADJ NOUN', 'VERB ADJ NOUN FUNCTION ADJ NOUN', 'VERB ADJ NOUN NOUN', 'VERB ADJ NOUN', 'VERB NOUN NOUN NOUN', 'VERB NOUN FUNCTION NOUN FUNCTION NOUN', 'VERB NOUN FUNCTION NOUN NOUN', 'VERB FUNCTION NOUN', 'VERB FUNCTION ADJ NOUN', 'VERB FUNCTION NOUN NOUN', 'VERB FUNCTION ADJ NOUN NOUN', 'VERB FUNCTION NOUN NOUN NOUN', 'VERB FUNCTION ADJ NOUN NOUN NOUN', 'VERB FUNCTION NOUN FUNCTION NOUN', 'VERB FUNCTION ADJ NOUN FUNCTION NOUN', 'VERB FUNCTION ADJ NOUN FUNCTION ADJ NOUN', 'VERB FUNCTION NOUN FUNCTION ADJ NOUN', 'VERB FUNCTION NOUN NOUN FUNCTION NOUN', 'VERB FUNCTION ADJ NOUN NOUN FUNCTION NOUN', 'VERB FUNCTION NOUN FUNCTION ADJ NOUN NOUN', 'VERB FUNCTION NOUN FUNCTION NOUN NOUN']
+
+=== TOP PHRASE CANDIDATES ===
+No phrase candidates satisfied the current settings.

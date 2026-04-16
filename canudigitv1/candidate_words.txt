@@ -1,0 +1,32 @@
+# Format:
+#   word
+#   word,weight
+#   word,weight,TAG1|TAG2
+#
+# Built-in bridge words such as "the", "to", "of", "and", "is", "were", etc.
+# are added automatically. Keep this file focused on clue-relevant content words.
+
+find,6,VERB
+get,2,VERB
+integer,5,NOUN
+noun,3,NOUN
+open,3,VERB
+path,5,NOUN
+paths,5,NOUN
+point,4,NOUN|VERB
+points,4,NOUN
+read,3,VERB
+rule,5,NOUN
+rules,5,NOUN
+sentence,6,NOUN
+sentences,6,NOUN
+six,4,NUMBER
+spray,6,NOUN|VERB
+start,5,NOUN|VERB
+take,3,VERB
+turn,3,VERB
+twenty,5,NUMBER
+use,3,VERB
+verb,3,NOUN
+word,5,NOUN
+words,5,NOUN
