@@ -221,32 +221,1707 @@ is | instances=7 | weight=1 | tags=VERB
 baseeight, basefive, basefour, basenine, baseone, baseseven, basesix, basethree, basetwo, digit, digits, eight, eighteen, eleven, even, fifteen, five, four, fourteen, minus, negative, number, oneb, onef, plus, positive, seven, seventeen, sixteen, starting, subtract, sum, thirteen, thousand, thousands, threea, threeb, threec, threef, twelve, twenty, twob, twoc, twod, twof
 
 === SEARCH STATS ===
-states_visited=839
+states_visited=1818
 bound_prunes=0
-overlap_prunes=4550
-structure_prunes=1053
+overlap_prunes=12358
+structure_prunes=2862
 mandatory_prunes=0
-must_have_word=None
+must_have_words=None
 action_patterns=['VERB FUNCTION NOUN', 'VERB FUNCTION NOUN NUMBER', 'VERB NOUN', 'VERB NUMBER', 'VERB NUMBER NOUN', 'VERB NUMBER FUNCTION NUMBER', 'VERB NOUN FUNCTION NOUN', 'VERB NOUN FUNCTION NUMBER', 'VERB FUNCTION NOUN FUNCTION NUMBER']
 relation_patterns=['VERB NOUN', 'VERB NOUN NOUN', 'VERB NUMBER NOUN', 'VERB NUMBER NUMBER', 'VERB NUMBER NUMBER NOUN', 'VERB NUMBER FUNCTION NOUN', 'VERB NUMBER FUNCTION NOUN FUNCTION NUMBER', 'VERB NOUN FUNCTION NUMBER']
-expression_patterns=['NOUN NUMBER', 'ADJ NUMBER', 'NOUN NOUN', 'NUMBER NOUN', 'NUMBER NUMBER', 'NOUN NUMBER NUMBER', 'NUMBER NUMBER NOUN', 'NOUN NOUN NOUN']
+expression_patterns=['NOUN NUMBER', 'ADJ NUMBER', 'ADJ NOUN', 'NOUN NOUN', 'NUMBER NOUN', 'NUMBER NUMBER', 'NUMBER NUMBER NUMBER', 'NOUN NUMBER NUMBER', 'NOUN NUMBER NOUN', 'NUMBER NUMBER NOUN', 'NUMBER NUMBER NUMBER NOUN', 'NOUN FUNCTION NOUN', 'NOUN FUNCTION NUMBER', 'NUMBER FUNCTION NOUN', 'NOUN NOUN FUNCTION NUMBER', 'NOUN NUMBER NUMBER NOUN', 'NOUN NUMBER NUMBER NUMBER NOUN', 'NOUN FUNCTION NUMBER NUMBER NOUN', 'NOUN FUNCTION NUMBER NUMBER NUMBER NOUN', 'NOUN NOUN NOUN', 'NOUN NOUN NOUN NOUN']
 
 === TOP PHRASE CANDIDATES ===
 
-TEXT: threee ten hundred
-SCORE: 62 | letters=16 | content_words=3 | bridge_words=0 | noun=True | verb=True | path_variants_in_top_pool=1
-  threee: C3 -> B2 -> A1 -> A2 -> B3 -> A4
-  ten: B5 -> C4 -> C5
-  hundred: B6 -> C6 -> D5 -> D4 -> D3 -> D2 -> C1
+TEXT: decimals as ten ten ten integer
+SCORE: 76 | letters=26 | content_words=5 | bridge_words=1 | noun=True | verb=False | path_variants_in_top_pool=1
+  decimals: H7 -> G8 -> F9 -> E10 -> D10 -> C10 -> B10 -> A11
+  as: B11 -> B12
+  ten: C12 -> B13 -> C14
+  ten: C13 -> D14 -> E14
+  ten: F14 -> G13 -> H12
+  integer: I12 -> I11 -> J10 -> K10 -> L10 -> M11 -> M12
+
+TEXT: decimal as ten ten ten integer
+SCORE: 75 | letters=25 | content_words=5 | bridge_words=1 | noun=True | verb=False | path_variants_in_top_pool=1
+  decimal: H7 -> G8 -> F9 -> E10 -> D10 -> C10 -> B10
+  as: B11 -> B12
+  ten: C12 -> B13 -> C14
+  ten: C13 -> D14 -> E14
+  ten: F14 -> G13 -> H12
+  integer: I12 -> I11 -> J10 -> K10 -> L10 -> M11 -> M12
+
+TEXT: hexadecimal as ten ten ten integer
+SCORE: 74 | letters=29 | content_words=5 | bridge_words=1 | noun=True | verb=False | path_variants_in_top_pool=1
+  hexadecimal: I3 -> I4 -> I5 -> I6 -> H7 -> G8 -> F9 -> E10 -> D10 -> C10 -> B10
+  as: B11 -> B12
+  ten: C12 -> B13 -> C14
+  ten: C13 -> D14 -> E14
+  ten: F14 -> G13 -> H12
+  integer: I12 -> I11 -> J10 -> K10 -> L10 -> M11 -> M12
+
+TEXT: decimal ten ten ten integer
+SCORE: 73 | letters=23 | content_words=5 | bridge_words=0 | noun=True | verb=False | path_variants_in_top_pool=1
+  decimal: H7 -> G8 -> F9 -> E10 -> D10 -> C10 -> D11
+  ten: C12 -> B13 -> C14
+  ten: C13 -> D14 -> E14
+  ten: F14 -> G13 -> H12
+  integer: I12 -> I11 -> J10 -> K10 -> L10 -> M11 -> M12
+
+TEXT: hexadecimal ten ten ten integer
+SCORE: 72 | letters=27 | content_words=5 | bridge_words=0 | noun=True | verb=False | path_variants_in_top_pool=1
+  hexadecimal: I3 -> I4 -> I5 -> I6 -> H7 -> G8 -> F9 -> E10 -> D10 -> C10 -> D11
+  ten: C12 -> B13 -> C14
+  ten: C13 -> D14 -> E14
+  ten: F14 -> G13 -> H12
+  integer: I12 -> I11 -> J10 -> K10 -> L10 -> M11 -> M12
+
+TEXT: decimals as ten ten ten step
+SCORE: 72 | letters=23 | content_words=5 | bridge_words=1 | noun=True | verb=True | path_variants_in_top_pool=1
+  decimals: H7 -> G8 -> F9 -> E10 -> D10 -> C10 -> B10 -> A11
+  as: B11 -> B12
+  ten: C12 -> B13 -> C14
+  ten: C13 -> D14 -> E14
+  ten: F14 -> G13 -> H12
+  step: I13 -> I14 -> J14 -> J13
+
+TEXT: decimal as ten ten ten step
+SCORE: 71 | letters=22 | content_words=5 | bridge_words=1 | noun=True | verb=True | path_variants_in_top_pool=1
+  decimal: H7 -> G8 -> F9 -> E10 -> D10 -> C10 -> B10
+  as: B11 -> B12
+  ten: C12 -> B13 -> C14
+  ten: C13 -> D14 -> E14
+  ten: F14 -> G13 -> H12
+  step: I13 -> I14 -> J14 -> J13
+
+TEXT: hexadecimal as ten ten ten step
+SCORE: 70 | letters=26 | content_words=5 | bridge_words=1 | noun=True | verb=True | path_variants_in_top_pool=1
+  hexadecimal: I3 -> I4 -> I5 -> I6 -> H7 -> G8 -> F9 -> E10 -> D10 -> C10 -> B10
+  as: B11 -> B12
+  ten: C12 -> B13 -> C14
+  ten: C13 -> D14 -> E14
+  ten: F14 -> G13 -> H12
+  step: I13 -> I14 -> J14 -> J13
+
+TEXT: decimal ten ten ten step
+SCORE: 69 | letters=20 | content_words=5 | bridge_words=0 | noun=True | verb=True | path_variants_in_top_pool=1
+  decimal: H7 -> G8 -> F9 -> E10 -> D10 -> C10 -> D11
+  ten: C12 -> B13 -> C14
+  ten: C13 -> D14 -> E14
+  ten: F14 -> G13 -> H12
+  step: I13 -> I14 -> J14 -> J13
+
+TEXT: binary ten step integer
+SCORE: 69 | letters=20 | content_words=4 | bridge_words=0 | noun=True | verb=True | path_variants_in_top_pool=4
+  binary: F10 -> E10 -> E11 -> E12 -> E13 -> F13
+  ten: F14 -> G13 -> H12
+  step: I13 -> I14 -> J14 -> J13
+  integer: I12 -> I11 -> J10 -> K10 -> L10 -> M11 -> M12
+
+TEXT: hexadecimal ten ten ten step
+SCORE: 68 | letters=24 | content_words=5 | bridge_words=0 | noun=True | verb=True | path_variants_in_top_pool=1
+  hexadecimal: I3 -> I4 -> I5 -> I6 -> H7 -> G8 -> F9 -> E10 -> D10 -> C10 -> D11
+  ten: C12 -> B13 -> C14
+  ten: C13 -> D14 -> E14
+  ten: F14 -> G13 -> H12
+  step: I13 -> I14 -> J14 -> J13
+
+TEXT: decimals at ten ten integer
+SCORE: 66 | letters=23 | content_words=4 | bridge_words=1 | noun=True | verb=False | path_variants_in_top_pool=1
+  decimals: H7 -> G8 -> F9 -> E10 -> D10 -> C10 -> B10 -> A11
+  at: B11 -> C12
+  ten: C13 -> D14 -> E14
+  ten: F14 -> G13 -> H12
+  integer: I12 -> I11 -> J10 -> K10 -> L10 -> M11 -> M12
+
+TEXT: decimals as ten ten integer
+SCORE: 66 | letters=23 | content_words=4 | bridge_words=1 | noun=True | verb=False | path_variants_in_top_pool=1
+  decimals: H7 -> G8 -> F9 -> E10 -> D10 -> C10 -> B10 -> A11
+  as: B11 -> B12
+  ten: C13 -> D14 -> E14
+  ten: F14 -> G13 -> H12
+  integer: I12 -> I11 -> J10 -> K10 -> L10 -> M11 -> M12
+
+TEXT: is ten to integer by six
+SCORE: 66 | letters=19 | content_words=4 | bridge_words=2 | noun=True | verb=True | path_variants_in_top_pool=2
+  is: I12 -> I13
+  ten: I14 -> H13 -> H12
+  to: H11 -> I10
+  integer: J11 -> I11 -> J10 -> K10 -> L10 -> M11 -> M12
+  by: L12 -> M13
+  six: L14 -> M14 -> N14
+
+TEXT: is ten to integer as six
+SCORE: 66 | letters=19 | content_words=4 | bridge_words=2 | noun=True | verb=True | path_variants_in_top_pool=2
+  is: I12 -> I13
+  ten: I14 -> H13 -> H12
+  to: H11 -> I10
+  integer: J11 -> I11 -> J10 -> K10 -> L10 -> M11 -> M12
+  as: L13 -> K14
+  six: L14 -> M14 -> N14
+
+TEXT: is ten it integer by six
+SCORE: 66 | letters=19 | content_words=4 | bridge_words=2 | noun=True | verb=True | path_variants_in_top_pool=1
+  is: J12 -> I13
+  ten: I14 -> H13 -> H12
+  it: G11 -> H11
+  integer: I12 -> I11 -> J10 -> K10 -> L10 -> M11 -> M12
+  by: L12 -> M13
+  six: L14 -> M14 -> N14
+
+TEXT: is ten it integer as six
+SCORE: 66 | letters=19 | content_words=4 | bridge_words=2 | noun=True | verb=True | path_variants_in_top_pool=1
+  is: J12 -> I13
+  ten: I14 -> H13 -> H12
+  it: G11 -> H11
+  integer: I12 -> I11 -> J10 -> K10 -> L10 -> M11 -> M12
+  as: L13 -> K14
+  six: L14 -> M14 -> N14
+
+TEXT: decimal to ten ten integer
+SCORE: 65 | letters=22 | content_words=4 | bridge_words=1 | noun=True | verb=False | path_variants_in_top_pool=1
+  decimal: H7 -> G8 -> F9 -> E10 -> D10 -> C10 -> D11
+  to: C12 -> D12
+  ten: C13 -> D14 -> E14
+  ten: F14 -> G13 -> H12
+  integer: I12 -> I11 -> J10 -> K10 -> L10 -> M11 -> M12
+
+TEXT: decimal it ten ten integer
+SCORE: 65 | letters=22 | content_words=4 | bridge_words=1 | noun=True | verb=False | path_variants_in_top_pool=2
+  decimal: H7 -> G8 -> F9 -> E10 -> D10 -> C10 -> D11
+  it: C11 -> C12
+  ten: C13 -> D14 -> E14
+  ten: F14 -> G13 -> H12
+  integer: I12 -> I11 -> J10 -> K10 -> L10 -> M11 -> M12
+
+TEXT: decimal at ten ten integer
+SCORE: 65 | letters=22 | content_words=4 | bridge_words=1 | noun=True | verb=False | path_variants_in_top_pool=1
+  decimal: H7 -> G8 -> F9 -> E10 -> D10 -> C10 -> B10
+  at: B11 -> C12
+  ten: C13 -> D14 -> E14
+  ten: F14 -> G13 -> H12
+  integer: I12 -> I11 -> J10 -> K10 -> L10 -> M11 -> M12
+
+TEXT: decimal as ten ten integer
+SCORE: 65 | letters=22 | content_words=4 | bridge_words=1 | noun=True | verb=False | path_variants_in_top_pool=1
+  decimal: H7 -> G8 -> F9 -> E10 -> D10 -> C10 -> B10
+  as: B11 -> B12
+  ten: C13 -> D14 -> E14
+  ten: F14 -> G13 -> H12
+  integer: I12 -> I11 -> J10 -> K10 -> L10 -> M11 -> M12
+
+TEXT: hexadecimal to ten ten integer
+SCORE: 64 | letters=26 | content_words=4 | bridge_words=1 | noun=True | verb=False | path_variants_in_top_pool=1
+  hexadecimal: I3 -> I4 -> I5 -> I6 -> H7 -> G8 -> F9 -> E10 -> D10 -> C10 -> D11
+  to: C12 -> D12
+  ten: C13 -> D14 -> E14
+  ten: F14 -> G13 -> H12
+  integer: I12 -> I11 -> J10 -> K10 -> L10 -> M11 -> M12
+
+TEXT: hexadecimal it ten ten integer
+SCORE: 64 | letters=26 | content_words=4 | bridge_words=1 | noun=True | verb=False | path_variants_in_top_pool=2
+  hexadecimal: I3 -> I4 -> I5 -> I6 -> H7 -> G8 -> F9 -> E10 -> D10 -> C10 -> B10
+  it: C11 -> C12
+  ten: C13 -> D14 -> E14
+  ten: F14 -> G13 -> H12
+  integer: I12 -> I11 -> J10 -> K10 -> L10 -> M11 -> M12
+
+TEXT: hexadecimal at ten ten integer
+SCORE: 64 | letters=26 | content_words=4 | bridge_words=1 | noun=True | verb=False | path_variants_in_top_pool=1
+  hexadecimal: I3 -> I4 -> I5 -> I6 -> H7 -> G8 -> F9 -> E10 -> D10 -> C10 -> B10
+  at: B11 -> C12
+  ten: C13 -> D14 -> E14
+  ten: F14 -> G13 -> H12
+  integer: I12 -> I11 -> J10 -> K10 -> L10 -> M11 -> M12
+
+TEXT: hexadecimal as ten ten integer
+SCORE: 64 | letters=26 | content_words=4 | bridge_words=1 | noun=True | verb=False | path_variants_in_top_pool=1
+  hexadecimal: I3 -> I4 -> I5 -> I6 -> H7 -> G8 -> F9 -> E10 -> D10 -> C10 -> B10
+  as: B11 -> B12
+  ten: C13 -> D14 -> E14
+  ten: F14 -> G13 -> H12
+  integer: I12 -> I11 -> J10 -> K10 -> L10 -> M11 -> M12
+
+TEXT: decimals at ten ten step
+SCORE: 62 | letters=20 | content_words=4 | bridge_words=1 | noun=True | verb=True | path_variants_in_top_pool=1
+  decimals: H7 -> G8 -> F9 -> E10 -> D10 -> C10 -> B10 -> A11
+  at: B11 -> C12
+  ten: C13 -> D14 -> E14
+  ten: F14 -> G13 -> H12
+  step: I13 -> I14 -> J14 -> J13
+
+TEXT: decimals as ten ten step
+SCORE: 62 | letters=20 | content_words=4 | bridge_words=1 | noun=True | verb=True | path_variants_in_top_pool=1
+  decimals: H7 -> G8 -> F9 -> E10 -> D10 -> C10 -> B10 -> A11
+  as: B11 -> B12
+  ten: C13 -> D14 -> E14
+  ten: F14 -> G13 -> H12
+  step: I13 -> I14 -> J14 -> J13
+
+TEXT: decimal to ten ten step
+SCORE: 61 | letters=19 | content_words=4 | bridge_words=1 | noun=True | verb=True | path_variants_in_top_pool=1
+  decimal: H7 -> G8 -> F9 -> E10 -> D10 -> C10 -> D11
+  to: C12 -> D12
+  ten: C13 -> D14 -> E14
+  ten: F14 -> G13 -> H12
+  step: I13 -> I14 -> J14 -> J13
+
+TEXT: decimal it ten ten step
+SCORE: 61 | letters=19 | content_words=4 | bridge_words=1 | noun=True | verb=True | path_variants_in_top_pool=2
+  decimal: H7 -> G8 -> F9 -> E10 -> D10 -> C10 -> D11
+  it: C11 -> C12
+  ten: C13 -> D14 -> E14
+  ten: F14 -> G13 -> H12
+  step: I13 -> I14 -> J14 -> J13
+
+TEXT: decimal at ten ten step
+SCORE: 61 | letters=19 | content_words=4 | bridge_words=1 | noun=True | verb=True | path_variants_in_top_pool=1
+  decimal: H7 -> G8 -> F9 -> E10 -> D10 -> C10 -> B10
+  at: B11 -> C12
+  ten: C13 -> D14 -> E14
+  ten: F14 -> G13 -> H12
+  step: I13 -> I14 -> J14 -> J13
+
+TEXT: decimal as ten ten step
+SCORE: 61 | letters=19 | content_words=4 | bridge_words=1 | noun=True | verb=True | path_variants_in_top_pool=1
+  decimal: H7 -> G8 -> F9 -> E10 -> D10 -> C10 -> B10
+  as: B11 -> B12
+  ten: C13 -> D14 -> E14
+  ten: F14 -> G13 -> H12
+  step: I13 -> I14 -> J14 -> J13
+
+TEXT: hexadecimal to ten ten step
+SCORE: 60 | letters=23 | content_words=4 | bridge_words=1 | noun=True | verb=True | path_variants_in_top_pool=1
+  hexadecimal: I3 -> I4 -> I5 -> I6 -> H7 -> G8 -> F9 -> E10 -> D10 -> C10 -> D11
+  to: C12 -> D12
+  ten: C13 -> D14 -> E14
+  ten: F14 -> G13 -> H12
+  step: I13 -> I14 -> J14 -> J13
+
+TEXT: hexadecimal it ten ten step
+SCORE: 60 | letters=23 | content_words=4 | bridge_words=1 | noun=True | verb=True | path_variants_in_top_pool=2
+  hexadecimal: I3 -> I4 -> I5 -> I6 -> H7 -> G8 -> F9 -> E10 -> D10 -> C10 -> B10
+  it: C11 -> C12
+  ten: C13 -> D14 -> E14
+  ten: F14 -> G13 -> H12
+  step: I13 -> I14 -> J14 -> J13
+
+TEXT: hexadecimal at ten ten step
+SCORE: 60 | letters=23 | content_words=4 | bridge_words=1 | noun=True | verb=True | path_variants_in_top_pool=1
+  hexadecimal: I3 -> I4 -> I5 -> I6 -> H7 -> G8 -> F9 -> E10 -> D10 -> C10 -> B10
+  at: B11 -> C12
+  ten: C13 -> D14 -> E14
+  ten: F14 -> G13 -> H12
+  step: I13 -> I14 -> J14 -> J13
+
+TEXT: hexadecimal as ten ten step
+SCORE: 60 | letters=23 | content_words=4 | bridge_words=1 | noun=True | verb=True | path_variants_in_top_pool=1
+  hexadecimal: I3 -> I4 -> I5 -> I6 -> H7 -> G8 -> F9 -> E10 -> D10 -> C10 -> B10
+  as: B11 -> B12
+  ten: C13 -> D14 -> E14
+  ten: F14 -> G13 -> H12
+  step: I13 -> I14 -> J14 -> J13
+
+TEXT: ten ten step integer
+SCORE: 59 | letters=17 | content_words=4 | bridge_words=0 | noun=True | verb=True | path_variants_in_top_pool=2
+  ten: C13 -> D14 -> E14
+  ten: F14 -> G13 -> H12
+  step: I13 -> I14 -> J14 -> J13
+  integer: I12 -> I11 -> J10 -> K10 -> L10 -> M11 -> M12
+
+TEXT: nine three to hundred
+SCORE: 58 | letters=18 | content_words=3 | bridge_words=1 | noun=True | verb=True | path_variants_in_top_pool=4
+  nine: E6 -> D6 -> D5 -> C4
+  three: C3 -> B2 -> C2 -> B3 -> A4
+  to: B5 -> A6
+  hundred: B6 -> C6 -> C5 -> D4 -> D3 -> D2 -> C1
+
+TEXT: step baseten to integer
+SCORE: 57 | letters=20 | content_words=3 | bridge_words=1 | noun=True | verb=True | path_variants_in_top_pool=2
+  step: N9 -> M9 -> M10 -> L11
+  baseten: L12 -> L13 -> K14 -> J14 -> I14 -> H13 -> H12
+  to: H11 -> I10
+  integer: J11 -> I11 -> J10 -> K10 -> L10 -> M11 -> M12
+
+TEXT: step baseten it integer
+SCORE: 57 | letters=20 | content_words=3 | bridge_words=1 | noun=True | verb=True | path_variants_in_top_pool=2
+  step: N9 -> M9 -> M10 -> L11
+  baseten: L12 -> L13 -> K14 -> J14 -> I14 -> H13 -> H12
+  it: G11 -> H11
+  integer: I12 -> I11 -> J10 -> K10 -> L10 -> M11 -> M12
+
+TEXT: decimals as ten ten ten
+SCORE: 57 | letters=19 | content_words=4 | bridge_words=1 | noun=True | verb=False | path_variants_in_top_pool=1
+  decimals: H7 -> G8 -> F9 -> E10 -> D10 -> C10 -> B10 -> A11
+  as: B11 -> B12
+  ten: C12 -> B13 -> C14
+  ten: C13 -> D14 -> E14
+  ten: F14 -> G13 -> H12
+
+TEXT: three ten in hundred
+SCORE: 57 | letters=17 | content_words=3 | bridge_words=1 | noun=True | verb=True | path_variants_in_top_pool=2
+  three: C3 -> B2 -> C2 -> B3 -> A4
+  ten: B5 -> C4 -> D5
+  in: D6 -> C7
+  hundred: B6 -> C6 -> C5 -> D4 -> D3 -> D2 -> C1
+
+TEXT: is ten ten integer
+SCORE: 57 | letters=15 | content_words=4 | bridge_words=0 | noun=True | verb=True | path_variants_in_top_pool=2
+  is: C11 -> B12
+  ten: C13 -> D14 -> E14
+  ten: F14 -> G13 -> H12
+  integer: I12 -> I11 -> J10 -> K10 -> L10 -> M11 -> M12
+
+TEXT: ten it ten ten integer
+SCORE: 56 | letters=18 | content_words=4 | bridge_words=1 | noun=True | verb=False | path_variants_in_top_pool=1
+  ten: A14 -> B13 -> C14
+  it: D13 -> C12
+  ten: C13 -> D14 -> E14
+  ten: F14 -> G13 -> H12
+  integer: I12 -> I11 -> J10 -> K10 -> L10 -> M11 -> M12
+
+TEXT: ten at ten ten integer
+SCORE: 56 | letters=18 | content_words=4 | bridge_words=1 | noun=True | verb=False | path_variants_in_top_pool=1
+  ten: A14 -> B13 -> A12
+  at: B11 -> C12
+  ten: C13 -> D14 -> E14
+  ten: F14 -> G13 -> H12
+  integer: I12 -> I11 -> J10 -> K10 -> L10 -> M11 -> M12
+
+TEXT: ten as ten ten integer
+SCORE: 56 | letters=18 | content_words=4 | bridge_words=1 | noun=True | verb=False | path_variants_in_top_pool=2
+  ten: C12 -> B13 -> A12
+  as: B11 -> B12
+  ten: C13 -> D14 -> E14
+  ten: F14 -> G13 -> H12
+  integer: I12 -> I11 -> J10 -> K10 -> L10 -> M11 -> M12
+
+TEXT: decimal as ten ten ten
+SCORE: 56 | letters=18 | content_words=4 | bridge_words=1 | noun=True | verb=False | path_variants_in_top_pool=1
+  decimal: H7 -> G8 -> F9 -> E10 -> D10 -> C10 -> B10
+  as: B11 -> B12
+  ten: C12 -> B13 -> C14
+  ten: C13 -> D14 -> E14
+  ten: F14 -> G13 -> H12
+
+TEXT: add the hexadecimal or nine
+SCORE: 55 | letters=23 | content_words=3 | bridge_words=2 | noun=True | verb=True | path_variants_in_top_pool=8
+  add: F3 -> G2 -> H1
+  the: I1 -> J1 -> I2
+  hexadecimal: I3 -> I4 -> I5 -> I6 -> H7 -> G8 -> F9 -> E10 -> D10 -> C10 -> D11
+  or: D12 -> E13
+  nine: E14 -> D13 -> C14 -> B13
+
+TEXT: hexadecimal as ten ten ten
+SCORE: 55 | letters=22 | content_words=4 | bridge_words=1 | noun=True | verb=False | path_variants_in_top_pool=1
+  hexadecimal: I3 -> I4 -> I5 -> I6 -> H7 -> G8 -> F9 -> E10 -> D10 -> C10 -> B10
+  as: B11 -> B12
+  ten: C12 -> B13 -> C14
+  ten: C13 -> D14 -> E14
+  ten: F14 -> G13 -> H12
+
+TEXT: step into integer by six
+SCORE: 55 | letters=20 | content_words=3 | bridge_words=2 | noun=True | verb=True | path_variants_in_top_pool=1
+  step: I13 -> I14 -> J14 -> J13
+  into: I12 -> H12 -> H11 -> I10
+  integer: J11 -> I11 -> J10 -> K10 -> L10 -> M11 -> M12
+  by: L12 -> M13
+  six: L14 -> M14 -> N14
+
+TEXT: step into integer as six
+SCORE: 55 | letters=20 | content_words=3 | bridge_words=2 | noun=True | verb=True | path_variants_in_top_pool=1
+  step: I13 -> I14 -> J14 -> J13
+  into: I12 -> H12 -> H11 -> I10
+  integer: J11 -> I11 -> J10 -> K10 -> L10 -> M11 -> M12
+  as: L13 -> K14
+  six: L14 -> M14 -> N14
+
+TEXT: nine three to hundreds
+SCORE: 55 | letters=19 | content_words=3 | bridge_words=1 | noun=True | verb=False | path_variants_in_top_pool=4
+  nine: E6 -> D6 -> D5 -> C4
+  three: C3 -> B2 -> C2 -> B3 -> A4
+  to: B5 -> A6
+  hundreds: B6 -> C6 -> C5 -> D4 -> D3 -> D2 -> C1 -> B1
 
 TEXT: step baseten integer
-SCORE: 59 | letters=18 | content_words=3 | bridge_words=0 | noun=True | verb=True | path_variants_in_top_pool=2
-  step: N9 -> N10 -> M10 -> L11
+SCORE: 55 | letters=18 | content_words=3 | bridge_words=0 | noun=True | verb=True | path_variants_in_top_pool=2
+  step: N9 -> M9 -> M10 -> L11
   baseten: L12 -> L13 -> K14 -> J14 -> I14 -> H13 -> H12
   integer: I12 -> I11 -> J10 -> K10 -> L10 -> M11 -> M12
 
 TEXT: three ten hundred
-SCORE: 59 | letters=15 | content_words=3 | bridge_words=0 | noun=True | verb=True | path_variants_in_top_pool=1
+SCORE: 55 | letters=15 | content_words=3 | bridge_words=0 | noun=True | verb=True | path_variants_in_top_pool=1
   three: C3 -> B2 -> C2 -> B3 -> A4
   ten: B5 -> C4 -> C5
   hundred: B6 -> C6 -> D5 -> D4 -> D3 -> D2 -> C1
+
+TEXT: find the hexadecimal or nine
+SCORE: 54 | letters=24 | content_words=3 | bridge_words=2 | noun=True | verb=True | path_variants_in_top_pool=4
+  find: E1 -> F1 -> G1 -> H1
+  the: I1 -> J1 -> I2
+  hexadecimal: I3 -> I4 -> I5 -> I6 -> H7 -> G8 -> F9 -> E10 -> D10 -> C10 -> D11
+  or: D12 -> E13
+  nine: E14 -> D13 -> C14 -> B13
+
+TEXT: add the hexadecimal to ten
+SCORE: 54 | letters=22 | content_words=3 | bridge_words=2 | noun=True | verb=True | path_variants_in_top_pool=16
+  add: F3 -> G2 -> H1
+  the: I1 -> J1 -> J2
+  hexadecimal: I3 -> I4 -> I5 -> I6 -> H7 -> G8 -> F9 -> E10 -> D10 -> C10 -> D11
+  to: C12 -> D12
+  ten: C13 -> D14 -> E14
+
+TEXT: add the hexadecimal or ten
+SCORE: 54 | letters=22 | content_words=3 | bridge_words=2 | noun=True | verb=True | path_variants_in_top_pool=4
+  add: F3 -> G2 -> H1
+  the: I1 -> J1 -> I2
+  hexadecimal: I3 -> I4 -> I5 -> I6 -> H7 -> G8 -> F9 -> E10 -> D10 -> C10 -> D11
+  or: D12 -> E13
+  ten: F14 -> G13 -> H12
+
+TEXT: add the hexadecimal it ten
+SCORE: 54 | letters=22 | content_words=3 | bridge_words=2 | noun=True | verb=True | path_variants_in_top_pool=32
+  add: F3 -> G2 -> H1
+  the: I1 -> J1 -> I2
+  hexadecimal: I3 -> I4 -> I5 -> I6 -> H7 -> G8 -> F9 -> E10 -> D10 -> C10 -> B10
+  it: C11 -> C12
+  ten: C13 -> D14 -> C14
+
+TEXT: add the hexadecimal at ten
+SCORE: 54 | letters=22 | content_words=3 | bridge_words=2 | noun=True | verb=True | path_variants_in_top_pool=16
+  add: F3 -> G2 -> H1
+  the: I1 -> J1 -> I2
+  hexadecimal: I3 -> I4 -> I5 -> I6 -> H7 -> G8 -> F9 -> E10 -> D10 -> C10 -> B10
+  at: B11 -> C12
+  ten: C13 -> B13 -> A12
+
+TEXT: add the hexadecimal as ten
+SCORE: 54 | letters=22 | content_words=3 | bridge_words=2 | noun=True | verb=True | path_variants_in_top_pool=24
+  add: F3 -> G2 -> H1
+  the: I1 -> J1 -> I2
+  hexadecimal: I3 -> I4 -> I5 -> I6 -> H7 -> G8 -> F9 -> E10 -> D10 -> C10 -> B10
+  as: B11 -> B12
+  ten: C12 -> B13 -> A12
+
+TEXT: three ten in hundreds
+SCORE: 54 | letters=18 | content_words=3 | bridge_words=1 | noun=True | verb=False | path_variants_in_top_pool=2
+  three: C3 -> B2 -> C2 -> B3 -> A4
+  ten: B5 -> C4 -> C5
+  in: D6 -> C7
+  hundreds: B6 -> C6 -> D5 -> D4 -> D3 -> D2 -> C1 -> B1
+
+TEXT: ten ten ten integer
+SCORE: 54 | letters=16 | content_words=4 | bridge_words=0 | noun=True | verb=False | path_variants_in_top_pool=2
+  ten: C12 -> B13 -> C14
+  ten: C13 -> D14 -> E14
+  ten: F14 -> G13 -> H12
+  integer: I12 -> I11 -> J10 -> K10 -> L10 -> M11 -> M12
+
+TEXT: decimal ten ten ten
+SCORE: 54 | letters=16 | content_words=4 | bridge_words=0 | noun=True | verb=False | path_variants_in_top_pool=1
+  decimal: H7 -> G8 -> F9 -> E10 -> D10 -> C10 -> D11
+  ten: C12 -> B13 -> C14
+  ten: C13 -> D14 -> E14
+  ten: F14 -> G13 -> H12
+
+TEXT: binary ten integer
+SCORE: 54 | letters=16 | content_words=3 | bridge_words=0 | noun=True | verb=False | path_variants_in_top_pool=2
+  binary: F10 -> F11 -> E11 -> E12 -> E13 -> F13
+  ten: F14 -> G13 -> H12
+  integer: I12 -> I11 -> J10 -> K10 -> L10 -> M11 -> M12
+
+TEXT: find the hexadecimal to ten
+SCORE: 53 | letters=23 | content_words=3 | bridge_words=2 | noun=True | verb=True | path_variants_in_top_pool=8
+  find: E1 -> F1 -> G1 -> H1
+  the: I1 -> J1 -> J2
+  hexadecimal: I3 -> I4 -> I5 -> I6 -> H7 -> G8 -> F9 -> E10 -> D10 -> C10 -> D11
+  to: C12 -> D12
+  ten: C13 -> D14 -> E14
+
+TEXT: find the hexadecimal or ten
+SCORE: 53 | letters=23 | content_words=3 | bridge_words=2 | noun=True | verb=True | path_variants_in_top_pool=2
+  find: E1 -> F1 -> G1 -> H1
+  the: I1 -> J1 -> I2
+  hexadecimal: I3 -> I4 -> I5 -> I6 -> H7 -> G8 -> F9 -> E10 -> D10 -> C10 -> D11
+  or: D12 -> E13
+  ten: F14 -> G13 -> H12
+
+TEXT: find the hexadecimal it ten
+SCORE: 53 | letters=23 | content_words=3 | bridge_words=2 | noun=True | verb=True | path_variants_in_top_pool=16
+  find: E1 -> F1 -> G1 -> H1
+  the: I1 -> J1 -> I2
+  hexadecimal: I3 -> I4 -> I5 -> I6 -> H7 -> G8 -> F9 -> E10 -> D10 -> C10 -> B10
+  it: C11 -> C12
+  ten: C13 -> B13 -> A12
+
+TEXT: find the hexadecimal at ten
+SCORE: 53 | letters=23 | content_words=3 | bridge_words=2 | noun=True | verb=True | path_variants_in_top_pool=8
+  find: E1 -> F1 -> G1 -> H1
+  the: I1 -> J1 -> I2
+  hexadecimal: I3 -> I4 -> I5 -> I6 -> H7 -> G8 -> F9 -> E10 -> D10 -> C10 -> B10
+  at: B11 -> C12
+  ten: C13 -> D14 -> C14
+
+TEXT: find the hexadecimal as ten
+SCORE: 53 | letters=23 | content_words=3 | bridge_words=2 | noun=True | verb=True | path_variants_in_top_pool=12
+  find: E1 -> F1 -> G1 -> H1
+  the: I1 -> J1 -> I2
+  hexadecimal: I3 -> I4 -> I5 -> I6 -> H7 -> G8 -> F9 -> E10 -> D10 -> C10 -> B10
+  as: B11 -> B12
+  ten: C13 -> B13 -> A12
+
+TEXT: hexadecimal ten ten ten
+SCORE: 53 | letters=20 | content_words=4 | bridge_words=0 | noun=True | verb=False | path_variants_in_top_pool=1
+  hexadecimal: I3 -> I4 -> I5 -> I6 -> H7 -> G8 -> F9 -> E10 -> D10 -> C10 -> D11
+  ten: C12 -> B13 -> C14
+  ten: C13 -> D14 -> E14
+  ten: F14 -> G13 -> H12
+
+TEXT: step or integer by six
+SCORE: 53 | letters=18 | content_words=3 | bridge_words=2 | noun=True | verb=True | path_variants_in_top_pool=3
+  step: N9 -> M9 -> M10 -> L11
+  or: K12 -> K13
+  integer: J12 -> I11 -> J10 -> K10 -> L10 -> M11 -> M12
+  by: L12 -> M13
+  six: L14 -> M14 -> N14
+
+TEXT: step or integer as six
+SCORE: 53 | letters=18 | content_words=3 | bridge_words=2 | noun=True | verb=True | path_variants_in_top_pool=3
+  step: N9 -> M9 -> M10 -> L11
+  or: K12 -> K13
+  integer: J12 -> I11 -> J10 -> K10 -> L10 -> M11 -> M12
+  as: L13 -> K14
+  six: L14 -> M14 -> N14
+
+TEXT: is into integer by six
+SCORE: 53 | letters=18 | content_words=3 | bridge_words=2 | noun=True | verb=True | path_variants_in_top_pool=1
+  is: J12 -> I13
+  into: I12 -> H12 -> H11 -> I10
+  integer: J11 -> I11 -> J10 -> K10 -> L10 -> M11 -> M12
+  by: L12 -> M13
+  six: L14 -> M14 -> N14
+
+TEXT: is into integer as six
+SCORE: 53 | letters=18 | content_words=3 | bridge_words=2 | noun=True | verb=True | path_variants_in_top_pool=1
+  is: J12 -> I13
+  into: I12 -> H12 -> H11 -> I10
+  integer: J11 -> I11 -> J10 -> K10 -> L10 -> M11 -> M12
+  as: L13 -> K14
+  six: L14 -> M14 -> N14
+
+TEXT: is integer baseten
+SCORE: 53 | letters=16 | content_words=3 | bridge_words=0 | noun=True | verb=True | path_variants_in_top_pool=2
+  is: J12 -> I13
+  integer: I12 -> I11 -> J10 -> K10 -> L10 -> M11 -> M12
+  baseten: L12 -> L13 -> K14 -> J14 -> I14 -> H13 -> H12
+
+TEXT: binary nine total
+SCORE: 53 | letters=15 | content_words=3 | bridge_words=0 | noun=True | verb=False | path_variants_in_top_pool=4
+  binary: F10 -> E10 -> E11 -> E12 -> E13 -> F13
+  nine: E14 -> D13 -> C14 -> D14
+  total: C13 -> D12 -> C12 -> B11 -> B10
+
+TEXT: binary nine to ten
+SCORE: 53 | letters=15 | content_words=3 | bridge_words=1 | noun=True | verb=False | path_variants_in_top_pool=2
+  binary: F10 -> F11 -> E11 -> E12 -> E13 -> F13
+  nine: E14 -> D13 -> C14 -> D14
+  to: C13 -> D12
+  ten: C12 -> B13 -> A12
+
+TEXT: add the hexadecimal ten
+SCORE: 52 | letters=20 | content_words=3 | bridge_words=1 | noun=True | verb=True | path_variants_in_top_pool=8
+  add: F3 -> G2 -> H1
+  the: I1 -> J1 -> I2
+  hexadecimal: I3 -> I4 -> I5 -> I6 -> H7 -> G8 -> F9 -> E10 -> D10 -> C10 -> D11
+  ten: C12 -> B13 -> A12
+
+TEXT: three ten hundreds
+SCORE: 52 | letters=16 | content_words=3 | bridge_words=0 | noun=True | verb=False | path_variants_in_top_pool=1
+  three: C3 -> B2 -> C2 -> B3 -> A4
+  ten: B5 -> C4 -> C5
+  hundreds: B6 -> C6 -> D5 -> D4 -> D3 -> D2 -> C1 -> B1
+
+TEXT: ten it ten ten step
+SCORE: 52 | letters=15 | content_words=4 | bridge_words=1 | noun=True | verb=True | path_variants_in_top_pool=1
+  ten: A14 -> B13 -> C14
+  it: D13 -> C12
+  ten: C13 -> D14 -> E14
+  ten: F14 -> G13 -> H12
+  step: I13 -> I14 -> J14 -> J13
+
+TEXT: ten at ten ten step
+SCORE: 52 | letters=15 | content_words=4 | bridge_words=1 | noun=True | verb=True | path_variants_in_top_pool=1
+  ten: A14 -> B13 -> A12
+  at: B11 -> C12
+  ten: C13 -> D14 -> E14
+  ten: F14 -> G13 -> H12
+  step: I13 -> I14 -> J14 -> J13
+
+TEXT: ten as ten ten step
+SCORE: 52 | letters=15 | content_words=4 | bridge_words=1 | noun=True | verb=True | path_variants_in_top_pool=2
+  ten: C12 -> B13 -> A12
+  as: B11 -> B12
+  ten: C13 -> D14 -> E14
+  ten: F14 -> G13 -> H12
+  step: I13 -> I14 -> J14 -> J13
+
+TEXT: find the hexadecimal ten
+SCORE: 51 | letters=21 | content_words=3 | bridge_words=1 | noun=True | verb=True | path_variants_in_top_pool=4
+  find: E1 -> F1 -> G1 -> H1
+  the: I1 -> J1 -> J2
+  hexadecimal: I3 -> I4 -> I5 -> I6 -> H7 -> G8 -> F9 -> E10 -> D10 -> C10 -> D11
+  ten: C12 -> B13 -> C14
+
+TEXT: step integer by six
+SCORE: 51 | letters=16 | content_words=3 | bridge_words=1 | noun=True | verb=True | path_variants_in_top_pool=2
+  step: I13 -> I14 -> J14 -> J13
+  integer: I12 -> I11 -> J10 -> K10 -> L10 -> M11 -> M12
+  by: L12 -> M13
+  six: L14 -> M14 -> N14
+
+TEXT: step integer as six
+SCORE: 51 | letters=16 | content_words=3 | bridge_words=1 | noun=True | verb=True | path_variants_in_top_pool=2
+  step: I13 -> I14 -> J14 -> J13
+  integer: I12 -> I11 -> J10 -> K10 -> L10 -> M11 -> M12
+  as: L13 -> K14
+  six: L14 -> M14 -> N14
+
+TEXT: ten integer by six
+SCORE: 51 | letters=15 | content_words=3 | bridge_words=1 | noun=True | verb=False | path_variants_in_top_pool=2
+  ten: I14 -> H13 -> H12
+  integer: I12 -> I11 -> J10 -> K10 -> L10 -> M11 -> M12
+  by: L12 -> M13
+  six: L14 -> M14 -> N14
+
+TEXT: ten integer as six
+SCORE: 51 | letters=15 | content_words=3 | bridge_words=1 | noun=True | verb=False | path_variants_in_top_pool=2
+  ten: F14 -> G13 -> H12
+  integer: I12 -> I11 -> J10 -> K10 -> L10 -> M11 -> M12
+  as: L13 -> K14
+  six: L14 -> M14 -> N14
+
+TEXT: binary nine ten
+SCORE: 51 | letters=13 | content_words=3 | bridge_words=0 | noun=True | verb=False | path_variants_in_top_pool=2
+  binary: F10 -> E10 -> E11 -> E12 -> E13 -> F13
+  nine: E14 -> D13 -> C14 -> D14
+  ten: C13 -> B13 -> A12
+
+TEXT: ten ten ten step
+SCORE: 50 | letters=13 | content_words=4 | bridge_words=0 | noun=True | verb=True | path_variants_in_top_pool=2
+  ten: C12 -> B13 -> C14
+  ten: C13 -> D14 -> E14
+  ten: F14 -> G13 -> H12
+  step: I13 -> I14 -> J14 -> J13
+
+TEXT: binary ten step
+SCORE: 50 | letters=13 | content_words=3 | bridge_words=0 | noun=True | verb=True | path_variants_in_top_pool=2
+  binary: F10 -> E10 -> E11 -> E12 -> E13 -> F13
+  ten: F14 -> G13 -> H12
+  step: I13 -> I14 -> J14 -> J13
+
+TEXT: ten step integer
+SCORE: 49 | letters=14 | content_words=3 | bridge_words=0 | noun=True | verb=True | path_variants_in_top_pool=2
+  ten: F14 -> G13 -> H12
+  step: I13 -> I14 -> J14 -> J13
+  integer: J12 -> I11 -> J10 -> K10 -> L10 -> M11 -> M12
+
+TEXT: getup nine three
+SCORE: 49 | letters=14 | content_words=3 | bridge_words=0 | noun=True | verb=True | path_variants_in_top_pool=8
+  getup: B4 -> A4 -> B5 -> C6 -> D7
+  nine: E6 -> D6 -> C5 -> C4
+  three: C3 -> B2 -> A1 -> A2 -> B3
+
+TEXT: is ten to integer
+SCORE: 49 | letters=14 | content_words=3 | bridge_words=1 | noun=True | verb=True | path_variants_in_top_pool=2
+  is: I12 -> I13
+  ten: I14 -> H13 -> H12
+  to: H11 -> I10
+  integer: J11 -> I11 -> J10 -> K10 -> L10 -> M11 -> M12
+
+TEXT: is ten it integer
+SCORE: 49 | letters=14 | content_words=3 | bridge_words=1 | noun=True | verb=True | path_variants_in_top_pool=1
+  is: J12 -> I13
+  ten: I14 -> H13 -> H12
+  it: G11 -> H11
+  integer: I12 -> I11 -> J10 -> K10 -> L10 -> M11 -> M12
+
+TEXT: is integer by six
+SCORE: 49 | letters=14 | content_words=3 | bridge_words=1 | noun=True | verb=True | path_variants_in_top_pool=2
+  is: I12 -> I13
+  integer: J12 -> I11 -> J10 -> K10 -> L10 -> M11 -> M12
+  by: L12 -> M13
+  six: L14 -> M14 -> N14
+
+TEXT: is integer as six
+SCORE: 49 | letters=14 | content_words=3 | bridge_words=1 | noun=True | verb=True | path_variants_in_top_pool=2
+  is: I12 -> I13
+  integer: J12 -> I11 -> J10 -> K10 -> L10 -> M11 -> M12
+  as: L13 -> K14
+  six: L14 -> M14 -> N14
+
+TEXT: is ten ten step
+SCORE: 49 | letters=12 | content_words=4 | bridge_words=0 | noun=True | verb=True | path_variants_in_top_pool=2
+  is: C11 -> B12
+  ten: C13 -> D14 -> E14
+  ten: F14 -> G13 -> H12
+  step: I13 -> I14 -> J14 -> J13
+
+TEXT: get step or baseten
+SCORE: 48 | letters=16 | content_words=3 | bridge_words=1 | noun=True | verb=True | path_variants_in_top_pool=3
+  get: L9 -> M10 -> M9
+  step: N9 -> N10 -> M11 -> L11
+  or: K12 -> K13
+  baseten: L12 -> L13 -> K14 -> J14 -> I14 -> H13 -> H12
+
+TEXT: nine step or six
+SCORE: 48 | letters=13 | content_words=3 | bridge_words=1 | noun=True | verb=True | path_variants_in_top_pool=1
+  nine: I11 -> I12 -> H12 -> H13
+  step: I13 -> I14 -> J14 -> J13
+  or: K12 -> K13
+  six: L14 -> M14 -> N14
+
+TEXT: is ten ten ten
+SCORE: 48 | letters=11 | content_words=4 | bridge_words=0 | noun=True | verb=True | path_variants_in_top_pool=2
+  is: C11 -> B12
+  ten: C12 -> B13 -> C14
+  ten: C13 -> D14 -> E14
+  ten: F14 -> G13 -> H12
+
+TEXT: add the start nine
+SCORE: 47 | letters=15 | content_words=3 | bridge_words=1 | noun=True | verb=True | path_variants_in_top_pool=4
+  add: F3 -> G2 -> H1
+  the: I1 -> J1 -> J2
+  start: K1 -> K2 -> L1 -> M1 -> N1
+  nine: M2 -> M3 -> L4 -> M5
+
+TEXT: is ten integer
+SCORE: 47 | letters=12 | content_words=3 | bridge_words=0 | noun=True | verb=True | path_variants_in_top_pool=1
+  is: J12 -> I13
+  ten: I14 -> H13 -> H12
+  integer: I12 -> I11 -> J10 -> K10 -> L10 -> M11 -> M12
+
+TEXT: getup nine ten
+SCORE: 47 | letters=12 | content_words=3 | bridge_words=0 | noun=True | verb=True | path_variants_in_top_pool=4
+  getup: B4 -> A4 -> B5 -> C6 -> D7
+  nine: C7 -> D6 -> C5 -> C4
+  ten: C3 -> B3 -> A3
+
+TEXT: get nine total
+SCORE: 47 | letters=12 | content_words=3 | bridge_words=0 | noun=True | verb=True | path_variants_in_top_pool=2
+  get: F12 -> G13 -> F14
+  nine: E14 -> D13 -> C14 -> B13
+  total: C13 -> D12 -> C12 -> B11 -> B10
+
+TEXT: get nine three
+SCORE: 47 | letters=12 | content_words=3 | bridge_words=0 | noun=True | verb=True | path_variants_in_top_pool=2
+  get: B4 -> A4 -> B5
+  nine: C5 -> D6 -> D5 -> C4
+  three: C3 -> B2 -> A1 -> A2 -> B3
+
+TEXT: find three ten
+SCORE: 47 | letters=12 | content_words=3 | bridge_words=0 | noun=True | verb=True | path_variants_in_top_pool=4
+  find: E7 -> D6 -> C5 -> D4
+  three: C3 -> B2 -> C2 -> B3 -> C4
+  ten: B5 -> A4 -> A3
+
+TEXT: ten step or six
+SCORE: 47 | letters=12 | content_words=3 | bridge_words=1 | noun=True | verb=True | path_variants_in_top_pool=1
+  ten: F14 -> G13 -> H12
+  step: I13 -> I14 -> J14 -> J13
+  or: K12 -> K13
+  six: L14 -> M14 -> N14
+
+TEXT: get nine to ten
+SCORE: 47 | letters=12 | content_words=3 | bridge_words=1 | noun=True | verb=True | path_variants_in_top_pool=1
+  get: F12 -> G13 -> F14
+  nine: E14 -> D13 -> C14 -> D14
+  to: C13 -> D12
+  ten: C12 -> B13 -> A12
+
+TEXT: find the start nine
+SCORE: 46 | letters=16 | content_words=3 | bridge_words=1 | noun=True | verb=True | path_variants_in_top_pool=2
+  find: E1 -> F1 -> G1 -> H1
+  the: I1 -> J1 -> J2
+  start: K1 -> K2 -> L1 -> M1 -> N1
+  nine: M2 -> M3 -> L4 -> K4
+
+TEXT: decimal ten in ten
+SCORE: 46 | letters=15 | content_words=3 | bridge_words=1 | noun=True | verb=False | path_variants_in_top_pool=1
+  decimal: H7 -> G8 -> F9 -> E10 -> D10 -> C10 -> D11
+  ten: C12 -> B13 -> C14
+  in: D13 -> E14
+  ten: F14 -> G13 -> H12
+
+TEXT: decimal ten as ten
+SCORE: 46 | letters=15 | content_words=3 | bridge_words=1 | noun=True | verb=False | path_variants_in_top_pool=2
+  decimal: H7 -> G8 -> F9 -> E10 -> D10 -> C10 -> D11
+  ten: C12 -> B13 -> A12
+  as: B11 -> B12
+  ten: C13 -> D14 -> E14
+
+TEXT: get step baseten
+SCORE: 46 | letters=14 | content_words=3 | bridge_words=0 | noun=True | verb=True | path_variants_in_top_pool=3
+  get: L9 -> M10 -> M9
+  step: N9 -> N10 -> M11 -> L11
+  baseten: L12 -> L13 -> K14 -> J14 -> I14 -> H13 -> H12
+
+TEXT: hexadecimal ten in ten
+SCORE: 45 | letters=19 | content_words=3 | bridge_words=1 | noun=True | verb=False | path_variants_in_top_pool=1
+  hexadecimal: I3 -> I4 -> I5 -> I6 -> H7 -> G8 -> F9 -> E10 -> D10 -> C10 -> D11
+  ten: C12 -> B13 -> C14
+  in: D13 -> E14
+  ten: F14 -> G13 -> H12
+
+TEXT: hexadecimal ten as ten
+SCORE: 45 | letters=19 | content_words=3 | bridge_words=1 | noun=True | verb=False | path_variants_in_top_pool=2
+  hexadecimal: I3 -> I4 -> I5 -> I6 -> H7 -> G8 -> F9 -> E10 -> D10 -> C10 -> D11
+  ten: C12 -> B13 -> A12
+  as: B11 -> B12
+  ten: C13 -> D14 -> C14
+
+TEXT: getup in end three
+SCORE: 45 | letters=15 | content_words=3 | bridge_words=1 | noun=True | verb=True | path_variants_in_top_pool=4
+  getup: B4 -> A4 -> B5 -> C6 -> D7
+  in: D6 -> D5
+  end: C4 -> C5 -> D4
+  three: C3 -> B2 -> A1 -> A2 -> B3
+
+TEXT: get nine ten
+SCORE: 45 | letters=10 | content_words=3 | bridge_words=0 | noun=True | verb=True | path_variants_in_top_pool=2
+  get: F12 -> G13 -> F14
+  nine: E14 -> D13 -> C14 -> D14
+  ten: C13 -> B13 -> A12
+
+TEXT: ten ten integer
+SCORE: 44 | letters=13 | content_words=3 | bridge_words=0 | noun=True | verb=False | path_variants_in_top_pool=1
+  ten: C13 -> D14 -> E14
+  ten: F14 -> G13 -> H12
+  integer: I12 -> I11 -> J10 -> K10 -> L10 -> M11 -> M12
+
+TEXT: decimal ten ten
+SCORE: 44 | letters=13 | content_words=3 | bridge_words=0 | noun=True | verb=False | path_variants_in_top_pool=1
+  decimal: H7 -> G8 -> F9 -> E10 -> D10 -> C10 -> D11
+  ten: C12 -> B13 -> C14
+  ten: C13 -> D14 -> E14
+
+TEXT: hexadecimal ten ten
+SCORE: 43 | letters=17 | content_words=3 | bridge_words=0 | noun=True | verb=False | path_variants_in_top_pool=1
+  hexadecimal: I3 -> I4 -> I5 -> I6 -> H7 -> G8 -> F9 -> E10 -> D10 -> C10 -> D11
+  ten: C12 -> B13 -> C14
+  ten: C13 -> D14 -> E14
+
+TEXT: getup in end ten
+SCORE: 43 | letters=13 | content_words=3 | bridge_words=1 | noun=True | verb=True | path_variants_in_top_pool=2
+  getup: B4 -> A4 -> B5 -> C6 -> D7
+  in: D6 -> C5
+  end: C4 -> D5 -> D4
+  ten: C3 -> B3 -> A3
+
+TEXT: get step at nine
+SCORE: 43 | letters=13 | content_words=3 | bridge_words=1 | noun=True | verb=True | path_variants_in_top_pool=6
+  get: L9 -> M10 -> M9
+  step: N9 -> N10 -> M11 -> L11
+  at: K11 -> J10
+  nine: I11 -> I12 -> H12 -> G13
+
+TEXT: baseten to integer
+SCORE: 42 | letters=16 | content_words=2 | bridge_words=1 | noun=True | verb=False | path_variants_in_top_pool=1
+  baseten: L12 -> L13 -> K14 -> J14 -> I14 -> H13 -> H12
+  to: H11 -> I10
+  integer: J11 -> I11 -> J10 -> K10 -> L10 -> M11 -> M12
+
+TEXT: baseten it integer
+SCORE: 42 | letters=16 | content_words=2 | bridge_words=1 | noun=True | verb=False | path_variants_in_top_pool=1
+  baseten: L12 -> L13 -> K14 -> J14 -> I14 -> H13 -> H12
+  it: G11 -> H11
+  integer: I12 -> I11 -> J10 -> K10 -> L10 -> M11 -> M12
+
+TEXT: three to hundred
+SCORE: 42 | letters=14 | content_words=2 | bridge_words=1 | noun=True | verb=True | path_variants_in_top_pool=4
+  three: C3 -> B2 -> C2 -> B3 -> C4
+  to: B5 -> A6
+  hundred: B6 -> C6 -> D5 -> D4 -> D3 -> D2 -> C1
+
+TEXT: get step or six
+SCORE: 42 | letters=12 | content_words=3 | bridge_words=1 | noun=True | verb=True | path_variants_in_top_pool=3
+  get: L10 -> M10 -> M9
+  step: N9 -> N10 -> M11 -> L11
+  or: K12 -> K13
+  six: L14 -> M14 -> N14
+
+TEXT: get step by six
+SCORE: 42 | letters=12 | content_words=3 | bridge_words=1 | noun=True | verb=True | path_variants_in_top_pool=3
+  get: L10 -> M10 -> M9
+  step: N9 -> N10 -> M11 -> L11
+  by: L12 -> M13
+  six: L14 -> M14 -> N14
+
+TEXT: is to ten in ten
+SCORE: 42 | letters=12 | content_words=3 | bridge_words=2 | noun=True | verb=True | path_variants_in_top_pool=6
+  is: A13 -> B12
+  to: C12 -> D12
+  ten: C13 -> D14 -> C14
+  in: D13 -> E14
+  ten: F14 -> G13 -> H12
+
+TEXT: is it ten in ten
+SCORE: 42 | letters=12 | content_words=3 | bridge_words=2 | noun=True | verb=True | path_variants_in_top_pool=2
+  is: A13 -> B12
+  it: C11 -> C12
+  ten: C13 -> B13 -> C14
+  in: D13 -> E14
+  ten: F14 -> G13 -> H12
+
+TEXT: is at ten in ten
+SCORE: 42 | letters=12 | content_words=3 | bridge_words=2 | noun=True | verb=True | path_variants_in_top_pool=4
+  is: C11 -> B12
+  at: B11 -> C12
+  ten: C13 -> B13 -> C14
+  in: D13 -> E14
+  ten: F14 -> G13 -> H12
+
+TEXT: nine to hundred
+SCORE: 41 | letters=13 | content_words=2 | bridge_words=1 | noun=True | verb=True | path_variants_in_top_pool=4
+  nine: C7 -> D6 -> C5 -> C4
+  to: B5 -> A6
+  hundred: B6 -> C6 -> D5 -> D4 -> D3 -> D2 -> C1
+
+TEXT: get nine step
+SCORE: 41 | letters=11 | content_words=3 | bridge_words=0 | noun=True | verb=True | path_variants_in_top_pool=2
+  get: L9 -> K10 -> J10
+  nine: I11 -> I12 -> H12 -> H13
+  step: I13 -> I14 -> J14 -> J13
+
+TEXT: get end three
+SCORE: 41 | letters=11 | content_words=3 | bridge_words=0 | noun=True | verb=True | path_variants_in_top_pool=4
+  get: B4 -> A4 -> B5
+  end: C4 -> C5 -> D4
+  three: C3 -> B2 -> A1 -> A2 -> B3
+
+TEXT: ten to hundred
+SCORE: 40 | letters=12 | content_words=2 | bridge_words=1 | noun=True | verb=True | path_variants_in_top_pool=1
+  ten: C3 -> C4 -> C5
+  to: B5 -> A6
+  hundred: B6 -> C6 -> D5 -> D4 -> D3 -> D2 -> C1
+
+TEXT: ten in hundred
+SCORE: 40 | letters=12 | content_words=2 | bridge_words=1 | noun=True | verb=True | path_variants_in_top_pool=4
+  ten: B5 -> C4 -> C5
+  in: D6 -> C7
+  hundred: B6 -> C6 -> D5 -> D4 -> D3 -> D2 -> C1
+
+TEXT: ten ten step
+SCORE: 40 | letters=10 | content_words=3 | bridge_words=0 | noun=True | verb=True | path_variants_in_top_pool=1
+  ten: C13 -> D14 -> E14
+  ten: F14 -> G13 -> H12
+  step: I13 -> I14 -> J14 -> J13
+
+TEXT: find ten ten
+SCORE: 40 | letters=10 | content_words=3 | bridge_words=0 | noun=True | verb=True | path_variants_in_top_pool=1
+  find: E7 -> D6 -> D5 -> D4
+  ten: C3 -> C4 -> C5
+  ten: B5 -> A4 -> A3
+
+TEXT: is to ten ten
+SCORE: 40 | letters=10 | content_words=3 | bridge_words=1 | noun=True | verb=True | path_variants_in_top_pool=2
+  is: C11 -> B12
+  to: C12 -> D12
+  ten: C13 -> D14 -> E14
+  ten: F14 -> G13 -> H12
+
+TEXT: is ten in ten
+SCORE: 40 | letters=10 | content_words=3 | bridge_words=1 | noun=True | verb=True | path_variants_in_top_pool=6
+  is: C11 -> B12
+  ten: C13 -> B13 -> C14
+  in: D13 -> E14
+  ten: F14 -> G13 -> H12
+
+TEXT: is it ten ten
+SCORE: 40 | letters=10 | content_words=3 | bridge_words=1 | noun=True | verb=True | path_variants_in_top_pool=1
+  is: A13 -> B12
+  it: C11 -> C12
+  ten: C13 -> D14 -> E14
+  ten: F14 -> G13 -> H12
+
+TEXT: is at ten ten
+SCORE: 40 | letters=10 | content_words=3 | bridge_words=1 | noun=True | verb=True | path_variants_in_top_pool=2
+  is: C11 -> B12
+  at: B11 -> C12
+  ten: C13 -> D14 -> E14
+  ten: F14 -> G13 -> H12
+
+TEXT: three to hundreds
+SCORE: 39 | letters=15 | content_words=2 | bridge_words=1 | noun=True | verb=False | path_variants_in_top_pool=4
+  three: C3 -> B2 -> C2 -> B3 -> A4
+  to: B5 -> A6
+  hundreds: B6 -> C6 -> C5 -> D4 -> D3 -> D2 -> C1 -> B1
+
+TEXT: integer and three
+SCORE: 39 | letters=15 | content_words=2 | bridge_words=1 | noun=True | verb=False | path_variants_in_top_pool=2
+  integer: D6 -> C5 -> B5 -> A4 -> B4 -> C4 -> D3
+  and: E4 -> D5 -> D4
+  three: C3 -> B2 -> A1 -> A2 -> B3
+
+TEXT: get end ten
+SCORE: 39 | letters=9 | content_words=3 | bridge_words=0 | noun=True | verb=True | path_variants_in_top_pool=2
+  get: B4 -> A4 -> B5
+  end: C4 -> D5 -> D4
+  ten: C3 -> B3 -> A3
+
+TEXT: step into integer
+SCORE: 38 | letters=15 | content_words=2 | bridge_words=1 | noun=True | verb=True | path_variants_in_top_pool=1
+  step: I13 -> I14 -> J14 -> J13
+  into: I12 -> H12 -> H11 -> I10
+  integer: J11 -> I11 -> J10 -> K10 -> L10 -> M11 -> M12
+
+TEXT: nine to hundreds
+SCORE: 38 | letters=14 | content_words=2 | bridge_words=1 | noun=True | verb=False | path_variants_in_top_pool=4
+  nine: C7 -> D6 -> C5 -> C4
+  to: B5 -> A6
+  hundreds: B6 -> C6 -> D5 -> D4 -> D3 -> D2 -> C1 -> B1
+
+TEXT: step or baseten
+SCORE: 38 | letters=13 | content_words=2 | bridge_words=1 | noun=True | verb=True | path_variants_in_top_pool=3
+  step: N9 -> M9 -> M10 -> L11
+  or: K12 -> K13
+  baseten: L12 -> L13 -> K14 -> J14 -> I14 -> H13 -> H12
+
+TEXT: is ten ten
+SCORE: 38 | letters=8 | content_words=3 | bridge_words=0 | noun=True | verb=True | path_variants_in_top_pool=4
+  is: A13 -> B12
+  ten: C12 -> B13 -> C14
+  ten: C13 -> D14 -> E14
+
+TEXT: add the hexadecimal
+SCORE: 37 | letters=17 | content_words=2 | bridge_words=1 | noun=True | verb=True | path_variants_in_top_pool=8
+  add: F3 -> G2 -> H1
+  the: I1 -> J1 -> I2
+  hexadecimal: I3 -> I4 -> I5 -> I6 -> H7 -> G8 -> F9 -> E10 -> D10 -> C10 -> D11
+
+TEXT: ten to hundreds
+SCORE: 37 | letters=13 | content_words=2 | bridge_words=1 | noun=True | verb=False | path_variants_in_top_pool=1
+  ten: C3 -> C4 -> C5
+  to: B5 -> A6
+  hundreds: B6 -> C6 -> D5 -> D4 -> D3 -> D2 -> C1 -> B1
+
+TEXT: ten in hundreds
+SCORE: 37 | letters=13 | content_words=2 | bridge_words=1 | noun=True | verb=False | path_variants_in_top_pool=4
+  ten: B5 -> C4 -> D5
+  in: D6 -> C7
+  hundreds: B6 -> C6 -> C5 -> D4 -> D3 -> D2 -> C1 -> B1
+
+TEXT: integer and ten
+SCORE: 37 | letters=13 | content_words=2 | bridge_words=1 | noun=True | verb=False | path_variants_in_top_pool=1
+  integer: D6 -> C5 -> B5 -> A4 -> B4 -> C4 -> D3
+  and: E4 -> D5 -> D4
+  ten: C3 -> B3 -> A3
+
+TEXT: decimals at ten
+SCORE: 37 | letters=13 | content_words=2 | bridge_words=1 | noun=True | verb=False | path_variants_in_top_pool=4
+  decimals: H7 -> G8 -> F9 -> E10 -> D10 -> C10 -> B10 -> A11
+  at: B11 -> C12
+  ten: C13 -> B13 -> A12
+
+TEXT: decimals as ten
+SCORE: 37 | letters=13 | content_words=2 | bridge_words=1 | noun=True | verb=False | path_variants_in_top_pool=6
+  decimals: H7 -> G8 -> F9 -> E10 -> D10 -> C10 -> B10 -> A11
+  as: B11 -> B12
+  ten: C12 -> B13 -> C14
+
+TEXT: decimal or nine
+SCORE: 37 | letters=13 | content_words=2 | bridge_words=1 | noun=True | verb=False | path_variants_in_top_pool=2
+  decimal: H7 -> G8 -> F9 -> E10 -> D10 -> C10 -> D11
+  or: D12 -> E13
+  nine: E14 -> D13 -> C14 -> D14
+
+TEXT: find the hexadecimal
+SCORE: 36 | letters=18 | content_words=2 | bridge_words=1 | noun=True | verb=True | path_variants_in_top_pool=4
+  find: E1 -> F1 -> G1 -> H1
+  the: I1 -> J1 -> J2
+  hexadecimal: I3 -> I4 -> I5 -> I6 -> H7 -> G8 -> F9 -> E10 -> D10 -> C10 -> D11
+
+TEXT: hexadecimal or nine
+SCORE: 36 | letters=17 | content_words=2 | bridge_words=1 | noun=True | verb=False | path_variants_in_top_pool=2
+  hexadecimal: I3 -> I4 -> I5 -> I6 -> H7 -> G8 -> F9 -> E10 -> D10 -> C10 -> D11
+  or: D12 -> E13
+  nine: E14 -> D13 -> C14 -> B13
+
+TEXT: step or integer
+SCORE: 36 | letters=13 | content_words=2 | bridge_words=1 | noun=True | verb=True | path_variants_in_top_pool=3
+  step: N9 -> M9 -> M10 -> L11
+  or: K12 -> K13
+  integer: J12 -> I11 -> J10 -> K10 -> L10 -> M11 -> M12
+
+TEXT: is into integer
+SCORE: 36 | letters=13 | content_words=2 | bridge_words=1 | noun=True | verb=True | path_variants_in_top_pool=1
+  is: J12 -> I13
+  into: I12 -> H12 -> H11 -> I10
+  integer: J11 -> I11 -> J10 -> K10 -> L10 -> M11 -> M12
+
+TEXT: ten to integer
+SCORE: 36 | letters=12 | content_words=2 | bridge_words=1 | noun=True | verb=False | path_variants_in_top_pool=2
+  ten: F14 -> G13 -> H12
+  to: H11 -> I10
+  integer: J11 -> I11 -> J10 -> K10 -> L10 -> M11 -> M12
+
+TEXT: ten it integer
+SCORE: 36 | letters=12 | content_words=2 | bridge_words=1 | noun=True | verb=False | path_variants_in_top_pool=2
+  ten: F14 -> G13 -> H12
+  it: G11 -> H11
+  integer: I12 -> I11 -> J10 -> K10 -> L10 -> M11 -> M12
+
+TEXT: integer by six
+SCORE: 36 | letters=12 | content_words=2 | bridge_words=1 | noun=True | verb=False | path_variants_in_top_pool=3
+  integer: I12 -> I11 -> J10 -> K10 -> L10 -> M11 -> M12
+  by: L12 -> M13
+  six: L14 -> M14 -> N14
+
+TEXT: integer as six
+SCORE: 36 | letters=12 | content_words=2 | bridge_words=1 | noun=True | verb=False | path_variants_in_top_pool=3
+  integer: J11 -> I11 -> J10 -> K10 -> L10 -> M11 -> M12
+  as: L13 -> K14
+  six: L14 -> M14 -> N14
+
+TEXT: decimal to ten
+SCORE: 36 | letters=12 | content_words=2 | bridge_words=1 | noun=True | verb=False | path_variants_in_top_pool=4
+  decimal: H7 -> G8 -> F9 -> E10 -> D10 -> C10 -> D11
+  to: C12 -> D12
+  ten: C13 -> D14 -> E14
+
+TEXT: decimal or ten
+SCORE: 36 | letters=12 | content_words=2 | bridge_words=1 | noun=True | verb=False | path_variants_in_top_pool=1
+  decimal: H7 -> G8 -> F9 -> E10 -> D10 -> C10 -> D11
+  or: D12 -> E13
+  ten: F14 -> G13 -> H12
+
+TEXT: decimal it ten
+SCORE: 36 | letters=12 | content_words=2 | bridge_words=1 | noun=True | verb=False | path_variants_in_top_pool=8
+  decimal: H7 -> G8 -> F9 -> E10 -> D10 -> C10 -> D11
+  it: C11 -> C12
+  ten: C13 -> B13 -> A12
+
+TEXT: decimal at ten
+SCORE: 36 | letters=12 | content_words=2 | bridge_words=1 | noun=True | verb=False | path_variants_in_top_pool=4
+  decimal: H7 -> G8 -> F9 -> E10 -> D10 -> C10 -> B10
+  at: B11 -> C12
+  ten: C13 -> B13 -> C14
+
+TEXT: decimal as ten
+SCORE: 36 | letters=12 | content_words=2 | bridge_words=1 | noun=True | verb=False | path_variants_in_top_pool=6
+  decimal: H7 -> G8 -> F9 -> E10 -> D10 -> C10 -> B10
+  as: B11 -> B12
+  ten: C13 -> D14 -> E14
+
+TEXT: hexadecimal to ten
+SCORE: 35 | letters=16 | content_words=2 | bridge_words=1 | noun=True | verb=False | path_variants_in_top_pool=4
+  hexadecimal: I3 -> I4 -> I5 -> I6 -> H7 -> G8 -> F9 -> E10 -> D10 -> C10 -> D11
+  to: C12 -> D12
+  ten: C13 -> B13 -> C14
+
+TEXT: hexadecimal or ten
+SCORE: 35 | letters=16 | content_words=2 | bridge_words=1 | noun=True | verb=False | path_variants_in_top_pool=1
+  hexadecimal: I3 -> I4 -> I5 -> I6 -> H7 -> G8 -> F9 -> E10 -> D10 -> C10 -> D11
+  or: D12 -> E13
+  ten: F14 -> G13 -> H12
+
+TEXT: hexadecimal it ten
+SCORE: 35 | letters=16 | content_words=2 | bridge_words=1 | noun=True | verb=False | path_variants_in_top_pool=8
+  hexadecimal: I3 -> I4 -> I5 -> I6 -> H7 -> G8 -> F9 -> E10 -> D10 -> C10 -> B10
+  it: C11 -> C12
+  ten: C13 -> D14 -> C14
+
+TEXT: hexadecimal at ten
+SCORE: 35 | letters=16 | content_words=2 | bridge_words=1 | noun=True | verb=False | path_variants_in_top_pool=4
+  hexadecimal: I3 -> I4 -> I5 -> I6 -> H7 -> G8 -> F9 -> E10 -> D10 -> C10 -> B10
+  at: B11 -> C12
+  ten: C13 -> D14 -> E14
+
+TEXT: hexadecimal as ten
+SCORE: 35 | letters=16 | content_words=2 | bridge_words=1 | noun=True | verb=False | path_variants_in_top_pool=6
+  hexadecimal: I3 -> I4 -> I5 -> I6 -> H7 -> G8 -> F9 -> E10 -> D10 -> C10 -> B10
+  as: B11 -> B12
+  ten: C12 -> B13 -> A12
+
+TEXT: add the hexagon
+SCORE: 35 | letters=13 | content_words=2 | bridge_words=1 | noun=True | verb=True | path_variants_in_top_pool=4
+  add: F3 -> G2 -> H1
+  the: I1 -> J1 -> I2
+  hexagon: I3 -> I4 -> I5 -> J4 -> J3 -> K3 -> L4
+
+TEXT: ten ten ten
+SCORE: 35 | letters=9 | content_words=3 | bridge_words=0 | noun=True | verb=False | path_variants_in_top_pool=2
+  ten: C12 -> B13 -> C14
+  ten: C13 -> D14 -> E14
+  ten: F14 -> G13 -> H12
+
+TEXT: find the hexagon
+SCORE: 34 | letters=14 | content_words=2 | bridge_words=1 | noun=True | verb=True | path_variants_in_top_pool=2
+  find: E1 -> F1 -> G1 -> H1
+  the: I1 -> J1 -> J2
+  hexagon: I3 -> I4 -> I5 -> J4 -> J3 -> K3 -> L4
+
+TEXT: add the two
+SCORE: 34 | letters=9 | content_words=2 | bridge_words=1 | noun=True | verb=True | path_variants_in_top_pool=2
+  add: H2 -> G2 -> H1
+  the: I1 -> J1 -> J2
+  two: K2 -> L3 -> K3
+
+TEXT: add the one
+SCORE: 34 | letters=9 | content_words=2 | bridge_words=1 | noun=True | verb=True | path_variants_in_top_pool=4
+  add: H2 -> G2 -> H1
+  the: I1 -> J1 -> J2
+  one: K3 -> L4 -> M5
+
+TEXT: step at nine
+SCORE: 33 | letters=10 | content_words=2 | bridge_words=1 | noun=True | verb=True | path_variants_in_top_pool=6
+  step: N9 -> M9 -> M10 -> L11
+  at: K11 -> J10
+  nine: I11 -> I12 -> H12 -> H13
+
+TEXT: find the two
+SCORE: 33 | letters=10 | content_words=2 | bridge_words=1 | noun=True | verb=True | path_variants_in_top_pool=1
+  find: E1 -> F1 -> G1 -> H1
+  the: I1 -> J1 -> J2
+  two: K2 -> L3 -> K3
+
+TEXT: find the one
+SCORE: 33 | letters=10 | content_words=2 | bridge_words=1 | noun=True | verb=True | path_variants_in_top_pool=2
+  find: E1 -> F1 -> G1 -> H1
+  the: I1 -> J1 -> J2
+  one: K3 -> L4 -> K4
+
+TEXT: nine to ten
+SCORE: 33 | letters=9 | content_words=2 | bridge_words=1 | noun=True | verb=False | path_variants_in_top_pool=2
+  nine: E14 -> D13 -> C14 -> D14
+  to: C13 -> D12
+  ten: C12 -> B13 -> A12
+
+TEXT: step or six
+SCORE: 32 | letters=9 | content_words=2 | bridge_words=1 | noun=True | verb=True | path_variants_in_top_pool=4
+  step: I13 -> I14 -> J14 -> J13
+  or: K12 -> K13
+  six: L14 -> M14 -> N14
+
+TEXT: step by ten
+SCORE: 32 | letters=9 | content_words=2 | bridge_words=1 | noun=True | verb=True | path_variants_in_top_pool=2
+  step: N9 -> M9 -> M10 -> L11
+  by: L12 -> M13
+  ten: N12 -> M11 -> N11
+
+TEXT: step by six
+SCORE: 32 | letters=9 | content_words=2 | bridge_words=1 | noun=True | verb=True | path_variants_in_top_pool=3
+  step: N9 -> M9 -> M10 -> L11
+  by: L12 -> M13
+  six: L14 -> M14 -> N14
+
+TEXT: add the start
+SCORE: 31 | letters=11 | content_words=2 | bridge_words=1 | noun=True | verb=True | path_variants_in_top_pool=2
+  add: F3 -> G2 -> H1
+  the: I1 -> J1 -> J2
+  start: K1 -> K2 -> L1 -> M1 -> N1
+
+TEXT: find the start
+SCORE: 30 | letters=12 | content_words=2 | bridge_words=1 | noun=True | verb=True | path_variants_in_top_pool=1
+  find: E1 -> F1 -> G1 -> H1
+  the: I1 -> J1 -> J2
+  start: K1 -> K2 -> L1 -> M1 -> N1
+
+TEXT: is to ten
+SCORE: 30 | letters=7 | content_words=2 | bridge_words=1 | noun=True | verb=True | path_variants_in_top_pool=12
+  is: C11 -> B12
+  to: C12 -> D12
+  ten: C13 -> B13 -> C14
+
+TEXT: is it ten
+SCORE: 30 | letters=7 | content_words=2 | bridge_words=1 | noun=True | verb=True | path_variants_in_top_pool=4
+  is: A13 -> B12
+  it: C11 -> C12
+  ten: C13 -> D14 -> C14
+
+TEXT: is at ten
+SCORE: 30 | letters=7 | content_words=2 | bridge_words=1 | noun=True | verb=True | path_variants_in_top_pool=8
+  is: C11 -> B12
+  at: B11 -> C12
+  ten: C13 -> B13 -> C14
+
+TEXT: point in step
+SCORE: 29 | letters=11 | content_words=2 | bridge_words=1 | noun=True | verb=True | path_variants_in_top_pool=6
+  point: L11 -> K12 -> J11 -> I11 -> H10
+  in: G11 -> H12
+  step: I13 -> I14 -> J14 -> J13
+
+TEXT: getup in end
+SCORE: 28 | letters=10 | content_words=2 | bridge_words=1 | noun=True | verb=True | path_variants_in_top_pool=2
+  getup: B4 -> A4 -> B5 -> C6 -> D7
+  in: D6 -> C5
+  end: C4 -> D5 -> D4
+
+TEXT: is as point
+SCORE: 27 | letters=9 | content_words=2 | bridge_words=1 | noun=True | verb=True | path_variants_in_top_pool=6
+  is: M14 -> L14
+  as: L13 -> K14
+  point: J13 -> K12 -> J11 -> I11 -> H10
+
+TEXT: ten it ten
+SCORE: 27 | letters=8 | content_words=2 | bridge_words=1 | noun=True | verb=False | path_variants_in_top_pool=1
+  ten: A14 -> B13 -> C14
+  it: D13 -> C12
+  ten: C13 -> D14 -> E14
+
+TEXT: ten in ten
+SCORE: 27 | letters=8 | content_words=2 | bridge_words=1 | noun=True | verb=False | path_variants_in_top_pool=5
+  ten: C3 -> C4 -> D5
+  in: D6 -> C5
+  ten: B5 -> A4 -> A3
+
+TEXT: ten at ten
+SCORE: 27 | letters=8 | content_words=2 | bridge_words=1 | noun=True | verb=False | path_variants_in_top_pool=2
+  ten: A14 -> B13 -> A12
+  at: B11 -> C12
+  ten: C13 -> D14 -> C14
+
+TEXT: ten as ten
+SCORE: 27 | letters=8 | content_words=2 | bridge_words=1 | noun=True | verb=False | path_variants_in_top_pool=4
+  ten: C12 -> B13 -> A12
+  as: B11 -> B12
+  ten: C13 -> D14 -> E14
+
+TEXT: get on end
+SCORE: 26 | letters=8 | content_words=2 | bridge_words=1 | noun=True | verb=True | path_variants_in_top_pool=2
+  get: J3 -> J2 -> K2
+  on: K3 -> L4
+  end: K4 -> L5 -> K5
+
+TEXT: get an end
+SCORE: 26 | letters=8 | content_words=2 | bridge_words=1 | noun=True | verb=True | path_variants_in_top_pool=2
+  get: L9 -> K8 -> L7
+  an: K6 -> L5
+  end: K4 -> L4 -> K5
+
+=== TOP CONTENT CORES ===
+
+CORE: decimals ten ten ten integer
+BEST_SCORE: 76 | letters=26 | content_words=5 | phrase_texts=1 | path_variants_in_best_phrase=1
+BEST_PHRASE: decimals as ten ten ten integer
+
+CORE: decimal ten ten ten integer
+BEST_SCORE: 75 | letters=25 | content_words=5 | phrase_texts=2 | path_variants_in_best_phrase=1
+BEST_PHRASE: decimal as ten ten ten integer
+
+CORE: hexadecimal ten ten ten integer
+BEST_SCORE: 74 | letters=29 | content_words=5 | phrase_texts=2 | path_variants_in_best_phrase=1
+BEST_PHRASE: hexadecimal as ten ten ten integer
+
+CORE: decimals ten ten ten step
+BEST_SCORE: 72 | letters=23 | content_words=5 | phrase_texts=1 | path_variants_in_best_phrase=1
+BEST_PHRASE: decimals as ten ten ten step
+
+CORE: decimal ten ten ten step
+BEST_SCORE: 71 | letters=22 | content_words=5 | phrase_texts=2 | path_variants_in_best_phrase=1
+BEST_PHRASE: decimal as ten ten ten step
+
+CORE: hexadecimal ten ten ten step
+BEST_SCORE: 70 | letters=26 | content_words=5 | phrase_texts=2 | path_variants_in_best_phrase=1
+BEST_PHRASE: hexadecimal as ten ten ten step
+
+CORE: binary ten step integer
+BEST_SCORE: 69 | letters=20 | content_words=4 | phrase_texts=1 | path_variants_in_best_phrase=4
+BEST_PHRASE: binary ten step integer
+
+CORE: decimals ten ten integer
+BEST_SCORE: 66 | letters=23 | content_words=4 | phrase_texts=2 | path_variants_in_best_phrase=1
+BEST_PHRASE: decimals at ten ten integer
+
+CORE: is ten integer six
+BEST_SCORE: 66 | letters=19 | content_words=4 | phrase_texts=4 | path_variants_in_best_phrase=2
+BEST_PHRASE: is ten to integer by six
+
+CORE: decimal ten ten integer
+BEST_SCORE: 65 | letters=22 | content_words=4 | phrase_texts=4 | path_variants_in_best_phrase=1
+BEST_PHRASE: decimal to ten ten integer
+
+CORE: hexadecimal ten ten integer
+BEST_SCORE: 64 | letters=26 | content_words=4 | phrase_texts=4 | path_variants_in_best_phrase=1
+BEST_PHRASE: hexadecimal to ten ten integer
+
+CORE: decimals ten ten step
+BEST_SCORE: 62 | letters=20 | content_words=4 | phrase_texts=2 | path_variants_in_best_phrase=1
+BEST_PHRASE: decimals at ten ten step
+
+CORE: decimal ten ten step
+BEST_SCORE: 61 | letters=19 | content_words=4 | phrase_texts=4 | path_variants_in_best_phrase=1
+BEST_PHRASE: decimal to ten ten step
+
+CORE: hexadecimal ten ten step
+BEST_SCORE: 60 | letters=23 | content_words=4 | phrase_texts=4 | path_variants_in_best_phrase=1
+BEST_PHRASE: hexadecimal to ten ten step
+
+CORE: ten ten step integer
+BEST_SCORE: 59 | letters=17 | content_words=4 | phrase_texts=1 | path_variants_in_best_phrase=2
+BEST_PHRASE: ten ten step integer
+
+CORE: nine three hundred
+BEST_SCORE: 58 | letters=18 | content_words=3 | phrase_texts=1 | path_variants_in_best_phrase=4
+BEST_PHRASE: nine three to hundred
+
+CORE: step baseten integer
+BEST_SCORE: 57 | letters=20 | content_words=3 | phrase_texts=3 | path_variants_in_best_phrase=2
+BEST_PHRASE: step baseten to integer
+
+CORE: decimals ten ten ten
+BEST_SCORE: 57 | letters=19 | content_words=4 | phrase_texts=1 | path_variants_in_best_phrase=1
+BEST_PHRASE: decimals as ten ten ten
+
+CORE: three ten hundred
+BEST_SCORE: 57 | letters=17 | content_words=3 | phrase_texts=2 | path_variants_in_best_phrase=2
+BEST_PHRASE: three ten in hundred
+
+CORE: is ten ten integer
+BEST_SCORE: 57 | letters=15 | content_words=4 | phrase_texts=1 | path_variants_in_best_phrase=2
+BEST_PHRASE: is ten ten integer
+
+=== INSTRUCTION CORES ===
+
+CORE: decimals ten ten ten step
+BEST_SCORE: 72 | letters=23 | content_words=5 | phrase_texts=1 | path_variants_in_best_phrase=1
+BEST_PHRASE: decimals as ten ten ten step
+
+CORE: decimal ten ten ten step
+BEST_SCORE: 71 | letters=22 | content_words=5 | phrase_texts=2 | path_variants_in_best_phrase=1
+BEST_PHRASE: decimal as ten ten ten step
+
+CORE: hexadecimal ten ten ten step
+BEST_SCORE: 70 | letters=26 | content_words=5 | phrase_texts=2 | path_variants_in_best_phrase=1
+BEST_PHRASE: hexadecimal as ten ten ten step
+
+CORE: binary ten step integer
+BEST_SCORE: 69 | letters=20 | content_words=4 | phrase_texts=1 | path_variants_in_best_phrase=4
+BEST_PHRASE: binary ten step integer
+
+CORE: decimals ten ten step
+BEST_SCORE: 62 | letters=20 | content_words=4 | phrase_texts=2 | path_variants_in_best_phrase=1
+BEST_PHRASE: decimals at ten ten step
+
+CORE: decimal ten ten step
+BEST_SCORE: 61 | letters=19 | content_words=4 | phrase_texts=4 | path_variants_in_best_phrase=1
+BEST_PHRASE: decimal to ten ten step
+
+CORE: hexadecimal ten ten step
+BEST_SCORE: 60 | letters=23 | content_words=4 | phrase_texts=4 | path_variants_in_best_phrase=1
+BEST_PHRASE: hexadecimal to ten ten step
+
+CORE: ten ten step integer
+BEST_SCORE: 59 | letters=17 | content_words=4 | phrase_texts=1 | path_variants_in_best_phrase=2
+BEST_PHRASE: ten ten step integer
+
+CORE: step baseten integer
+BEST_SCORE: 57 | letters=20 | content_words=3 | phrase_texts=3 | path_variants_in_best_phrase=2
+BEST_PHRASE: step baseten to integer
+
+CORE: step integer six
+BEST_SCORE: 55 | letters=20 | content_words=3 | phrase_texts=6 | path_variants_in_best_phrase=1
+BEST_PHRASE: step into integer by six
+
+CORE: find hexadecimal nine
+BEST_SCORE: 54 | letters=24 | content_words=3 | phrase_texts=1 | path_variants_in_best_phrase=4
+BEST_PHRASE: find the hexadecimal or nine
+
+CORE: find hexadecimal ten
+BEST_SCORE: 53 | letters=23 | content_words=3 | phrase_texts=6 | path_variants_in_best_phrase=8
+BEST_PHRASE: find the hexadecimal to ten
+
+CORE: ten ten ten step
+BEST_SCORE: 52 | letters=15 | content_words=4 | phrase_texts=4 | path_variants_in_best_phrase=1
+BEST_PHRASE: ten it ten ten step
+
+CORE: binary ten step
+BEST_SCORE: 50 | letters=13 | content_words=3 | phrase_texts=1 | path_variants_in_best_phrase=2
+BEST_PHRASE: binary ten step
+
+CORE: ten step integer
+BEST_SCORE: 49 | letters=14 | content_words=3 | phrase_texts=1 | path_variants_in_best_phrase=2
+BEST_PHRASE: ten step integer
+
+CORE: is ten ten step
+BEST_SCORE: 49 | letters=12 | content_words=4 | phrase_texts=1 | path_variants_in_best_phrase=2
+BEST_PHRASE: is ten ten step
+
+CORE: get step baseten
+BEST_SCORE: 48 | letters=16 | content_words=3 | phrase_texts=2 | path_variants_in_best_phrase=3
+BEST_PHRASE: get step or baseten
+
+CORE: nine step six
+BEST_SCORE: 48 | letters=13 | content_words=3 | phrase_texts=1 | path_variants_in_best_phrase=1
+BEST_PHRASE: nine step or six
+
+CORE: add start nine
+BEST_SCORE: 47 | letters=15 | content_words=3 | phrase_texts=1 | path_variants_in_best_phrase=4
+BEST_PHRASE: add the start nine
+
+CORE: get nine total
+BEST_SCORE: 47 | letters=12 | content_words=3 | phrase_texts=1 | path_variants_in_best_phrase=2
+BEST_PHRASE: get nine total
+
+=== NUMERIC CORES ===
+
+CORE: decimals ten ten ten integer
+BEST_SCORE: 76 | letters=26 | content_words=5 | phrase_texts=1 | path_variants_in_best_phrase=1
+BEST_PHRASE: decimals as ten ten ten integer
+
+CORE: decimal ten ten ten integer
+BEST_SCORE: 75 | letters=25 | content_words=5 | phrase_texts=2 | path_variants_in_best_phrase=1
+BEST_PHRASE: decimal as ten ten ten integer
+
+CORE: hexadecimal ten ten ten integer
+BEST_SCORE: 74 | letters=29 | content_words=5 | phrase_texts=2 | path_variants_in_best_phrase=1
+BEST_PHRASE: hexadecimal as ten ten ten integer
+
+CORE: decimals ten ten ten step
+BEST_SCORE: 72 | letters=23 | content_words=5 | phrase_texts=1 | path_variants_in_best_phrase=1
+BEST_PHRASE: decimals as ten ten ten step
+
+CORE: decimal ten ten ten step
+BEST_SCORE: 71 | letters=22 | content_words=5 | phrase_texts=2 | path_variants_in_best_phrase=1
+BEST_PHRASE: decimal as ten ten ten step
+
+CORE: hexadecimal ten ten ten step
+BEST_SCORE: 70 | letters=26 | content_words=5 | phrase_texts=2 | path_variants_in_best_phrase=1
+BEST_PHRASE: hexadecimal as ten ten ten step
+
+CORE: binary ten step integer
+BEST_SCORE: 69 | letters=20 | content_words=4 | phrase_texts=1 | path_variants_in_best_phrase=4
+BEST_PHRASE: binary ten step integer
+
+CORE: decimals ten ten integer
+BEST_SCORE: 66 | letters=23 | content_words=4 | phrase_texts=2 | path_variants_in_best_phrase=1
+BEST_PHRASE: decimals at ten ten integer
+
+CORE: is ten integer six
+BEST_SCORE: 66 | letters=19 | content_words=4 | phrase_texts=4 | path_variants_in_best_phrase=2
+BEST_PHRASE: is ten to integer by six
+
+CORE: decimal ten ten integer
+BEST_SCORE: 65 | letters=22 | content_words=4 | phrase_texts=4 | path_variants_in_best_phrase=1
+BEST_PHRASE: decimal to ten ten integer
+
+CORE: hexadecimal ten ten integer
+BEST_SCORE: 64 | letters=26 | content_words=4 | phrase_texts=4 | path_variants_in_best_phrase=1
+BEST_PHRASE: hexadecimal to ten ten integer
+
+CORE: decimals ten ten step
+BEST_SCORE: 62 | letters=20 | content_words=4 | phrase_texts=2 | path_variants_in_best_phrase=1
+BEST_PHRASE: decimals at ten ten step
+
+CORE: decimal ten ten step
+BEST_SCORE: 61 | letters=19 | content_words=4 | phrase_texts=4 | path_variants_in_best_phrase=1
+BEST_PHRASE: decimal to ten ten step
+
+CORE: hexadecimal ten ten step
+BEST_SCORE: 60 | letters=23 | content_words=4 | phrase_texts=4 | path_variants_in_best_phrase=1
+BEST_PHRASE: hexadecimal to ten ten step
+
+CORE: ten ten step integer
+BEST_SCORE: 59 | letters=17 | content_words=4 | phrase_texts=1 | path_variants_in_best_phrase=2
+BEST_PHRASE: ten ten step integer
+
+CORE: nine three hundred
+BEST_SCORE: 58 | letters=18 | content_words=3 | phrase_texts=1 | path_variants_in_best_phrase=4
+BEST_PHRASE: nine three to hundred
+
+CORE: step baseten integer
+BEST_SCORE: 57 | letters=20 | content_words=3 | phrase_texts=3 | path_variants_in_best_phrase=2
+BEST_PHRASE: step baseten to integer
+
+CORE: decimals ten ten ten
+BEST_SCORE: 57 | letters=19 | content_words=4 | phrase_texts=1 | path_variants_in_best_phrase=1
+BEST_PHRASE: decimals as ten ten ten
+
+CORE: three ten hundred
+BEST_SCORE: 57 | letters=17 | content_words=3 | phrase_texts=2 | path_variants_in_best_phrase=2
+BEST_PHRASE: three ten in hundred
+
+CORE: is ten ten integer
+BEST_SCORE: 57 | letters=15 | content_words=4 | phrase_texts=1 | path_variants_in_best_phrase=2
+BEST_PHRASE: is ten ten integer
+
+=== HEX / BASE CORES ===
+
+CORE: hexadecimal ten ten ten integer
+BEST_SCORE: 74 | letters=29 | content_words=5 | phrase_texts=2 | path_variants_in_best_phrase=1
+BEST_PHRASE: hexadecimal as ten ten ten integer
+
+CORE: hexadecimal ten ten ten step
+BEST_SCORE: 70 | letters=26 | content_words=5 | phrase_texts=2 | path_variants_in_best_phrase=1
+BEST_PHRASE: hexadecimal as ten ten ten step
+
+CORE: binary ten step integer
+BEST_SCORE: 69 | letters=20 | content_words=4 | phrase_texts=1 | path_variants_in_best_phrase=4
+BEST_PHRASE: binary ten step integer
+
+CORE: hexadecimal ten ten integer
+BEST_SCORE: 64 | letters=26 | content_words=4 | phrase_texts=4 | path_variants_in_best_phrase=1
+BEST_PHRASE: hexadecimal to ten ten integer
+
+CORE: hexadecimal ten ten step
+BEST_SCORE: 60 | letters=23 | content_words=4 | phrase_texts=4 | path_variants_in_best_phrase=1
+BEST_PHRASE: hexadecimal to ten ten step
+
+CORE: step baseten integer
+BEST_SCORE: 57 | letters=20 | content_words=3 | phrase_texts=3 | path_variants_in_best_phrase=2
+BEST_PHRASE: step baseten to integer
+
+CORE: add hexadecimal nine
+BEST_SCORE: 55 | letters=23 | content_words=3 | phrase_texts=1 | path_variants_in_best_phrase=8
+BEST_PHRASE: add the hexadecimal or nine
+
+CORE: hexadecimal ten ten ten
+BEST_SCORE: 55 | letters=22 | content_words=4 | phrase_texts=2 | path_variants_in_best_phrase=1
+BEST_PHRASE: hexadecimal as ten ten ten
+
+CORE: find hexadecimal nine
+BEST_SCORE: 54 | letters=24 | content_words=3 | phrase_texts=1 | path_variants_in_best_phrase=4
+BEST_PHRASE: find the hexadecimal or nine
+
+CORE: add hexadecimal ten
+BEST_SCORE: 54 | letters=22 | content_words=3 | phrase_texts=6 | path_variants_in_best_phrase=16
+BEST_PHRASE: add the hexadecimal to ten
+
+CORE: binary ten integer
+BEST_SCORE: 54 | letters=16 | content_words=3 | phrase_texts=1 | path_variants_in_best_phrase=2
+BEST_PHRASE: binary ten integer
+
+CORE: find hexadecimal ten
+BEST_SCORE: 53 | letters=23 | content_words=3 | phrase_texts=6 | path_variants_in_best_phrase=8
+BEST_PHRASE: find the hexadecimal to ten
+
+CORE: is integer baseten
+BEST_SCORE: 53 | letters=16 | content_words=3 | phrase_texts=1 | path_variants_in_best_phrase=2
+BEST_PHRASE: is integer baseten
+
+CORE: binary nine total
+BEST_SCORE: 53 | letters=15 | content_words=3 | phrase_texts=1 | path_variants_in_best_phrase=4
+BEST_PHRASE: binary nine total
+
+CORE: binary nine ten
+BEST_SCORE: 53 | letters=15 | content_words=3 | phrase_texts=2 | path_variants_in_best_phrase=2
+BEST_PHRASE: binary nine to ten
+
+CORE: binary ten step
+BEST_SCORE: 50 | letters=13 | content_words=3 | phrase_texts=1 | path_variants_in_best_phrase=2
+BEST_PHRASE: binary ten step
+
+CORE: get step baseten
+BEST_SCORE: 48 | letters=16 | content_words=3 | phrase_texts=2 | path_variants_in_best_phrase=3
+BEST_PHRASE: get step or baseten
+
+CORE: hexadecimal ten ten
+BEST_SCORE: 45 | letters=19 | content_words=3 | phrase_texts=3 | path_variants_in_best_phrase=1
+BEST_PHRASE: hexadecimal ten in ten
+
+CORE: baseten integer
+BEST_SCORE: 42 | letters=16 | content_words=2 | phrase_texts=2 | path_variants_in_best_phrase=1
+BEST_PHRASE: baseten to integer
+
+CORE: step baseten
+BEST_SCORE: 38 | letters=13 | content_words=2 | phrase_texts=1 | path_variants_in_best_phrase=3
+BEST_PHRASE: step or baseten

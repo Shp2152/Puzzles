@@ -138,11 +138,31 @@ COMMON_NOUNS = {
 
 CONTENT_BONUS = 6
 BRIDGE_PENALTY = 0 #-4
-SYNTAX_BONUS = 8
+SYNTAX_BONUS = 4
 REPEAT_WORD_PENALTY = 5
 HEXNUMBER_PAIR_BONUS = 200
 MUST_HAVE_WORD = None  # Set to a word like "baseten" to require it in every completed phrase.
 ROLE_TAGS = ("VERB", "NOUN", "ADJ", "NUMBER", "HEXNUMBER", "FUNCTION")
+
+NUMBER_WORDS = {
+    "one", "two", "three", "four", "five", "six", "seven", "eight", "nine", "ten",
+    "eleven", "twelve", "thirteen", "fourteen", "fifteen", "sixteen", "seventeen",
+    "eighteen", "nineteen", "twenty", "hundred", "hundreds", "thousand", "thousands",
+}
+
+NUMERIC_NOUN_WORDS = {
+    "integer", "integers", "decimal", "decimals", "digit", "digits", "binary",
+    "hexadecimal", "baseten", "total", "sum", "positive", "negative",
+}
+
+INSTRUCTION_HINT_WORDS = {
+    "find", "start", "end", "get", "read", "take", "turn", "use", "open", "point",
+    "step", "path", "paths", "rule", "rules", "sentence", "sentences", "word", "words",
+}
+
+HEX_BASE_HINT_WORDS = {
+    "hexadecimal", "binary", "baseten",
+}
 
 # 1) action / instruction phrases
 ACTION_PATTERNS = (
@@ -173,12 +193,25 @@ RELATION_PATTERNS = (
 EXPR_PATTERNS = (
     ("NOUN", "NUMBER"),                          # hexadecimal ten / start nine
     ("ADJ", "NUMBER"),                           # binary ten
+    ("ADJ", "NOUN"),                             # binary integer
     ("NOUN", "NOUN"),                            # baseten integer / nine total
     ("NUMBER", "NOUN"),                          # ten integer / nine total
     ("NUMBER", "NUMBER"),                        # ten ten
+    ("NUMBER", "NUMBER", "NUMBER"),            # ten ten ten
     ("NOUN", "NUMBER", "NUMBER"),                # hexadecimal ten ten
+    ("NOUN", "NUMBER", "NOUN"),                # decimal ten integer
     ("NUMBER", "NUMBER", "NOUN"),                # ten ten integer
+    ("NUMBER", "NUMBER", "NUMBER", "NOUN"),  # ten ten ten integer
+    ("NOUN", "FUNCTION", "NOUN"),              # decimal to integer
+    ("NOUN", "FUNCTION", "NUMBER"),            # integer by six
+    ("NUMBER", "FUNCTION", "NOUN"),            # ten to integer
+    ("NOUN", "NOUN", "FUNCTION", "NUMBER"),  # baseten integer by six
+    ("NOUN", "NUMBER", "NUMBER", "NOUN"),    # decimal ten ten integer
+    ("NOUN", "NUMBER", "NUMBER", "NUMBER", "NOUN"),  # decimal ten ten ten integer
+    ("NOUN", "FUNCTION", "NUMBER", "NUMBER", "NOUN"),  # decimal a ten ten integer
+    ("NOUN", "FUNCTION", "NUMBER", "NUMBER", "NUMBER", "NOUN"),  # decimal a ten ten ten integer
     ("NOUN", "NOUN", "NOUN"),                    # integer baseten ...
+    ("NOUN", "NOUN", "NOUN", "NOUN"),        # longer label fragments
 )
 
 PATTERN_GROUPS = {
@@ -228,6 +261,7 @@ class SearchResult:
     bridge_words: int
     has_noun: bool
     has_verb: bool
+    instance_indices: tuple
     words: tuple
     paths: tuple
 
@@ -294,6 +328,11 @@ def parse_args():
         default=MUST_HAVE_WORD,
         help="Optional word that must appear in every completed phrase. Use None/off/blank to disable.",
     )
+    parser.add_argument(
+        "--must-have-all",
+        default=None,
+        help="Optional comma-separated list of words that must all appear in every completed phrase.",
+    )
     return parser.parse_args()
 
 
@@ -313,6 +352,29 @@ def normalize_optional_word(raw_word):
     if not text or text.lower() in {"none", "off"}:
         return None
     return normalize_word(text)
+
+
+def normalize_optional_word_list(raw_words):
+    if raw_words is None:
+        return ()
+    text = str(raw_words).strip()
+    if not text or text.lower() in {"none", "off"}:
+        return ()
+
+    words = []
+    for part in text.split(","):
+        word = normalize_optional_word(part)
+        if word:
+            words.append(word)
+
+    unique_words = []
+    seen = set()
+    for word in words:
+        if word in seen:
+            continue
+        seen.add(word)
+        unique_words.append(word)
+    return tuple(unique_words)
 
 
 def guess_tags(word):
@@ -610,12 +672,109 @@ def result_rank(result):
     )
 
 
-def search_phrases(instances, next_indices, alpha_cell_count, top_k, min_words, max_words, allow_bridge_seeds, must_have_word):
+def content_core_words(instances, result):
+    return tuple(
+        instances[idx].word
+        for idx in result.instance_indices
+        if not instances[idx].is_bridge
+    )
+
+
+def classify_core(instances, result):
+    content_instances = [
+        instances[idx]
+        for idx in result.instance_indices
+        if not instances[idx].is_bridge
+    ]
+    if not content_instances:
+        return set()
+
+    labels = set()
+    words = {instance.word for instance in content_instances}
+
+    if words & INSTRUCTION_HINT_WORDS:
+        labels.add("instruction")
+
+    if (
+        words & NUMERIC_NOUN_WORDS
+        or words & NUMBER_WORDS
+        or any("NUMBER" in instance.tags or "HEXNUMBER" in instance.tags for instance in content_instances)
+    ):
+        labels.add("numeric")
+
+    if (
+        words & HEX_BASE_HINT_WORDS
+        or any(instance.word.startswith("base") for instance in content_instances)
+        or any("HEXNUMBER" in instance.tags for instance in content_instances)
+    ):
+        labels.add("hex_base")
+
+    return labels
+
+
+def summarize_cores(instances, results):
+    summaries = {}
+
+    for result, variant_count in results:
+        core_words = content_core_words(instances, result)
+        if not core_words:
+            continue
+
+        key = core_words
+        summary = summaries.get(key)
+        if summary is None:
+            summaries[key] = {
+                "core_words": core_words,
+                "core_text": " ".join(core_words),
+                "best_result": result,
+                "best_variant_count": variant_count,
+                "phrase_texts": {result.text},
+                "labels": classify_core(instances, result),
+            }
+            continue
+
+        summary["phrase_texts"].add(result.text)
+        summary["labels"] |= classify_core(instances, result)
+        if result_rank(result) > result_rank(summary["best_result"]):
+            summary["best_result"] = result
+            summary["best_variant_count"] = variant_count
+
+    return sorted(
+        summaries.values(),
+        key=lambda item: (
+            result_rank(item["best_result"]),
+            len(item["phrase_texts"]),
+            item["core_text"],
+        ),
+        reverse=True,
+    )
+
+
+def print_core_section(title, summaries, limit=20):
+    print(f"\n=== {title} ===")
+    if not summaries:
+        print("No matching content cores.")
+        return
+
+    for summary in summaries[:limit]:
+        best = summary["best_result"]
+        print(f"\nCORE: {summary['core_text']}")
+        print(
+            f"BEST_SCORE: {best.score} | letters={best.letters_used} | "
+            f"content_words={best.content_words} | phrase_texts={len(summary['phrase_texts'])} | "
+            f"path_variants_in_best_phrase={summary['best_variant_count']}"
+        )
+        print(f"BEST_PHRASE: {best.text}")
+
+
+def search_phrases(instances, next_indices, alpha_cell_count, top_k, min_words, max_words, allow_bridge_seeds, required_words):
     if not instances:
         return [], {"states": 0, "pruned_bound": 0, "pruned_overlap": 0, "pruned_structure": 0, "pruned_mandatory": 0}
 
     internal_top_k = max(top_k, top_k * 5)
     max_positive_meta_bonus = max(0, max(instance.meta_bonus for instance in instances))
+    required_word_bits = {word: 1 << idx for idx, word in enumerate(required_words)}
+    required_mask_all = sum(required_word_bits.values())
     stats = {"states": 0, "pruned_bound": 0, "pruned_overlap": 0, "pruned_structure": 0, "pruned_mandatory": 0}
     heap = []
     serial = 0
@@ -623,9 +782,9 @@ def search_phrases(instances, next_indices, alpha_cell_count, top_k, min_words, 
     role_stack = []
     word_counts = defaultdict(int)
 
-    def maybe_record(base_score, letters_used, has_noun, has_verb, content_words, bridge_words, has_mandatory):
+    def maybe_record(base_score, letters_used, has_noun, has_verb, content_words, bridge_words, required_mask_found):
         nonlocal serial
-        if must_have_word and not has_mandatory:
+        if required_mask_all and required_mask_found != required_mask_all:
             stats["pruned_mandatory"] += 1
             return
         final_score = base_score + syntax_bonus(has_noun, has_verb)
@@ -636,6 +795,7 @@ def search_phrases(instances, next_indices, alpha_cell_count, top_k, min_words, 
             bridge_words=bridge_words,
             has_noun=has_noun,
             has_verb=has_verb,
+            instance_indices=tuple(stack),
             words=tuple(instances[idx].word for idx in stack),
             paths=tuple(instances[idx].path for idx in stack),
         )
@@ -647,12 +807,12 @@ def search_phrases(instances, next_indices, alpha_cell_count, top_k, min_words, 
         if entry[0] > heap[0][0]:
             heapq.heapreplace(heap, entry)
 
-    def dfs(used_mask, base_score, letters_used, has_noun, has_verb, content_words, bridge_words, has_mandatory):
+    def dfs(used_mask, base_score, letters_used, has_noun, has_verb, content_words, bridge_words, required_mask_found):
         stats["states"] += 1
         depth = len(stack)
 
         if depth >= min_words and matches_complete_pattern(role_stack):
-            maybe_record(base_score, letters_used, has_noun, has_verb, content_words, bridge_words, has_mandatory)
+            maybe_record(base_score, letters_used, has_noun, has_verb, content_words, bridge_words, required_mask_found)
 
         if depth >= max_words:
             return
@@ -696,7 +856,7 @@ def search_phrases(instances, next_indices, alpha_cell_count, top_k, min_words, 
                 has_verb or ("VERB" in next_instance.tags),
                 content_words + (0 if next_instance.is_bridge else 1),
                 bridge_words + (1 if next_instance.is_bridge else 0),
-                has_mandatory or (next_instance.word == must_have_word),
+                required_mask_found | required_word_bits.get(next_instance.word, 0),
             )
             word_counts[next_instance.word] -= 1
             stack.pop()
@@ -705,7 +865,7 @@ def search_phrases(instances, next_indices, alpha_cell_count, top_k, min_words, 
     seed_indices = [
         instance.index
         for instance in instances
-        if allow_bridge_seeds or not instance.is_bridge
+        if (allow_bridge_seeds or not instance.is_bridge) and "HEXNUMBER" not in instance.tags
     ]
     if not seed_indices:
         seed_indices = [instance.index for instance in instances]
@@ -737,7 +897,7 @@ def search_phrases(instances, next_indices, alpha_cell_count, top_k, min_words, 
             has_verb=("VERB" in seed.tags),
             content_words=0 if seed.is_bridge else 1,
             bridge_words=1 if seed.is_bridge else 0,
-            has_mandatory=(seed.word == must_have_word),
+            required_mask_found=required_word_bits.get(seed.word, 0),
         )
 
     ordered_results = [entry[2] for entry in sorted(heap, key=lambda item: item[0], reverse=True)]
@@ -798,14 +958,14 @@ def print_candidate_summary(candidate_source, instances, instances_by_word, cand
             print(f"{word} | instances={len(hits)}")
 
 
-def print_search_results(results, stats, cols, col_labels, must_have_word):
+def print_search_results(instances, results, stats, cols, col_labels, required_words):
     print("\n=== SEARCH STATS ===")
     print(f"states_visited={stats['states']}")
     print(f"bound_prunes={stats['pruned_bound']}")
     print(f"overlap_prunes={stats['pruned_overlap']}")
     print(f"structure_prunes={stats['pruned_structure']}")
     print(f"mandatory_prunes={stats['pruned_mandatory']}")
-    print(f"must_have_word={must_have_word or 'None'}")
+    print(f"must_have_words={', '.join(required_words) if required_words else 'None'}")
     for group_name, patterns in PATTERN_GROUPS.items():
         print(f"{group_name}_patterns={[' '.join(pattern) for pattern in patterns]}")
 
@@ -826,6 +986,21 @@ def print_search_results(results, stats, cols, col_labels, must_have_word):
             coords = " -> ".join(path_to_coords(path, cols, col_labels))
             print(f"  {word}: {coords}")
 
+    core_summaries = summarize_cores(instances, results)
+    print_core_section("TOP CONTENT CORES", core_summaries)
+    print_core_section(
+        "INSTRUCTION CORES",
+        [summary for summary in core_summaries if "instruction" in summary["labels"]],
+    )
+    print_core_section(
+        "NUMERIC CORES",
+        [summary for summary in core_summaries if "numeric" in summary["labels"]],
+    )
+    print_core_section(
+        "HEX / BASE CORES",
+        [summary for summary in core_summaries if "hex_base" in summary["labels"]],
+    )
+
 
 def main():
     args = parse_args()
@@ -836,6 +1011,14 @@ def main():
     if args.top_k < 1:
         raise SystemExit("--top-k must be at least 1")
     must_have_word = normalize_optional_word(args.must_have)
+    must_have_all_words = normalize_optional_word_list(args.must_have_all)
+    required_words = []
+    if must_have_word:
+        required_words.append(must_have_word)
+    for word in must_have_all_words:
+        if word not in required_words:
+            required_words.append(word)
+    required_words = tuple(required_words)
 
     output_path = Path(args.output)
     if not output_path.is_absolute():
@@ -857,12 +1040,19 @@ def main():
                 show_bridge_matches=args.show_bridge_matches,
             )
 
-            if must_have_word and must_have_word not in candidates:
-                print(f"\nMandatory word '{must_have_word}' is not in the current candidate vocabulary.")
+            missing_required_candidates = [word for word in required_words if word not in candidates]
+            missing_required_instances = [word for word in required_words if word in candidates and not instances_by_word.get(word)]
+
+            if missing_required_candidates:
+                print(
+                    f"\nMandatory words not in the current candidate vocabulary: {', '.join(missing_required_candidates)}."
+                )
                 results = []
                 stats = {"states": 0, "pruned_bound": 0, "pruned_overlap": 0, "pruned_structure": 0, "pruned_mandatory": 0}
-            elif must_have_word and not instances_by_word.get(must_have_word):
-                print(f"\nMandatory word '{must_have_word}' is in the candidate list but was not found in the grid.")
+            elif missing_required_instances:
+                print(
+                    f"\nMandatory words in the candidate list but not found in the grid: {', '.join(missing_required_instances)}."
+                )
                 results = []
                 stats = {"states": 0, "pruned_bound": 0, "pruned_overlap": 0, "pruned_structure": 0, "pruned_mandatory": 0}
             else:
@@ -875,9 +1065,9 @@ def main():
                     min_words=args.min_words,
                     max_words=args.max_words,
                     allow_bridge_seeds=args.allow_bridge_seeds,
-                    must_have_word=must_have_word,
+                    required_words=required_words,
                 )
-            print_search_results(results, stats, grid_info["cols"], grid_info["col_labels"], must_have_word)
+            print_search_results(instances, results, stats, grid_info["cols"], grid_info["col_labels"], required_words)
 
     print(f"Saved output to {output_path}")
 
