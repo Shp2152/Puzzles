@@ -1,6 +1,6 @@
 # Puzzles
 
-Workspace for solving the Jane Street-style puzzle "Can U dig it?"
+Workspace for solving the "Canudigit" puzzle
 
 ## Current State
 
